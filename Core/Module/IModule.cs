@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace BlinkByte.Core.Module
 {
-    interface IModule
+    public interface IModule
     {
+        void Init();
+        ModuleType GetModuleType();
     }
 }

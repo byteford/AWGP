@@ -47,11 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="component\IComponent.cs" />
     <Compile Include="component\Transform.cs" />
     <Compile Include="Factory\GameObjectFactory.cs" />
     <Compile Include="Factory\IFactory.cs" />
     <Compile Include="GameObject.cs" />
-    <Compile Include="component\IComponate.cs" />
     <Compile Include="Manager.cs" />
     <Compile Include="Module\ModuleType.cs" />
     <Compile Include="Module\IInput.cs" />

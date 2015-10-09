@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlinkByte.Core
 {
-    interface Manager
+    public interface IManager
     {
     }
 }

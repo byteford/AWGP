@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Graphics
+namespace BlinkByte.Core.Component
 {
-    class Program
+    interface IComponent
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }

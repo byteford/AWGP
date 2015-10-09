@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlinkByte.Core.Module
 {
-    enum ModuleType
+    public enum ModuleType
     {
         Graphics,
         Sounds,
