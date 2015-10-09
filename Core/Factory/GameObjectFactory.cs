@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlinkByte.Core
+namespace BlinkByte.Core.Factory
 {
-    class Program
+    class GameObjectFactory
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }

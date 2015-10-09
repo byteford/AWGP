@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Core</RootNamespace>
     <AssemblyName>Core</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,6 +44,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="component\Transform.cs" />
+    <Compile Include="Factory\GameObjectFactory.cs" />
+    <Compile Include="Factory\IFactory.cs" />
+    <Compile Include="GameObject.cs" />
+    <Compile Include="component\IComponate.cs" />
+    <Compile Include="Manager.cs" />
+    <Compile Include="Module\ModuleType.cs" />
+    <Compile Include="Module\IInput.cs" />
+    <Compile Include="Module\IPhysics.cs" />
+    <Compile Include="Module\IGraphics.cs" />
+    <Compile Include="Module\IModule.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

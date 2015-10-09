@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlinkByte.Core
+namespace BlinkByte.Core.Module
 {
-    class Program
+    interface IInput
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }

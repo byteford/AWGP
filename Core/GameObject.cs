@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace BlinkByte.Core
 {
-    class Program
+    class GameObject
     {
-        static void Main(string[] args)
-        {
-        }
+        List<Core.Component.IComponent> components;
     }
 }

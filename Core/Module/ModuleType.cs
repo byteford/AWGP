@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlinkByte.Core
+namespace BlinkByte.Core.Module
 {
-    class Program
+    enum ModuleType
     {
-        static void Main(string[] args)
-        {
-        }
+        Graphics,
+        Sounds,
+        Physics,
+        Input,
     }
 }

@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlinkByte.Core
 {
-    class Program
+    interface Manager
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
