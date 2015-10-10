@@ -7,6 +7,7 @@ using System.Xml;
 
 namespace BlinkByte.Core
 {
+    [System.Serializable]
     public class Vector3
     {
         public float X;

@@ -6,9 +6,15 @@ using System.Threading.Tasks;
 
 namespace BlinkByte.Core
 {
+    [System.Serializable]
     public class GameObject
     {
-        List<Core.Component.Component> components;
+        public List<Core.Component.Component> components;
+        [System.NonSerialized]
         public Core.Component.Transform transform;
+        public GameObject()
+        {
+            components = new List<Component.Component>();
+        }
     }
 }
