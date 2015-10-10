@@ -7,8 +7,8 @@
     <ProjectGuid>{B1F2737B-847A-4E36-8D79-BFB92BC88CA3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Core</RootNamespace>
-    <AssemblyName>Core</AssemblyName>
+    <RootNamespace>BlinkByte.Core</RootNamespace>
+    <AssemblyName>Blinkbye.Core</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -47,19 +47,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="component\IComponent.cs" />
+    <Compile Include="component\Component.cs" />
     <Compile Include="component\Transform.cs" />
     <Compile Include="Factory\GameObjectFactory.cs" />
     <Compile Include="Factory\IFactory.cs" />
     <Compile Include="GameObject.cs" />
-    <Compile Include="Manager.cs" />
+    <Compile Include="IO\LoadFromFile.cs" />
+    <Compile Include="Managers\IManager.cs" />
+    <Compile Include="Managers\ModuleManager.cs" />
     <Compile Include="Module\ModuleType.cs" />
     <Compile Include="Module\IInput.cs" />
     <Compile Include="Module\IPhysics.cs" />
     <Compile Include="Module\IGraphics.cs" />
     <Compile Include="Module\IModule.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="SetUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vector3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -9,7 +9,6 @@ namespace BlinkByte.Main
    
     class Game
     {
-        ModuleManager moduleMan;
         public Game()
         {
             init();
@@ -17,9 +16,9 @@ namespace BlinkByte.Main
         public void init()
         {
             Console.WriteLine("Game SetUp");
-            moduleMan = new ModuleManager();
-            moduleMan.AddManager(new BlinkByte.Graphics.Graphics()); // need to more to text
-            moduleMan.Init();
+            BlinkByte.Core.SetUp.Init();
+            BlinkByte.Core.Managers.ModuleManager.instance.AddManager(new BlinkByte.Graphics.Graphics()); // need to more to text
+            BlinkByte.Core.Managers.ModuleManager.instance.Init();
         }
     }
 }

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace BlinkByte.Core.Component
 {
-    interface IComponent
+   public class Component
     {
+        public GameObject gameObject;
+        public Transform transform { get { return gameObject.transform; } }
     }
 }

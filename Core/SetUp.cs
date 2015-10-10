@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace BlinkByte.Core
 {
-    class Program
+    public class SetUp
     {
-        static void Main(string[] args)
+        public static void Init()
         {
+            IO.LoadFromFile.SaveFile("GameObject");
+           new Managers.ModuleManager();
         }
     }
 }

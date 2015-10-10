@@ -4,14 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BlinkByte.Core.Module;
-namespace BlinkByte.Main
+namespace BlinkByte.Core.Managers
 {
-    public class ModuleManager: BlinkByte.Core.IManager
+    public class ModuleManager: IManager
     {
         public Dictionary<ModuleType, IModule> modules;
+        public static ModuleManager instance;
         
         public ModuleManager()
         {
+            instance = this;
             modules = new Dictionary<ModuleType, IModule>();
         }
         public void Init()

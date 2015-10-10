@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlinkByte.Core.Factory
 {
-    class GameObjectFactory
+    public class GameObjectFactory: IFactory
     {
     }
 }

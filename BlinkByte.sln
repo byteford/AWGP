@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{B1F2737B-847A-4E36-8D79-BFB92BC88CA3}"
 EndProject
@@ -19,6 +19,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Physics", "Physics\Physics.csproj", "{AA397227-879B-48B9-84CC-5585891D53CD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Input", "Input\Input.csproj", "{D5951BE1-A6E2-4821-B96C-7F9ED7CE625C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{9C418640-4E59-464F-81AF-CDF36E046729}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,5 +55,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C3F768E-40E1-40DD-8667-3ACE606FECBD} = {9C418640-4E59-464F-81AF-CDF36E046729}
+		{8AC7CEDD-C4AB-41A1-ACEA-AB74BB85C847} = {9C418640-4E59-464F-81AF-CDF36E046729}
+		{AA397227-879B-48B9-84CC-5585891D53CD} = {9C418640-4E59-464F-81AF-CDF36E046729}
+		{D5951BE1-A6E2-4821-B96C-7F9ED7CE625C} = {9C418640-4E59-464F-81AF-CDF36E046729}
 	EndGlobalSection
 EndGlobal
