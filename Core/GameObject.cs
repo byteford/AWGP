@@ -16,5 +16,12 @@ namespace BlinkByte.Core
         {
             components = new List<Component.Component>();
         }
+        public virtual void Update()
+        {
+            foreach(Component.Component comp in components)
+            {
+                comp.Update();
+            }
+        }
     }
 }
