@@ -10,9 +10,23 @@ namespace BlinkByte.Core.Factory
     {
         public static GameObject makeGameObject(string name)
         {
-            GameObject tempGO = IO.LoadFromFile.LoadFile(name) as GameObject;
+            GameObject tempGO;
+            try {
+                tempGO = IO.LoadFromFile.LoadFile<GameObject>(name);
+            }
+            catch
+            {
+                tempGO = new GameObject();
+                IO.LoadFromFile.SaveFile(name, tempGO);
+            }
 
             return tempGO;
+        }
+        public static List<Component.Component> setUpGameObject()
+        {
+            List<Component.Component> comp = new List<Component.Component>();
+            comp.Add(new Component.Transform());
+            return comp;
         }
     }
 }

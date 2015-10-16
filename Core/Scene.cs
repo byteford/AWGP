@@ -9,18 +9,26 @@ namespace BlinkByte.Core
     [System.Serializable]
     public class Scene
     {
-        List<GameObject> GameObjects;
+
+        public List<GameObject> GameObjects;
         public Scene()
         {
             GameObjects = new List<GameObject>();
         }
-        public void addGameObject(string name)
+        /*public GameObject addGameObject(string name)
         {
-            GameObjects.Add(GameObject.Instansate(name));
+            GameObject temp = GameObject.Instansate(name);
+            GameObjects.Add(temp);
+            return temp;
+        }*/
+        public GameObject addGameObject(GameObject obj)
+        {
+            GameObjects.Add(obj);
+            return obj;
         }
         public void saveToFile()
         {
-            IO.LoadFromFile.SaveScene("Scene", this);
+            IO.LoadFromFile.SaveFile("Scene", this);
         }
 
     }

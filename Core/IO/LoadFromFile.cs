@@ -9,46 +9,42 @@ using System.Xml.Serialization;
 
 namespace BlinkByte.Core.IO
 {
+
     public class LoadFromFile
     {
-        public static Object LoadFile(string filename)
+        public static T LoadFile<T>(string filename)
         {
             try {
-                XmlSerializer x = new XmlSerializer(typeof(GameObject));
+                XmlSerializer x = new XmlSerializer(typeof(T));
+
                 TextReader reader = new StreamReader(filename + ".xml");
-                object temp = x.Deserialize(reader);
-                x.Serialize(Console.Out, temp);
+                T temp = (T)x.Deserialize(reader);
+                //x.Serialize(Console.Out, temp);
                 reader.Close();
                 // file.LoadXml(filename + ".xml");
                 return temp;
-            }catch(Exception e)
+            }catch(Exception )
             {
                 //Console.WriteLine(e);
                 throw;
             }
-            return null;
             
         }
         
-        public static void SaveFile(string filename, GameObject tempGO)
+        public static void SaveFile<T>(string filename, T tempGO)
         {
-           // GameObject tempGO = new GameObject();
-           // Core.Component.Transform temp = new Component.Transform();
-           // temp.Position.X = 10;
-           // temp.Position.Y = 10;
-           // temp.Position.Z = 20;
-           // tempGO.components.Add(temp);
-            XmlSerializer x = new XmlSerializer(typeof(GameObject));
+
+            XmlSerializer x = new XmlSerializer(typeof(T));
             TextWriter writer = new StreamWriter(filename + ".xml");
             x.Serialize(writer,  tempGO);
             writer.Close();
             
         }
-        public static void SaveScene(string filename, Scene scene)
+        /*public static void SaveFile(string filename, Scene scene)
         {
             XmlSerializer x = new XmlSerializer(typeof(Scene));
             TextWriter writer = new StreamWriter(filename + ".xml");
             x.Serialize(writer, scene);
-        }
+        }*/
     }
 }

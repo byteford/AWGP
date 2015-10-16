@@ -11,21 +11,30 @@ namespace BlinkByte.Core
     {
         public static void Init()
         {
-            Scene scene = new Scene();
-            scene.addGameObject("GameObject");
-            scene.saveToFile();
-            
-             //IO.LoadFromFile.LoadFile("GameObject");
-            //IO.LoadFromFile.SaveFile("GameObject");
+            Scene scene;
             try
+            {
+                scene = IO.LoadFromFile.LoadFile<Scene>("Scene");
+            }
+            catch
+            {
+
+                scene = new Scene();
+                //scene.addGameObject("GameObject");
+                scene.addGameObject(GameObject.Instansate("GameObject")).AddComponent<Component.Transform>();
+                scene.saveToFile();
+            }
+
+         /*   try
             {
                 IO.LoadFromFile.LoadFile("GameObject");
             }
             catch (FileNotFoundException e)
             {
-                IO.LoadFromFile.SaveFile("GameObject");
+                
+                IO.LoadFromFile.SaveFile("GameObject", new GameObject());
                 IO.LoadFromFile.LoadFile("GameObject");
-            }
+            }*/
            new Managers.ModuleManager();
         }
     }
