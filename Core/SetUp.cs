@@ -10,7 +10,11 @@ namespace BlinkByte.Core
     {
         public static void Init()
         {
-             IO.LoadFromFile.LoadFile("GameObject");
+            Scene scene = new Scene();
+            scene.addGameObject("GameObject");
+            scene.saveToFile();
+            
+             //IO.LoadFromFile.LoadFile("GameObject");
             //IO.LoadFromFile.SaveFile("GameObject");
            new Managers.ModuleManager();
         }

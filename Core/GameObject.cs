@@ -23,5 +23,9 @@ namespace BlinkByte.Core
                 comp.Update();
             }
         }
+        public static GameObject Instansate(string name)
+        {
+            return BlinkByte.Core.Factory.GameObjectFactory.makeGameObject(name);
+        }
     }
 }
