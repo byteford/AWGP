@@ -18,11 +18,13 @@ namespace BlinkByte.Core.IO
                 TextReader reader = new StreamReader(filename + ".xml");
                 object temp = x.Deserialize(reader);
                 x.Serialize(Console.Out, temp);
+                reader.Close();
                 // file.LoadXml(filename + ".xml");
                 return temp;
             }catch(Exception e)
             {
-                Console.WriteLine(e);
+                //Console.WriteLine(e);
+                throw;
             }
             return null;
             
@@ -39,6 +41,7 @@ namespace BlinkByte.Core.IO
             XmlSerializer x = new XmlSerializer(typeof(GameObject));
             TextWriter writer = new StreamWriter(filename + ".xml");
             x.Serialize(writer,  tempGO);
+            writer.Close();
             
         }
         public static void SaveScene(string filename, Scene scene)
