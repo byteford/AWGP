@@ -9,33 +9,38 @@ namespace BlinkByte.Core
 {
     public class SetUp
     {
+        static Scene scene;
         public static void Init()
         {
-            Scene scene;
+            
+           
+           new Managers.ModuleManager();
+        }
+        public static void LoadScene(string name)
+        {
             try
             {
-                scene = IO.LoadFromFile.LoadFile<Scene>("Scene");
+                scene = IO.LoadFromFile.LoadFile<Scene>(name);
             }
             catch
             {
-
+                
                 scene = new Scene();
                 //scene.addGameObject("GameObject");
                 scene.addGameObject(GameObject.Instansate("GameObject")).AddComponent<Component.Transform>();
                 scene.saveToFile();
             }
+            scene.GameObjects[0].AddComponent<Component.FileOutput>();
+            /*   try
+               {
+                   IO.LoadFromFile.LoadFile("GameObject");
+               }
+               catch (FileNotFoundException e)
+               {
 
-         /*   try
-            {
-                IO.LoadFromFile.LoadFile("GameObject");
-            }
-            catch (FileNotFoundException e)
-            {
-                
-                IO.LoadFromFile.SaveFile("GameObject", new GameObject());
-                IO.LoadFromFile.LoadFile("GameObject");
-            }*/
-           new Managers.ModuleManager();
+                   IO.LoadFromFile.SaveFile("GameObject", new GameObject());
+                   IO.LoadFromFile.LoadFile("GameObject");
+               }*/
         }
     }
 }

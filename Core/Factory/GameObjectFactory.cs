@@ -17,6 +17,7 @@ namespace BlinkByte.Core.Factory
             catch
             {
                 tempGO = new GameObject();
+                tempGO.name = name;
                 IO.LoadFromFile.SaveFile(name, tempGO);
             }
 
@@ -25,7 +26,7 @@ namespace BlinkByte.Core.Factory
         public static List<Component.Component> setUpGameObject()
         {
             List<Component.Component> comp = new List<Component.Component>();
-            comp.Add(new Component.Transform());
+            
             return comp;
         }
     }

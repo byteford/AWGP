@@ -3,21 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml;
-using System.Xml.Serialization;
 
 namespace BlinkByte.Core.Component
 {
     [System.Serializable]
-
-    public class Transform: Component
+    public class FileOutput : Component
     {
-        public Vector3 Position;
-        public Transform()
+        public string toOutput = "Update";
+        public override void Update()
         {
-            Position = new Vector3(); 
+          //  Console.WriteLine("update");
         }
-
-        
     }
 }

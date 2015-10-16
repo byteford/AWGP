@@ -11,7 +11,7 @@ namespace BlinkByte.Core.Component
     {
         [System.NonSerialized]
         public GameObject gameObject;
-        public Transform transform { get { return gameObject.transform; } }
+       // public Transform transform { get { return gameObject.transform; } }
         public virtual void Update() { }
     }
 }

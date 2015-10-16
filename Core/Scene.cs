@@ -9,10 +9,11 @@ namespace BlinkByte.Core
     [System.Serializable]
     public class Scene
     {
-
+        public static Scene currentScene;
         public List<GameObject> GameObjects;
         public Scene()
         {
+            currentScene = this;
             GameObjects = new List<GameObject>();
         }
         /*public GameObject addGameObject(string name)
@@ -29,6 +30,13 @@ namespace BlinkByte.Core
         public void saveToFile()
         {
             IO.LoadFromFile.SaveFile("Scene", this);
+        }
+        public void Update()
+        {
+            foreach( GameObject go in GameObjects)
+            {
+                go.Update();
+            }
         }
 
     }

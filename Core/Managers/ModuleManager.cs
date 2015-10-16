@@ -8,13 +8,13 @@ namespace BlinkByte.Core.Managers
 {
     public class ModuleManager: IManager
     {
-        public Dictionary<ModuleType, IModule> modules;
+        public Dictionary<Type, IModule> modules;
         public static ModuleManager instance;
         
         public ModuleManager()
         {
             instance = this;
-            modules = new Dictionary<ModuleType, IModule>();
+            modules = new Dictionary<Type, IModule>();
         }
         public void Init()
         {
@@ -24,9 +24,15 @@ namespace BlinkByte.Core.Managers
                 Mod.Init();
             }
         }
-        public void AddManager(IModule module)
+        public T AddManager<T>()
         {
-            modules.Add(module.GetModuleType(), module);
+            T temp = (T)Activator.CreateInstance(typeof(T));
+            if ((temp as IModule) != null)
+            {
+                modules.Add(typeof(T), temp as IModule);
+                return temp;
+            }
+            return default(T);
         }
     }
 }

@@ -14,6 +14,7 @@ namespace BlinkByte.Core.IO
     {
         public static T LoadFile<T>(string filename)
         {
+           
             try {
                 XmlSerializer x = new XmlSerializer(typeof(T));
 
@@ -23,8 +24,10 @@ namespace BlinkByte.Core.IO
                 reader.Close();
                 // file.LoadXml(filename + ".xml");
                 return temp;
-            }catch(Exception )
+            }catch(FileNotFoundException )
             {
+                Console.WriteLine("cant find: " + filename);
+               
                 //Console.WriteLine(e);
                 throw;
             }
@@ -33,11 +36,18 @@ namespace BlinkByte.Core.IO
         
         public static void SaveFile<T>(string filename, T tempGO)
         {
-
-            XmlSerializer x = new XmlSerializer(typeof(T));
-            TextWriter writer = new StreamWriter(filename + ".xml");
-            x.Serialize(writer,  tempGO);
-            writer.Close();
+            
+        //    try {
+                XmlSerializer x = new XmlSerializer(typeof(T));
+                TextWriter writer = new StreamWriter(filename + ".xml");
+                x.Serialize(writer, tempGO);
+                writer.Close();
+          /*  }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+              
+            }*/
             
         }
         /*public static void SaveFile(string filename, Scene scene)

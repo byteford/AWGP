@@ -47,8 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="component\Component.cs" />
-    <Compile Include="component\Transform.cs" />
+    <Compile Include="Component\Component.cs" />
+    <Compile Include="Component\FileOutput.cs" />
+    <Compile Include="Component\Transform.cs" />
     <Compile Include="Factory\GameObjectFactory.cs" />
     <Compile Include="Factory\IFactory.cs" />
     <Compile Include="GameObject.cs" />
