@@ -37,17 +37,17 @@ namespace BlinkByte.Core.IO
         public static void SaveFile<T>(string filename, T tempGO)
         {
             
-        //    try {
+           try {
                 XmlSerializer x = new XmlSerializer(typeof(T));
                 TextWriter writer = new StreamWriter(filename + ".xml");
                 x.Serialize(writer, tempGO);
                 writer.Close();
-          /*  }
+            }
             catch (Exception e)
             {
                 Console.WriteLine(e);
               
-            }*/
+            }
             
         }
         /*public static void SaveFile(string filename, Scene scene)

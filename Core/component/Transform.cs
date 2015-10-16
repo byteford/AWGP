@@ -9,7 +9,7 @@ using System.Xml.Serialization;
 namespace BlinkByte.Core.Component
 {
     [System.Serializable]
-
+    
     public class Transform: Component
     {
         public Vector3 Position;
