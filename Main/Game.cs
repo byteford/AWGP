@@ -18,6 +18,7 @@ namespace BlinkByte.Main
             Console.WriteLine("Game SetUp");
             Core.SetUp.Init();
             ModuleManager.instance.AddManager <Graphics.Graphics> (); // need to more to text
+            ModuleManager.instance.AddManager<Physics.Physics>();
             ModuleManager.instance.Init();
             Core.SetUp.LoadScene("Scene");
             //Core.Scene.currentScene.GameObjects[0].AddComponent<Core.Component.FileOutputOnUpdate>();
