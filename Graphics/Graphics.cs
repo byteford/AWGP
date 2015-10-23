@@ -9,6 +9,7 @@ namespace BlinkByte.Graphics
 {
     public class Graphics : BlinkByte.Core.Module.IModule
     {
+        WindowManager winManager;
         public ModuleType GetModuleType()
         {
             return ModuleType.Graphics;
@@ -16,8 +17,14 @@ namespace BlinkByte.Graphics
 
         public void Init()
         {
-            
+            winManager = new WindowManager();
             Console.WriteLine("Graphics Started");
         }
+
+        public void Update()
+        {
+            winManager.Update();
+        }
+
     }
 }

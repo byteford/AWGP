@@ -24,6 +24,7 @@ namespace BlinkByte.Main
 
             while (true)
             {
+                ModuleManager.instance.Update();
                 Core.Scene.currentScene.Update();
             }
         }

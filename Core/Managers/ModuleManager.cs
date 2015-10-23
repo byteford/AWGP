@@ -24,6 +24,13 @@ namespace BlinkByte.Core.Managers
                 Mod.Init();
             }
         }
+        public void Update()
+        {
+            foreach (IModule Mod in modules.Values)
+            {
+                Mod.Update();
+            }
+        }
         public T AddManager<T>()
         {
             T temp = (T)Activator.CreateInstance(typeof(T));
