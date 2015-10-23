@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.IO;
 using BlinkByte.Core.Module;
 
-namespace Physics
+namespace BlinkByte.Physics
 {
     public class Physics : BlinkByte.Core.Module.IModule
     {
