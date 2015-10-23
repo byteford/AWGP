@@ -16,6 +16,7 @@ namespace BlinkByte.Graphics
 
         public void Init()
         {
+            
             Console.WriteLine("Graphics Started");
         }
     }
