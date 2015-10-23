@@ -12,10 +12,10 @@ namespace BlinkByte.Core.Component
     
     public class Transform: Component
     {
-        public Vector3 Position;
+        public Vector2 Position;
         public Transform()
         {
-            Position = new Vector3(); 
+            Position = new Vector2(); 
         }
 
         

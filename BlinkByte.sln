@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Input", "Input\Input.csproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{9C418640-4E59-464F-81AF-CDF36E046729}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFMLGraphics", "SFMLGraphics\SFMLGraphics.csproj", "{C58A18DF-3325-431A-B5E7-2C3A4877FACE}"
+EndProject
 Global
 	GlobalSection(Performance) = preSolution
 		HasPerformanceSessions = true
@@ -107,6 +109,18 @@ Global
 		{D5951BE1-A6E2-4821-B96C-7F9ED7CE625C}.Release|x64.Build.0 = Release|x64
 		{D5951BE1-A6E2-4821-B96C-7F9ED7CE625C}.Release|x86.ActiveCfg = Release|Any CPU
 		{D5951BE1-A6E2-4821-B96C-7F9ED7CE625C}.Release|x86.Build.0 = Release|Any CPU
+		{C58A18DF-3325-431A-B5E7-2C3A4877FACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C58A18DF-3325-431A-B5E7-2C3A4877FACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C58A18DF-3325-431A-B5E7-2C3A4877FACE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C58A18DF-3325-431A-B5E7-2C3A4877FACE}.Debug|x64.Build.0 = Debug|Any CPU
+		{C58A18DF-3325-431A-B5E7-2C3A4877FACE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C58A18DF-3325-431A-B5E7-2C3A4877FACE}.Debug|x86.Build.0 = Debug|Any CPU
+		{C58A18DF-3325-431A-B5E7-2C3A4877FACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C58A18DF-3325-431A-B5E7-2C3A4877FACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C58A18DF-3325-431A-B5E7-2C3A4877FACE}.Release|x64.ActiveCfg = Release|Any CPU
+		{C58A18DF-3325-431A-B5E7-2C3A4877FACE}.Release|x64.Build.0 = Release|Any CPU
+		{C58A18DF-3325-431A-B5E7-2C3A4877FACE}.Release|x86.ActiveCfg = Release|Any CPU
+		{C58A18DF-3325-431A-B5E7-2C3A4877FACE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,16 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BlinkByte.Core.Module;
 
-namespace BlinkByte.Graphics
+namespace BlinkByte.SFMLGraphics
 {
-    public class Graphics : BlinkByte.Core.Module.IModule
+    public class Graphics: BlinkByte.Graphics.IGraphics
     {
         WindowManager winManager;
-        public ModuleType GetModuleType()
+        public Core.Module.ModuleType GetModuleType()
         {
-            return ModuleType.Graphics;
+            return Core.Module.ModuleType.Graphics;
         }
 
         public void Init()
@@ -23,8 +22,10 @@ namespace BlinkByte.Graphics
 
         public void Update()
         {
-            winManager.Update();
+            winManager.UpdateEvents();
+            winManager.ClearWindow();
+           
+            winManager.displayWindow();
         }
-
     }
 }
