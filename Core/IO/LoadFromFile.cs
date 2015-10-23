@@ -12,14 +12,15 @@ namespace BlinkByte.Core.IO
 
     public class LoadFromFile
     {
+       static XmlSerializer serializer;
         public static T LoadFile<T>(string filename)
         {
            
             try {
-                XmlSerializer x = new XmlSerializer(typeof(T));
+                //serializer = new XmlSerializer(typeof(T));
 
                 TextReader reader = new StreamReader(filename + ".xml");
-                T temp = (T)x.Deserialize(reader);
+                T temp = (T)GetSerializer<T>().Deserialize(reader);
                 //x.Serialize(Console.Out, temp);
                 reader.Close();
                 // file.LoadXml(filename + ".xml");
@@ -38,9 +39,9 @@ namespace BlinkByte.Core.IO
         {
             
            try {
-                XmlSerializer x = new XmlSerializer(typeof(T));
+               //serializer = new XmlSerializer(typeof(T));
                 TextWriter writer = new StreamWriter(filename + ".xml");
-                x.Serialize(writer, tempGO);
+                GetSerializer<T>().Serialize(writer, tempGO);
                 writer.Close();
             }
             catch (Exception e)
@@ -50,11 +51,14 @@ namespace BlinkByte.Core.IO
             }
             
         }
-        /*public static void SaveFile(string filename, Scene scene)
+        public static XmlSerializer GetSerializer<T>()
         {
-            XmlSerializer x = new XmlSerializer(typeof(Scene));
-            TextWriter writer = new StreamWriter(filename + ".xml");
-            x.Serialize(writer, scene);
-        }*/
+            var lListOfComp = (from lAssembly in AppDomain.CurrentDomain.GetAssemblies()
+                             from lType in lAssembly.GetTypes()
+                             where typeof(Component.Component).IsAssignableFrom(lType)
+                             select lType).ToArray();
+           
+            return new XmlSerializer(typeof(T), lListOfComp);
+        }
     }
 }
