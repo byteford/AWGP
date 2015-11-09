@@ -5,7 +5,8 @@
     using System.Text;
     using System.Threading.Tasks;
     using System.Threading;
-using BlinkByte.Graphics;
+    using BlinkByte.Utilitys;
+    using BlinkByte.Graphics;
     namespace BlinkByte.SFMLGraphics
     {
         class WindowManager: BlinkByte.Graphics.IWindowManager
@@ -38,7 +39,7 @@ using BlinkByte.Graphics;
             public void ClearWindow()
             {
 
-            window.Clear(Utilitys.convert(Colour.Blue));
+            window.Clear(Colour.Blue.convert());
             }
             public void displayWindow()
             {

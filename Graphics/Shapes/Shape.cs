@@ -15,5 +15,13 @@ namespace BlinkByte.Graphics
             position = pos;
             Colour = col;
         }
+        public Shape(Core.Vector2 pos)
+        {
+            position = pos;
+        }
+        public void setFillColour(Colour col)
+        {
+            Colour = col;
+        }
     }
 }

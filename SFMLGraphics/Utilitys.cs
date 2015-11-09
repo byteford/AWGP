@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlinkByte.SFMLGraphics
+namespace BlinkByte.Utilitys
 {
     public static class Utilitys
     {
@@ -12,5 +12,6 @@ namespace BlinkByte.SFMLGraphics
         {
             return new SFML.Graphics.Color(col.R, col.G, col.B, col.A);
         }
+        
     }
 }

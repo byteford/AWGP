@@ -21,6 +21,10 @@ namespace BlinkByte.Core
             {
                components =  Factory.GameObjectFactory.setUpGameObject();
             }
+            foreach (Component.Component comp in components)
+            {
+                comp.Start();
+            }
         }
         public virtual void Update()
         {

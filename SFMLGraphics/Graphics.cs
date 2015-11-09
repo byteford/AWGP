@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BlinkByte.Graphics.Componates;
 
 namespace BlinkByte.SFMLGraphics
 {
@@ -26,6 +27,11 @@ namespace BlinkByte.SFMLGraphics
             winManager.ClearWindow();
            
             winManager.displayWindow();
+        }
+
+        public void RegisterComp(GraphicsComp comp)
+        {
+            
         }
     }
 }
