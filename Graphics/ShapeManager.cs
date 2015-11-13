@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace BlinkByte.Graphics
 {
-    class ShapeManager
+    public class ShapeManager
     {
-        List<Componates.Shape2DComp> Shapes;
+        List<Componates.Shape2DComp> Shapes = new List<Componates.Shape2DComp>();
         public static ShapeManager inst;
+        public ShapeManager()
+        {
+            inst = this;
+        }
         public void RegisterComp(Componates.Shape2DComp comp)
         {
             if (!Shapes.Contains(comp))
@@ -24,6 +28,10 @@ namespace BlinkByte.Graphics
                 Shapes.Remove(comp);
             }
 
+        }
+        public List<Componates.Shape2DComp> getShapes()
+        {
+            return Shapes;
         }
     }
 }

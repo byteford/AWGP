@@ -9,13 +9,14 @@ namespace BlinkByte.Graphics.Componates
     public enum shapeType
     {
         Circle,
+        Square,
     }
-    class Shape2DComp: BlinkByte.Graphics.Componates.GraphicsComp
+    public class Shape2DComp: BlinkByte.Graphics.Componates.GraphicsComp
     {
         public shapeType shape;
         public Shape2DComp()
         {
-
+            ShapeManager.inst.RegisterComp(this);
         }
     }
 

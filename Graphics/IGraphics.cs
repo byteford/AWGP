@@ -9,7 +9,6 @@ namespace BlinkByte.Graphics
 {
     public interface IGraphics : BlinkByte.Core.Module.IModule
     {
-        void RegisterComp(Componates.GraphicsComp comp);
     }
     
 }

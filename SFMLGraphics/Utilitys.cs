@@ -12,6 +12,14 @@ namespace BlinkByte.Utilitys
         {
             return new SFML.Graphics.Color(col.R, col.G, col.B, col.A);
         }
+        public static void Draw(this BlinkByte.Graphics.Componates.Shape2DComp comp, SFML.Graphics.RenderWindow wind)
+        {
+            if(comp.shape == Graphics.Componates.shapeType.Circle)
+            {
+                SFML.Graphics.CircleShape shape = new SFML.Graphics.CircleShape(50);
+                wind.Draw(shape);
+            }
+        }
         
     }
 }

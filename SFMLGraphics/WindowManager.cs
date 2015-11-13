@@ -54,6 +54,10 @@
                 ((SFML.Window.Window)sender).Close();
 
             }
+        public SFML.Graphics.RenderWindow getRenderWin()
+        {
+            return window;
+        }
 
         }
     }
