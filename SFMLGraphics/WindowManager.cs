@@ -12,8 +12,10 @@
         class WindowManager: BlinkByte.Graphics.IWindowManager
         {
             public SFML.Graphics.RenderWindow window;
+            static WindowManager instance;
             public WindowManager()
             {
+                instance = this;
                 Console.WriteLine("start window");
                 try
                 {
@@ -53,6 +55,10 @@
             {
                 ((SFML.Window.Window)sender).Close();
 
+            }
+            public static WindowManager getInstance()
+            {
+                return instance;
             }
         public SFML.Graphics.RenderWindow getRenderWin()
         {

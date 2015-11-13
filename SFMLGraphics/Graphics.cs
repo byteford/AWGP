@@ -29,7 +29,7 @@ namespace BlinkByte.SFMLGraphics
             winManager.ClearWindow();
            foreach(var shape in shapeManager.getShapes())
             {
-                shape.Draw(winManager.getRenderWin());
+                shape.Draw();
             }
             winManager.displayWindow();
         }

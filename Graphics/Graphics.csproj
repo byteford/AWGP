@@ -90,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Colour.cs" />
+    <Compile Include="Componates\Circle2DComp.cs" />
     <Compile Include="Componates\GraphicsComp.cs" />
     <Compile Include="Componates\Shape2DComp.cs" />
     <Compile Include="IGraphics.cs" />

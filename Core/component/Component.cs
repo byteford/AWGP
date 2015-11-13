@@ -13,7 +13,7 @@ namespace BlinkByte.Core.Component
         public GameObject gameObject;
         // public Transform transform { get { return gameObject.transform; } }
         public bool enabled = true;
-        public virtual void Start() { }
+        public virtual void Start(GameObject gameObject) { this.gameObject = gameObject; }
         public virtual void Update() { }
     }
 }

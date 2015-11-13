@@ -21,6 +21,7 @@ namespace BlinkByte.Core
             try
             {
                 scene = IO.LoadFromFile.LoadFile<Scene>(name);
+                
             }
             catch(Exception e)
             {
@@ -30,6 +31,7 @@ namespace BlinkByte.Core
                 scene.addGameObject(GameObject.Instansate("GameObject")).AddComponent<Component.Transform>();
                 scene.saveToFile();
             }
+            scene.Start();
            // scene.GameObjects[0].AddComponent<Component.FileOutput>();
             /*   try
                {

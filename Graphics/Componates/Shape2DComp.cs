@@ -18,6 +18,7 @@ namespace BlinkByte.Graphics.Componates
         {
             ShapeManager.inst.RegisterComp(this);
         }
+        public virtual void Draw() { }
     }
 
 }

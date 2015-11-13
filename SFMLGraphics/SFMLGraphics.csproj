@@ -69,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Graphics.cs" />
+    <Compile Include="SFMLCircle2DComp.cs" />
     <Compile Include="Utilitys.cs" />
     <Compile Include="WindowManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

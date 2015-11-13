@@ -15,6 +15,5 @@ namespace BlinkByte.Graphics
         void displayWindow();
         void onResize(object sender, SFML.Window.SizeEventArgs e); // needs to not use sfml
         void onClosed(object sender, System.EventArgs e);
-
    }
 }

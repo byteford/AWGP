@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MakeSceneFile</RootNamespace>
     <AssemblyName>MakeSceneFile</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -85,6 +86,10 @@
     <ProjectReference Include="..\Physics\Physics.csproj">
       <Project>{aa397227-879b-48b9-84cc-5585891d53cd}</Project>
       <Name>Physics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SFMLGraphics\SFMLGraphics.csproj">
+      <Project>{c58a18df-3325-431a-b5e7-2c3a4877face}</Project>
+      <Name>SFMLGraphics</Name>
     </ProjectReference>
     <ProjectReference Include="..\Sound\Sound.csproj">
       <Project>{8ac7cedd-c4ab-41a1-acea-ab74bb85c847}</Project>

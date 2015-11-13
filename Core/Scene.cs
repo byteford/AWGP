@@ -22,6 +22,13 @@ namespace BlinkByte.Core
             GameObjects.Add(temp);
             return temp;
         }*/
+        public void Start()
+        {
+            foreach(var go in GameObjects)
+            {
+                go.Start();
+            }
+        }
         public GameObject addGameObject(GameObject obj)
         {
             GameObjects.Add(obj);
