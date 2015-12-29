@@ -12,7 +12,6 @@ namespace BlinkByte.Core
         static Scene scene;
         public static void Init()
         {
-            
            
            new Managers.ModuleManager();
         }
@@ -25,24 +24,10 @@ namespace BlinkByte.Core
             }
             catch(Exception e)
             {
-                
                 scene = new Scene();
-                //scene.addGameObject("GameObject");
-                scene.addGameObject(GameObject.Instansate("GameObject")).AddComponent<Component.Transform>();
-                scene.saveToFile();
+                scene.saveToFile(name);
             }
             scene.Start();
-           // scene.GameObjects[0].AddComponent<Component.FileOutput>();
-            /*   try
-               {
-                   IO.LoadFromFile.LoadFile("GameObject");
-               }
-               catch (FileNotFoundException e)
-               {
-
-                   IO.LoadFromFile.SaveFile("GameObject", new GameObject());
-                   IO.LoadFromFile.LoadFile("GameObject");
-               }*/
         }
     }
 }

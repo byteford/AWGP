@@ -17,10 +17,9 @@ namespace BlinkByte.Main
         {
             Console.WriteLine("Game SetUp");
             Core.SetUp.Init();
-            ModuleManager.instance.AddManager <BlinkByte.SFMLGraphics.Graphics> (); // need to more to text
+            ModuleManager.instance.AddManager <BlinkByte.SFMLGraphics.Graphics> (); // need to move to text
             ModuleManager.instance.Init();
             Core.SetUp.LoadScene("Scene");
-            //Core.Scene.currentScene.GameObjects[0].AddComponent<Core.Component.FileOutputOnUpdate>();
 
             while (true)
             {

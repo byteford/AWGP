@@ -41,13 +41,13 @@ namespace BlinkByte.Core.IO
             
         }
         
-        public static void SaveFile<T>(string filename, T tempGO)
+        public static void SaveFile<T>(string filename, T obj)
         {
             
            try {
                //serializer = new XmlSerializer(typeof(T));
                 TextWriter writer = new StreamWriter(filename + ".xml",false);
-                GetSerializer<T>().Serialize(writer, tempGO);
+                GetSerializer<T>().Serialize(writer, obj);
                 writer.Close();
             }
             catch (Exception e)

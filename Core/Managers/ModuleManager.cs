@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BlinkByte.Core.Module;
+using System.Reflection;
+
 namespace BlinkByte.Core.Managers
 {
     public class ModuleManager: IManager
@@ -33,13 +35,31 @@ namespace BlinkByte.Core.Managers
         }
         public T AddManager<T>()
         {
-            T temp = (T)Activator.CreateInstance(typeof(T));
+            /*  T temp = (T)Activator.CreateInstance(typeof(T));
+              if ((temp as IModule) != null)
+              {
+                  modules.Add(typeof(T), temp as IModule);
+                  return temp;
+              }
+              return default(T);*/
+            return (T)AddManager(typeof(T));
+        }
+        public object AddManager(string dllName, string TypeName)
+        {
+            Assembly asm;
+            Assembly[] arr = AppDomain.CurrentDomain.GetAssemblies();
+            asm = arr.First(x => x.ManifestModule.Name == dllName);
+           return AddManager(asm.GetType(TypeName));
+        }
+        private object AddManager(Type type)
+        {
+            object temp = Activator.CreateInstance(type);
             if ((temp as IModule) != null)
             {
-                modules.Add(typeof(T), temp as IModule);
+                modules.Add(type, temp as IModule);
                 return temp;
             }
-            return default(T);
-        }
+            return null;
+        }        
     }
 }

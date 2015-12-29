@@ -34,9 +34,9 @@ namespace BlinkByte.Core
             GameObjects.Add(obj);
             return obj;
         }
-        public void saveToFile()
+        public void saveToFile(string fileName)
         {
-            IO.LoadFromFile.SaveFile("Scene", this);
+            IO.LoadFromFile.SaveFile(fileName, this);
         }
         public void Update()
         {

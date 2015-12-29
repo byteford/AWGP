@@ -11,8 +11,10 @@ namespace MakeSceneFile
     {
         static void Main(string[] args)
         {
+
             SetUp.Init();
-            BlinkByte.Core.Managers.ModuleManager.instance.AddManager<BlinkByte.SFMLGraphics.Graphics>(); // need to more to text
+            //BlinkByte.Core.Managers.ModuleManager.instance.AddManager<BlinkByte.SFMLGraphics.Graphics>(); // need to more to text
+            BlinkByte.Core.Managers.ModuleManager.instance.AddManager("SFMLGraphics.dll","BlinkByte.SFMLGraphics.Graphics");
             BlinkByte.Core.Managers.ModuleManager.instance.Init();
 
             Scene scene = new BlinkByte.Core.Scene();
@@ -24,7 +26,8 @@ namespace MakeSceneFile
             GameObject sp = GameObject.InstansateNew("Sprite");
             sp.AddComponent<BlinkByte.SFMLGraphics.SFMLSprite2DComp>().TextureName = "DinoTorq.png";
             scene.addGameObject(sp);
-            scene.saveToFile();
+            scene.saveToFile("Scene");
+            
         }
     }
 }
