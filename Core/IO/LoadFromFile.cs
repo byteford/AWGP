@@ -53,9 +53,7 @@ namespace BlinkByte.Core.IO
             catch (Exception e)
             {
                 Console.WriteLine(e);
-              
             }
-            
         }
         public static XmlSerializer GetSerializer<T>()
         {
@@ -63,7 +61,6 @@ namespace BlinkByte.Core.IO
                              from lType in lAssembly.GetTypes()
                              where typeof(Component.Component).IsAssignableFrom(lType)
                              select lType).ToArray();
-           
             return new XmlSerializer(typeof(T), lListOfComp);
         }
     }
