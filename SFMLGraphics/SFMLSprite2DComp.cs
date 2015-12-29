@@ -13,13 +13,13 @@ namespace BlinkByte.SFMLGraphics
         public SFMLSprite2DComp():base(){
             SFMLShape = new SFML.Graphics.Sprite();
             texture = new Texture();
-            if(TextureName != "")
-            {
+
                 LoadTexture(TextureName);
-            }
+            
         }
         public override void Draw()
         {
+            SFMLShape.Color = getColor().convert();
             SFMLShape.Texture = (texture.getFile() as SFML.Graphics.Texture);
             if (gameObject.GetTransform() != null)
                 SFMLShape.Position = gameObject.GetTransform().Position.convert();
@@ -27,7 +27,7 @@ namespace BlinkByte.SFMLGraphics
         }
         public override void LoadTexture(string fileName)
         {
-            if (TextureName != "")
+            if (TextureName != null)
             {
                 texture.loadTexture(fileName);
             }

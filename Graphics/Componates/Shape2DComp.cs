@@ -15,7 +15,7 @@ namespace BlinkByte.Graphics.Componates
     public class Shape2DComp: BlinkByte.Graphics.Componates.GraphicsComp
     {
         
-        public Colour color;
+        public Colour color = new Colour(Colour.White);
         public shapeType shape;
         public Shape2DComp()
         {
