@@ -13,6 +13,8 @@ namespace BlinkByte.Core.Component
     public class Transform: Component
     {
         public Vector2 Position;
+        public Vector2 Scale = new Vector2(1,1);
+        public Vector2 Rotation;
         public Transform()
         {
             Position = new Vector2(); 

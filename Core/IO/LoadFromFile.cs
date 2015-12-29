@@ -46,7 +46,7 @@ namespace BlinkByte.Core.IO
             
            try {
                //serializer = new XmlSerializer(typeof(T));
-                TextWriter writer = new StreamWriter(filename + ".xml");
+                TextWriter writer = new StreamWriter(filename + ".xml",false);
                 GetSerializer<T>().Serialize(writer, tempGO);
                 writer.Close();
             }

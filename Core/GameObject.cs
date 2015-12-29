@@ -41,6 +41,11 @@ namespace BlinkByte.Core
         {
             return BlinkByte.Core.Factory.GameObjectFactory.makeGameObject(name);
         }
+
+        public static GameObject InstansateNew(string name)
+        {
+            return BlinkByte.Core.Factory.GameObjectFactory.MakeNewGameObject(name);
+        }
         public T AddComponent<T>()
         {
             T temp = (T)Activator.CreateInstance(typeof(T));
