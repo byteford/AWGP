@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BlinkByte.Core;
 using BlinkByte.Utilitys;
 namespace BlinkByte.SFMLGraphics
 {
@@ -12,13 +13,16 @@ namespace BlinkByte.SFMLGraphics
 
         public SFMLSprite2DComp():base(){
             SFMLShape = new SFML.Graphics.Sprite();
-            texture = new Texture();
-
-                LoadTexture(TextureName);
-            
+            texture = new Texture();            
+        }
+        public override void Start(GameObject gameObject)
+        {
+            base.Start(gameObject);
+            LoadTexture(TextureName);
         }
         public override void Draw()
         {
+            
             SFMLShape.Color = getColor().convert();
             SFMLShape.Texture = (texture.getFile() as SFML.Graphics.Texture);
             if (gameObject.GetTransform() != null)
@@ -27,7 +31,7 @@ namespace BlinkByte.SFMLGraphics
         }
         public override void LoadTexture(string fileName)
         {
-            if (TextureName != null)
+            if (fileName != null && fileName != "")
             {
                 texture.loadTexture(fileName);
             }

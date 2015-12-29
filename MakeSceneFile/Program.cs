@@ -17,13 +17,12 @@ namespace MakeSceneFile
 
             Scene scene = new BlinkByte.Core.Scene();
             GameObject go = GameObject.Instansate("GameObject");
-            go.AddComponent<BlinkByte.SFMLGraphics.SFMLCircle2DComp>();
-            (go.getComponent<BlinkByte.SFMLGraphics.SFMLCircle2DComp>() as BlinkByte.SFMLGraphics.SFMLCircle2DComp).changeColor(new BlinkByte.Graphics.Colour(255, 0, 0));
+            go.AddComponent<BlinkByte.SFMLGraphics.SFMLCircle2DComp>().changeColor(new BlinkByte.Graphics.Colour(255, 0, 0));
             (go.getComponent<BlinkByte.Core.Component.Transform>() as BlinkByte.Core.Component.Transform).Position = new Vector2(100, 0);
             scene.addGameObject(go);
 
             GameObject sp = GameObject.Instansate("Sprite");
-            sp.AddComponent<BlinkByte.SFMLGraphics.SFMLSprite2DComp>();
+            sp.AddComponent<BlinkByte.SFMLGraphics.SFMLSprite2DComp>().TextureName = "DinoTorq.png";
             scene.addGameObject(sp);
             scene.saveToFile();
         }
