@@ -14,7 +14,7 @@ namespace BlinkByte.Core.Component
     {
         public Vector2 Position;
         public Vector2 Scale = new Vector2(1,1);
-        public Vector2 Rotation;
+        public float Rotation;
         public Transform()
         {
             Position = new Vector2(); 

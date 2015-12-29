@@ -23,6 +23,8 @@ namespace BlinkByte.SFMLGraphics
         public override void Draw()
         {
             SFMLShape.Scale = gameObject.GetTransform().Scale.convert();
+            SFMLShape.Rotation = gameObject.GetTransform().Rotation;
+            
             SFMLShape.Color = getColor().convert();
             SFMLShape.Texture = (texture.getFile() as SFML.Graphics.Texture);
             if (gameObject.GetTransform() != null)
