@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using BlinkByte.Utilitys;
 namespace BlinkByte.SFMLGraphics
 {
-    class SFMLSprite2DComp: BlinkByte.Graphics.Componates.Sprite2DComp
+    public class SFMLSprite2DComp: BlinkByte.Graphics.Componates.Sprite2DComp
     {
         SFML.Graphics.Sprite SFMLShape;
 

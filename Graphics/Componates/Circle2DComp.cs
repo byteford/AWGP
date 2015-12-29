@@ -8,6 +8,7 @@ namespace BlinkByte.Graphics.Componates
 {
     public class Circle2DComp: Shape2DComp
     {
+        
         public Circle2DComp()
             : base()
         {

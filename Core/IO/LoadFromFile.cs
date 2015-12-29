@@ -15,12 +15,12 @@ namespace BlinkByte.Core.IO
        static XmlSerializer serializer;
         public static T LoadFile<T>(string filename)
         {
-
+            TextReader reader;
             try
             {
                 //serializer = new XmlSerializer(typeof(T));
 
-                TextReader reader = new StreamReader(filename + ".xml");
+                reader = new StreamReader(filename + ".xml");
                 T temp = (T)GetSerializer<T>().Deserialize(reader);
                 //x.Serialize(Console.Out, temp);
                 reader.Close();
@@ -30,7 +30,6 @@ namespace BlinkByte.Core.IO
             catch (FileNotFoundException)
             {
                 Console.WriteLine("cant find: " + filename);
-
                 //Console.WriteLine(e);
                 throw;
             }
