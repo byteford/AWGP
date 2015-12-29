@@ -10,15 +10,21 @@ namespace BlinkByte.Graphics.Componates
     {
         Circle,
         Square,
+        Sprite
     }
     public class Shape2DComp: BlinkByte.Graphics.Componates.GraphicsComp
     {
+        Colour color;
         public shapeType shape;
         public Shape2DComp()
         {
             ShapeManager.inst.RegisterComp(this);
         }
         public virtual void Draw() { }
+        public virtual void changeColor(Colour newcolor)
+        {
+            color = newcolor;
+        }
     }
 
 }
