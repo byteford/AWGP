@@ -12,7 +12,6 @@ namespace BlinkByte.Core.IO
 
     public class LoadFromFile
     {
-       static XmlSerializer serializer;
         public static T LoadFile<T>(string filename)
         {
             TextReader reader;
@@ -62,6 +61,47 @@ namespace BlinkByte.Core.IO
                              where typeof(Component.Component).IsAssignableFrom(lType)
                              select lType).ToArray();
             return new XmlSerializer(typeof(T), lListOfComp);
+        }
+        public static bool LoadModules(string filename)
+        {
+            try
+            {
+                string ass;
+                string mod;
+
+                StreamReader file = new StreamReader(filename + ".module");
+
+                while((ass = file.ReadLine()) != null && ass != "")
+                {
+                    mod = file.ReadLine();
+                    Managers.ModuleManager.instance.AddManager(ass, mod);
+                }
+
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+            return true;
+        }
+        public static bool saveModules(string filename)
+        {
+            try
+            {
+                string line;
+
+                StreamWriter file = new StreamWriter(filename + ".module",false);
+                foreach (var mod in Core.Managers.ModuleManager.instance.modules.Keys) {
+                    file.WriteLine(mod.Module.Name);
+                    file.WriteLine(Managers.ModuleManager.instance.modules[mod].GetType().ToString());
+                }
+                file.Close();
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+            return true;
         }
     }
 }

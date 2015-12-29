@@ -17,7 +17,8 @@ namespace BlinkByte.Main
         {
             Console.WriteLine("Game SetUp");
             Core.SetUp.Init();
-            ModuleManager.instance.AddManager <BlinkByte.SFMLGraphics.Graphics> (); // need to move to text
+            //ModuleManager.instance.AddManager <BlinkByte.SFMLGraphics.Graphics> (); // need to move to text
+            BlinkByte.Core.IO.LoadFromFile.LoadModules("mods");
             ModuleManager.instance.Init();
             Core.SetUp.LoadScene("Scene");
 

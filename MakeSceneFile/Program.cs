@@ -14,7 +14,10 @@ namespace MakeSceneFile
 
             SetUp.Init();
             //BlinkByte.Core.Managers.ModuleManager.instance.AddManager<BlinkByte.SFMLGraphics.Graphics>(); // need to more to text
-            BlinkByte.Core.Managers.ModuleManager.instance.AddManager("SFMLGraphics.dll","BlinkByte.SFMLGraphics.Graphics");
+            // BlinkByte.Core.Managers.ModuleManager.instance.AddManager("SFMLGraphics.dll","BlinkByte.SFMLGraphics.Graphics");
+
+            BlinkByte.Core.IO.LoadFromFile.LoadModules("mods");
+
             BlinkByte.Core.Managers.ModuleManager.instance.Init();
 
             Scene scene = new BlinkByte.Core.Scene();
@@ -27,7 +30,7 @@ namespace MakeSceneFile
             sp.AddComponent<BlinkByte.SFMLGraphics.SFMLSprite2DComp>().TextureName = "DinoTorq.png";
             scene.addGameObject(sp);
             scene.saveToFile("Scene");
-            
+            BlinkByte.Core.IO.LoadFromFile.saveModules("mods");
         }
     }
 }

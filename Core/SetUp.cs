@@ -19,8 +19,7 @@ namespace BlinkByte.Core
         {
             try
             {
-                scene = IO.LoadFromFile.LoadFile<Scene>(name);
-                
+                scene = IO.LoadFromFile.LoadFile<Scene>(name); 
             }
             catch(Exception e)
             {

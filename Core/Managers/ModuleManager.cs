@@ -47,8 +47,14 @@ namespace BlinkByte.Core.Managers
         public object AddManager(string dllName, string TypeName)
         {
             Assembly asm;
-            Assembly[] arr = AppDomain.CurrentDomain.GetAssemblies();
-            asm = arr.First(x => x.ManifestModule.Name == dllName);
+            try
+            {
+                Assembly[] arr = AppDomain.CurrentDomain.GetAssemblies();
+                asm = arr.First(x => x.ManifestModule.Name == dllName);
+            }catch(Exception e)
+            {
+                asm = Assembly.Load(dllName.Replace(".dll",""));
+            }
            return AddManager(asm.GetType(TypeName));
         }
         private object AddManager(Type type)
