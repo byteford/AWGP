@@ -23,13 +23,5 @@ namespace BlinkByte.SFMLGraphics
             SFMLShape.Position = gameObject.GetTransform().Position.convert();
             WindowManager.getInstance().getRenderWin().Draw(SFMLShape);
         }
-        //public static void Draw(this BlinkByte.Graphics.Componates.Shape2DComp comp, SFML.Graphics.RenderWindow wind)
-        //{
-        //    if (comp.shape == Graphics.Componates.shapeType.Circle)
-        //    {
-        //        SFML.Graphics.CircleShape shape = new SFML.Graphics.CircleShape(50);
-        //        wind.Draw(shape);
-        //    }
-        //}
     }
 }

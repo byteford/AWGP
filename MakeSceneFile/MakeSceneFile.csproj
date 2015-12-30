@@ -95,6 +95,10 @@
       <Project>{8ac7cedd-c4ab-41a1-acea-ab74bb85c847}</Project>
       <Name>Sound</Name>
     </ProjectReference>
+    <ProjectReference Include="..\windowsInput\windowsInput.csproj">
+      <Project>{a365c800-9ee7-46b0-8aca-0a3e71755259}</Project>
+      <Name>windowsInput</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

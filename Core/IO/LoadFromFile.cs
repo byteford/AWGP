@@ -88,8 +88,6 @@ namespace BlinkByte.Core.IO
         {
             try
             {
-                string line;
-
                 StreamWriter file = new StreamWriter(filename + ".module",false);
                 foreach (var mod in Core.Managers.ModuleManager.instance.modules.Keys) {
                     file.WriteLine(mod.Module.Name);

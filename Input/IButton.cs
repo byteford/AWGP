@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlinkByte.Graphics
+namespace Input
 {
-    public struct Vertex
+    interface IButton
     {
-        Core.Vector2 position;
-        
-        
     }
 }

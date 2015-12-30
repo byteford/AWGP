@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Input
 {
-    public class Class1
+    interface IAxis
     {
     }
 }
