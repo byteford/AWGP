@@ -98,7 +98,6 @@
     <Compile Include="ITexture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShapeManager.cs" />
-    <Compile Include="Vertex.cs" />
     <Compile Include="IWindowManager.cs" />
   </ItemGroup>
   <ItemGroup>

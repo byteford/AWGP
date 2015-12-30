@@ -57,6 +57,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IAxis.cs" />
+    <Compile Include="IButton.cs" />
+    <Compile Include="Idevice.cs" />
     <Compile Include="IInput.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
