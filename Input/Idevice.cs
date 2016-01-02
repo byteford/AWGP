@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Input
+namespace BlinkByte.Input
 {
-    interface Idevice
+    public interface IDevice
     {
+        float GetAxis(string axisName);
+        bool hasAxis(string axisName);
+        bool GetButton(string buttonName);
     }
 }

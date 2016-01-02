@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Input
+namespace BlinkByte.Input
 {
-    interface IAxis
+    public interface IAxis
     {
     }
 }
