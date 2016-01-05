@@ -13,9 +13,9 @@ namespace BlinkByte.Physics
     {
         public Vector2 offset;
 
-        public virtual void CollisionCheck()
+        public virtual bool CollisionCheck()
         {
-            
+            return false;
         }
     }
 }
