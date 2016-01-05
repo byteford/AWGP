@@ -18,5 +18,10 @@ namespace BlinkByte.Physics
         {
             Console.WriteLine("Physics Started");
         }
+
+        public void Update()
+        {
+            
+        }
     }
 }
