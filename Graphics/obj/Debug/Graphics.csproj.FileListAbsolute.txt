@@ -9,3 +9,14 @@ E:\uni work\AWGP\Graphics\bin\Debug\Blinkbye.Core.pdb
 E:\uni work\AWGP\Graphics\obj\Debug\Graphics.csprojResolveAssemblyReference.cache
 E:\uni work\AWGP\Graphics\obj\Debug\Graphics.dll
 E:\uni work\AWGP\Graphics\obj\Debug\Graphics.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\bin\Debug\Graphics.dll.config
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\bin\Debug\Graphics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\bin\Debug\Graphics.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\bin\Debug\Blinkbye.Core.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\bin\Debug\sfmlnet-graphics-2.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\bin\Debug\sfmlnet-system-2.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\bin\Debug\sfmlnet-window-2.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\bin\Debug\Blinkbye.Core.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\obj\Debug\Graphics.csprojResolveAssemblyReference.cache
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\obj\Debug\Graphics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\obj\Debug\Graphics.pdb

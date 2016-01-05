@@ -4,3 +4,9 @@ E:\uni work\AWGP\Core\bin\Debug\Blinkbye.Core.pdb
 E:\uni work\AWGP\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
 E:\uni work\AWGP\Core\obj\Debug\Blinkbye.Core.dll
 E:\uni work\AWGP\Core\obj\Debug\Blinkbye.Core.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Core\bin\Debug\Blinkbye.Core.dll.config
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Core\bin\Debug\Blinkbye.Core.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Core\bin\Debug\Blinkbye.Core.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Core\obj\Debug\Blinkbye.Core.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Core\obj\Debug\Blinkbye.Core.pdb

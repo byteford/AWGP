@@ -8,7 +8,7 @@ namespace BlinByte.Sound
 {
     class IMusicManager
     {
-        void loadMusic(string filename);
-        object getFile();
+       /* void loadMusic(string filename);
+        object getFile(); */
     }
 }

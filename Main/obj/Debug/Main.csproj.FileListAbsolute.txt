@@ -19,3 +19,32 @@ E:\uni work\AWGP\Main\bin\Debug\Sound.pdb
 E:\uni work\AWGP\Main\obj\Debug\Main.csprojResolveAssemblyReference.cache
 E:\uni work\AWGP\Main\obj\Debug\Main.exe
 E:\uni work\AWGP\Main\obj\Debug\Main.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\Main.exe.config
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\obj\Debug\Main.exe
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\DinoTorq.png
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\Main.exe
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\Main.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\Blinkbye.Core.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\Graphics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\Input.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\Physics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\SFMLGraphics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\Sound.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\StandardPhysics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\windowsInput.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\sfmlnet-window-2.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\sfmlnet-graphics-2.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\sfmlnet-system-2.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\Blinkbye.Core.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\Graphics.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\Input.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\Physics.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\SFMLGraphics.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\Sound.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\StandardPhysics.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\windowsInput.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\obj\Debug\Main.csprojResolveAssemblyReference.cache
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\obj\Debug\Main.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\SFMLSound.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\sfmlnet-audio-2.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\Debug\SFMLSound.pdb

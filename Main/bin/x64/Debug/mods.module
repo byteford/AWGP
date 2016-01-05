@@ -4,3 +4,5 @@ windowsInput.dll
 BlinkByte.windowsInput.Input
 StandardPhysics.dll
 BlinkByte.StandardPhysics.Physics
+SFMLSound.dll
+BlinkByte.SFMLSound.Sound

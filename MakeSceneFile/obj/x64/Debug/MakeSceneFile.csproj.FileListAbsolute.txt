@@ -46,3 +46,30 @@ D:\Final Year\Advanced Window Game Programming\Engine\MakeSceneFile\bin\x64\Debu
 D:\Final Year\Advanced Window Game Programming\Engine\MakeSceneFile\obj\x64\Debug\MakeSceneFile.csprojResolveAssemblyReference.cache
 D:\Final Year\Advanced Window Game Programming\Engine\MakeSceneFile\obj\x64\Debug\MakeSceneFile.exe
 D:\Final Year\Advanced Window Game Programming\Engine\MakeSceneFile\obj\x64\Debug\MakeSceneFile.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\MakeSceneFile.exe.config
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\MakeSceneFile.exe
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\MakeSceneFile.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\Blinkbye.Core.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\Graphics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\Input.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\Physics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\SFMLGraphics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\SFMLSound.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\Sound.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\StandardPhysics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\windowsInput.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\sfmlnet-window-2.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\sfmlnet-graphics-2.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\sfmlnet-system-2.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\Blinkbye.Core.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\Graphics.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\Input.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\Physics.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\SFMLGraphics.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\SFMLSound.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\Sound.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\windowsInput.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\StandardPhysics.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\obj\x64\Debug\MakeSceneFile.csprojResolveAssemblyReference.cache
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\obj\x64\Debug\MakeSceneFile.exe
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\obj\x64\Debug\MakeSceneFile.pdb

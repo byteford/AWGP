@@ -5,3 +5,10 @@ E:\uni work\AWGP\Physics\bin\Debug\Blinkbye.Core.pdb
 E:\uni work\AWGP\Physics\obj\Debug\Physics.csprojResolveAssemblyReference.cache
 E:\uni work\AWGP\Physics\obj\Debug\Physics.dll
 E:\uni work\AWGP\Physics\obj\Debug\Physics.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Physics\bin\Debug\Physics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Physics\bin\Debug\Physics.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Physics\bin\Debug\Blinkbye.Core.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Physics\bin\Debug\Blinkbye.Core.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Physics\obj\Debug\Physics.csprojResolveAssemblyReference.cache
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Physics\obj\Debug\Physics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Physics\obj\Debug\Physics.pdb

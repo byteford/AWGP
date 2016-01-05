@@ -16,3 +16,12 @@ D:\Final Year\Advanced Window Game Programming\Engine\windowsInput\bin\x64\Debug
 D:\Final Year\Advanced Window Game Programming\Engine\windowsInput\obj\x64\Debug\windowsInput.csprojResolveAssemblyReference.cache
 D:\Final Year\Advanced Window Game Programming\Engine\windowsInput\obj\x64\Debug\windowsInput.dll
 D:\Final Year\Advanced Window Game Programming\Engine\windowsInput\obj\x64\Debug\windowsInput.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\windowsInput\bin\x64\Debug\windowsInput.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\windowsInput\bin\x64\Debug\windowsInput.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\windowsInput\bin\x64\Debug\Blinkbye.Core.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\windowsInput\bin\x64\Debug\Input.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\windowsInput\bin\x64\Debug\Blinkbye.Core.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\windowsInput\bin\x64\Debug\Input.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\windowsInput\obj\x64\Debug\windowsInput.csprojResolveAssemblyReference.cache
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\windowsInput\obj\x64\Debug\windowsInput.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\windowsInput\obj\x64\Debug\windowsInput.pdb

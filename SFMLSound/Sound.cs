@@ -7,14 +7,30 @@ using System.Threading.Tasks;
 namespace BlinkByte.SFMLSound
 {
     public class Sound : BlinkByte.Sound.ISound
-    {
-        public void init(){
-        SFML.Audio.SoundBuffer buffer = new SFML.Audio.SoundBuffer("sound.wav");
-//buffer.loadFromFile("sound.wav");
+    {       SFML.Audio.SoundBuffer buffer = new SFML.Audio.SoundBuffer("Audios/orchestral.ogg");
+            //buffer.loadFromFile("sound.wav");
+    SFML.Audio.Sound sound;
+          
 
-SFML.Audio.Sound sound = new SFML.Audio.Sound(buffer);
-//sound.setBuffer(buffer);
-sound.Play();   
+        public void Init()
+        {
+            sound = new SFML.Audio.Sound(buffer); 
+            sound.Play();
+            //sound.setBuffer(buffer);
+           
+           // sound.Loop =true;
+
+            Console.WriteLine("sound Started");
+        }
+
+        public void Update()
+        {
+           
+        }
+
+        public Core.Module.ModuleType GetModuleType()
+        {
+            return Core.Module.ModuleType.Sounds;
         }
     }
 }
