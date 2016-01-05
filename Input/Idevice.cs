@@ -8,8 +8,8 @@ namespace BlinkByte.Input
 {
     public interface IDevice
     {
-        float GetAxis(string axisName);
-        bool hasAxis(string axisName);
-        bool GetButton(string buttonName);
+        bool hasButton(string button);
+        bool GetButton(string button);
+        IDevice addButton(string button, object buttonObj);
     }
 }
