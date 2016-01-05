@@ -7,10 +7,23 @@ using BlinkByte.Core;
 using BlinkByte.Utilitys;
 namespace BlinkByte.Physics
 {
-    class MovementComp : BlinkByte.Core.Component.Component
+    public class MovementComp : BlinkByte.Core.Component.Component
     {
-        Vector2 force;
+        public Vector2 force;
 
+        public void AddForce(Vector2 force)
+        {
+            this.force += force;
+        }
 
+        public Vector2 GetForce()
+        {
+            return force;
+        }
+
+        public void SetForce(Vector2 setForce)
+        {
+            force = setForce;
+        }
     }
 }
