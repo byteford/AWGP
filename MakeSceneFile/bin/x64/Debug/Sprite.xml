@@ -23,7 +23,10 @@
         <A>255</A>
       </color>
       <shape>Sprite</shape>
-      <TextureName />
+      <TextureName>DinoTorq.png</TextureName>
+    </Component>
+    <Component xsi:type="StanMovementComp">
+      <enabled>true</enabled>
     </Component>
   </components>
 </GameObject>
