@@ -1,0 +1,11 @@
+E:\uni work\AWGP\Graphics\bin\Debug\Graphics.dll.config
+E:\uni work\AWGP\Graphics\bin\Debug\Graphics.dll
+E:\uni work\AWGP\Graphics\bin\Debug\Graphics.pdb
+E:\uni work\AWGP\Graphics\bin\Debug\Blinkbye.Core.dll
+E:\uni work\AWGP\Graphics\bin\Debug\sfmlnet-graphics-2.dll
+E:\uni work\AWGP\Graphics\bin\Debug\sfmlnet-system-2.dll
+E:\uni work\AWGP\Graphics\bin\Debug\sfmlnet-window-2.dll
+E:\uni work\AWGP\Graphics\bin\Debug\Blinkbye.Core.pdb
+E:\uni work\AWGP\Graphics\obj\Debug\Graphics.csprojResolveAssemblyReference.cache
+E:\uni work\AWGP\Graphics\obj\Debug\Graphics.dll
+E:\uni work\AWGP\Graphics\obj\Debug\Graphics.pdb

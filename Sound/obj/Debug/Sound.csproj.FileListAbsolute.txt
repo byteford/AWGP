@@ -1,0 +1,8 @@
+E:\uni work\AWGP\Sound\bin\Debug\Sound.dll.config
+E:\uni work\AWGP\Sound\bin\Debug\Sound.dll
+E:\uni work\AWGP\Sound\bin\Debug\Sound.pdb
+E:\uni work\AWGP\Sound\bin\Debug\Blinkbye.Core.dll
+E:\uni work\AWGP\Sound\bin\Debug\Blinkbye.Core.pdb
+E:\uni work\AWGP\Sound\obj\Debug\Sound.csprojResolveAssemblyReference.cache
+E:\uni work\AWGP\Sound\obj\Debug\Sound.dll
+E:\uni work\AWGP\Sound\obj\Debug\Sound.pdb
