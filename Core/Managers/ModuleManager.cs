@@ -53,7 +53,14 @@ namespace BlinkByte.Core.Managers
                 asm = arr.First(x => x.ManifestModule.Name == dllName);
             }catch(Exception e)
             {
-                asm = Assembly.Load(dllName.Replace(".dll",""));
+                try {
+                    asm = Assembly.Load(dllName.Replace(".dll", ""));
+                }
+                catch(Exception)
+                {
+                    Console.WriteLine("cant find: " + dllName);
+                    asm = null;
+                }
             }
            return AddManager(asm.GetType(TypeName));
         }

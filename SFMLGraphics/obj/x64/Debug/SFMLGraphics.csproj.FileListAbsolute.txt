@@ -1,15 +1,3 @@
-E:\uni work\AWGP\SFMLGraphics\bin\x64\Debug\SFMLGraphics.dll
-E:\uni work\AWGP\SFMLGraphics\bin\x64\Debug\SFMLGraphics.pdb
-E:\uni work\AWGP\SFMLGraphics\bin\x64\Debug\Blinkbye.Core.dll
-E:\uni work\AWGP\SFMLGraphics\bin\x64\Debug\Graphics.dll
-E:\uni work\AWGP\SFMLGraphics\bin\x64\Debug\sfmlnet-graphics-2.dll
-E:\uni work\AWGP\SFMLGraphics\bin\x64\Debug\sfmlnet-system-2.dll
-E:\uni work\AWGP\SFMLGraphics\bin\x64\Debug\sfmlnet-window-2.dll
-E:\uni work\AWGP\SFMLGraphics\bin\x64\Debug\Blinkbye.Core.pdb
-E:\uni work\AWGP\SFMLGraphics\bin\x64\Debug\Graphics.pdb
-E:\uni work\AWGP\SFMLGraphics\obj\x64\Debug\SFMLGraphics.csprojResolveAssemblyReference.cache
-E:\uni work\AWGP\SFMLGraphics\obj\x64\Debug\SFMLGraphics.dll
-E:\uni work\AWGP\SFMLGraphics\obj\x64\Debug\SFMLGraphics.pdb
 D:\Final Year\Advanced Window Game Programming\Engine\SFMLGraphics\bin\x64\Debug\SFMLGraphics.dll
 D:\Final Year\Advanced Window Game Programming\Engine\SFMLGraphics\bin\x64\Debug\SFMLGraphics.pdb
 D:\Final Year\Advanced Window Game Programming\Engine\SFMLGraphics\bin\x64\Debug\Blinkbye.Core.dll
@@ -22,3 +10,15 @@ D:\Final Year\Advanced Window Game Programming\Engine\SFMLGraphics\bin\x64\Debug
 D:\Final Year\Advanced Window Game Programming\Engine\SFMLGraphics\obj\x64\Debug\SFMLGraphics.csprojResolveAssemblyReference.cache
 D:\Final Year\Advanced Window Game Programming\Engine\SFMLGraphics\obj\x64\Debug\SFMLGraphics.dll
 D:\Final Year\Advanced Window Game Programming\Engine\SFMLGraphics\obj\x64\Debug\SFMLGraphics.pdb
+E:\uni work\AWGP\SFMLGraphics\bin\x64\Debug\SFMLGraphics.dll
+E:\uni work\AWGP\SFMLGraphics\bin\x64\Debug\SFMLGraphics.pdb
+E:\uni work\AWGP\SFMLGraphics\bin\x64\Debug\Blinkbye.Core.dll
+E:\uni work\AWGP\SFMLGraphics\bin\x64\Debug\Graphics.dll
+E:\uni work\AWGP\SFMLGraphics\bin\x64\Debug\sfmlnet-graphics-2.dll
+E:\uni work\AWGP\SFMLGraphics\bin\x64\Debug\sfmlnet-system-2.dll
+E:\uni work\AWGP\SFMLGraphics\bin\x64\Debug\sfmlnet-window-2.dll
+E:\uni work\AWGP\SFMLGraphics\bin\x64\Debug\Blinkbye.Core.pdb
+E:\uni work\AWGP\SFMLGraphics\bin\x64\Debug\Graphics.pdb
+E:\uni work\AWGP\SFMLGraphics\obj\x64\Debug\SFMLGraphics.csprojResolveAssemblyReference.cache
+E:\uni work\AWGP\SFMLGraphics\obj\x64\Debug\SFMLGraphics.dll
+E:\uni work\AWGP\SFMLGraphics\obj\x64\Debug\SFMLGraphics.pdb

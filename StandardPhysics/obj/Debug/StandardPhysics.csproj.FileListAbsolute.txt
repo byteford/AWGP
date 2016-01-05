@@ -7,3 +7,12 @@ D:\Final Year\Advanced Window Game Programming\Engine\StandardPhysics\bin\Debug\
 D:\Final Year\Advanced Window Game Programming\Engine\StandardPhysics\obj\Debug\StandardPhysics.csprojResolveAssemblyReference.cache
 D:\Final Year\Advanced Window Game Programming\Engine\StandardPhysics\obj\Debug\StandardPhysics.dll
 D:\Final Year\Advanced Window Game Programming\Engine\StandardPhysics\obj\Debug\StandardPhysics.pdb
+E:\uni work\AWGP\StandardPhysics\bin\Debug\StandardPhysics.dll
+E:\uni work\AWGP\StandardPhysics\bin\Debug\StandardPhysics.pdb
+E:\uni work\AWGP\StandardPhysics\bin\Debug\Blinkbye.Core.dll
+E:\uni work\AWGP\StandardPhysics\bin\Debug\Physics.dll
+E:\uni work\AWGP\StandardPhysics\bin\Debug\Blinkbye.Core.pdb
+E:\uni work\AWGP\StandardPhysics\bin\Debug\Physics.pdb
+E:\uni work\AWGP\StandardPhysics\obj\Debug\StandardPhysics.csprojResolveAssemblyReference.cache
+E:\uni work\AWGP\StandardPhysics\obj\Debug\StandardPhysics.dll
+E:\uni work\AWGP\StandardPhysics\obj\Debug\StandardPhysics.pdb
