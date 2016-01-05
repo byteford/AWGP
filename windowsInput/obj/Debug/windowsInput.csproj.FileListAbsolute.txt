@@ -1,0 +1,9 @@
+E:\uni work\AWGP\windowsInput\bin\Debug\windowsInput.dll
+E:\uni work\AWGP\windowsInput\bin\Debug\windowsInput.pdb
+E:\uni work\AWGP\windowsInput\bin\Debug\Blinkbye.Core.dll
+E:\uni work\AWGP\windowsInput\bin\Debug\Input.dll
+E:\uni work\AWGP\windowsInput\bin\Debug\Blinkbye.Core.pdb
+E:\uni work\AWGP\windowsInput\bin\Debug\Input.pdb
+E:\uni work\AWGP\windowsInput\obj\Debug\windowsInput.csprojResolveAssemblyReference.cache
+E:\uni work\AWGP\windowsInput\obj\Debug\windowsInput.dll
+E:\uni work\AWGP\windowsInput\obj\Debug\windowsInput.pdb

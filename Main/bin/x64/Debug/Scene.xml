@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Scene xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <GameObjects>
+    <GameObject>
+      <name>GameObject</name>
+      <components>
+        <Component xsi:type="Transform">
+          <enabled>true</enabled>
+          <Position>
+            <X>100</X>
+            <Y>0</Y>
+          </Position>
+          <Scale>
+            <X>1</X>
+            <Y>1</Y>
+          </Scale>
+          <Rotation>0</Rotation>
+        </Component>
+        <Component xsi:type="SFMLCircle2DComp">
+          <enabled>true</enabled>
+          <color>
+            <R>255</R>
+            <G>0</G>
+            <B>0</B>
+            <A>255</A>
+          </color>
+          <shape>Circle</shape>
+        </Component>
+      </components>
+    </GameObject>
+    <GameObject>
+      <name>Sprite</name>
+      <components>
+        <Component xsi:type="Transform">
+          <enabled>true</enabled>
+          <Position>
+            <X>0</X>
+            <Y>0</Y>
+          </Position>
+          <Scale>
+            <X>1</X>
+            <Y>1</Y>
+          </Scale>
+          <Rotation>0</Rotation>
+        </Component>
+        <Component xsi:type="SFMLSprite2DComp">
+          <enabled>true</enabled>
+          <color>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+            <A>255</A>
+          </color>
+          <shape>Sprite</shape>
+          <TextureName>DinoTorq.png</TextureName>
+        </Component>
+      </components>
+    </GameObject>
+  </GameObjects>
+</Scene>
