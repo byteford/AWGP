@@ -21,6 +21,14 @@ namespace BlinkByte.Core
             {
                components =  Factory.GameObjectFactory.setUpGameObject();
             }
+            
+        }
+        public virtual void Start()
+        {
+                foreach (Component.Component comp in components)
+                            {
+                                comp.Start(this);
+                            }
         }
         public virtual void Update()
         {
@@ -33,6 +41,11 @@ namespace BlinkByte.Core
         {
             return BlinkByte.Core.Factory.GameObjectFactory.makeGameObject(name);
         }
+
+        public static GameObject InstansateNew(string name)
+        {
+            return BlinkByte.Core.Factory.GameObjectFactory.MakeNewGameObject(name);
+        }
         public T AddComponent<T>()
         {
             T temp = (T)Activator.CreateInstance(typeof(T));
@@ -43,6 +56,19 @@ namespace BlinkByte.Core
                 return temp;
             }
             return default(T);
+        }
+        public List<BlinkByte.Core.Component.Component> getComponents<T>()
+        {
+           List<BlinkByte.Core.Component.Component> temp = components.Where(x => x.GetType() == typeof(T)).ToList();
+            return temp;
+        }
+        public BlinkByte.Core.Component.Component getComponent<T>()
+        {
+            return getComponents<T>().First();
+        }
+        public BlinkByte.Core.Component.Transform GetTransform()
+        {
+            return getComponent<BlinkByte.Core.Component.Transform>() as BlinkByte.Core.Component.Transform;
         }
     }
 }

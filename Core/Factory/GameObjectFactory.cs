@@ -18,10 +18,21 @@ namespace BlinkByte.Core.Factory
             {
                 tempGO = new GameObject();
                 tempGO.name = name;
+                tempGO.AddComponent<BlinkByte.Core.Component.Transform>();
                 IO.LoadFromFile.SaveFile(name, tempGO);
             }
 
             return tempGO;
+        }
+        public static GameObject MakeNewGameObject(string name)
+        {
+            GameObject tempGO;
+            tempGO = new GameObject();
+            tempGO.name = name;
+            tempGO.AddComponent<BlinkByte.Core.Component.Transform>();
+            IO.LoadFromFile.SaveFile(name, tempGO);
+            return tempGO;
+
         }
         public static List<Component.Component> setUpGameObject()
         {

@@ -12,7 +12,7 @@ namespace BlinkByte.Core.Component
         public string toOutput = "Update";
         public override void Update()
         {
-          //  Console.WriteLine("update");
+           Console.WriteLine(toOutput);
         }
     }
 }
