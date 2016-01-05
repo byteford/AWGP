@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <components>
+    <Component xsi:type="Transform">
+      <Position>
+        <X>10</X>
+        <Y>10</Y>
+        <Z>20</Z>
+      </Position>
+    </Component>
+  </components>
+</GameObject>

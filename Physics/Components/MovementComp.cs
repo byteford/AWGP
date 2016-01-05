@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-namespace Physics
+using BlinkByte.Core;
+using BlinkByte.Utilitys;
+namespace BlinkByte.Physics
 {
-    class MovementComp
+    class MovementComp : BlinkByte.Core.Component.Component
     {
+        Vector2 force;
+
+
     }
 }

@@ -9,3 +9,14 @@ E:\uni work\AWGP\Graphics\bin\x64\Debug\Blinkbye.Core.pdb
 E:\uni work\AWGP\Graphics\obj\x64\Debug\Graphics.csprojResolveAssemblyReference.cache
 E:\uni work\AWGP\Graphics\obj\x64\Debug\Graphics.dll
 E:\uni work\AWGP\Graphics\obj\x64\Debug\Graphics.pdb
+D:\Final Year\Advanced Window Game Programming\Engine\Graphics\bin\x64\Debug\Graphics.dll.config
+D:\Final Year\Advanced Window Game Programming\Engine\Graphics\bin\x64\Debug\Graphics.dll
+D:\Final Year\Advanced Window Game Programming\Engine\Graphics\bin\x64\Debug\Graphics.pdb
+D:\Final Year\Advanced Window Game Programming\Engine\Graphics\bin\x64\Debug\Blinkbye.Core.dll
+D:\Final Year\Advanced Window Game Programming\Engine\Graphics\bin\x64\Debug\sfmlnet-graphics-2.dll
+D:\Final Year\Advanced Window Game Programming\Engine\Graphics\bin\x64\Debug\sfmlnet-system-2.dll
+D:\Final Year\Advanced Window Game Programming\Engine\Graphics\bin\x64\Debug\sfmlnet-window-2.dll
+D:\Final Year\Advanced Window Game Programming\Engine\Graphics\bin\x64\Debug\Blinkbye.Core.pdb
+D:\Final Year\Advanced Window Game Programming\Engine\Graphics\obj\x64\Debug\Graphics.csprojResolveAssemblyReference.cache
+D:\Final Year\Advanced Window Game Programming\Engine\Graphics\obj\x64\Debug\Graphics.dll
+D:\Final Year\Advanced Window Game Programming\Engine\Graphics\obj\x64\Debug\Graphics.pdb
