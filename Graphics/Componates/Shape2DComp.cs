@@ -22,9 +22,10 @@ namespace BlinkByte.Graphics.Componates
             ShapeManager.inst.RegisterComp(this);
         }
         public virtual void Draw() { }
-        public virtual void changeColor(Colour newcolor)
+        public virtual Shape2DComp changeColor(Colour newcolor)
         {
             color = newcolor;
+            return this;
         }
         public virtual Colour getColor()
         {

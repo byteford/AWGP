@@ -25,6 +25,7 @@
             <A>255</A>
           </color>
           <shape>Circle</shape>
+          <radius>100</radius>
         </Component>
       </components>
     </GameObject>

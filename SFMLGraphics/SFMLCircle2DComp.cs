@@ -15,7 +15,7 @@ namespace BlinkByte.SFMLGraphics
         }
         public override void Draw()
         {
-            SFMLShape.Radius = 50;
+            SFMLShape.Radius = radius;
             SFMLShape.Scale = gameObject.GetTransform().Scale.convert();
             SFMLShape.Rotation = gameObject.GetTransform().Rotation;
             SFMLShape.FillColor = getColor().convert();
