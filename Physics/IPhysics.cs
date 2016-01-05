@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
+using BlinkByte.Core.Module;
 
-namespace Physics
+namespace BlinkByte.Physics
 {
-    public class Class1
+    public interface IPhysics : BlinkByte.Core.Module.IModule
     {
         
     }

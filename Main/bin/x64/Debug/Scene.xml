@@ -54,6 +54,13 @@
           <shape>Sprite</shape>
           <TextureName>DinoTorq.png</TextureName>
         </Component>
+        <Component xsi:type="StanMovementComp">
+          <enabled>true</enabled>
+          <force>
+            <X>0.25</X>
+            <Y>0.25</Y>
+          </force>
+        </Component>
       </components>
     </GameObject>
   </GameObjects>
