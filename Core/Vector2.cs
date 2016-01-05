@@ -27,7 +27,14 @@ namespace BlinkByte.Utilitys
         {
             return new Vector2(0, 0);
         }
+        public static Vector2 operator +(Vector2 a, Vector2 b)
+        {
+            Vector2 temp = new Vector2();
+            temp.X = a.X + b.X;
+            temp.Y = a.Y + b.Y;
 
+            return temp;
+        }
 
     }
 }
