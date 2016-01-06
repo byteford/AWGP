@@ -26,6 +26,10 @@
           </color>
           <shape>Circle</shape>
         </Component>
+        <Component xsi:type="StanCircleBounding">
+          <enabled>true</enabled>
+          <radius>30</radius>
+        </Component>
       </components>
     </GameObject>
     <GameObject>
@@ -54,12 +58,16 @@
           <shape>Sprite</shape>
           <TextureName>DinoTorq.png</TextureName>
         </Component>
-        <Component xsi:type="StanMovementComp">
+        <Component xsi:type="StanRidgedBodyComp">
           <enabled>true</enabled>
           <force>
-            <X>0.25</X>
-            <Y>0.25</Y>
+            <X>2</X>
+            <Y>2</Y>
           </force>
+        </Component>
+        <Component xsi:type="StanCircleBounding">
+          <enabled>true</enabled>
+          <radius>60</radius>
         </Component>
       </components>
     </GameObject>

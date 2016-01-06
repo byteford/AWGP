@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlinkByte.StandardPhysics
 {
-    public class StanMovementComp : BlinkByte.Physics.MovementComp
+    public class StanRidgedBodyComp : BlinkByte.Physics.RidgedBodyComp
     {
         public override void Update()
         {
