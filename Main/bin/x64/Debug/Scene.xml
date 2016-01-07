@@ -7,8 +7,8 @@
         <Component xsi:type="Transform">
           <enabled>true</enabled>
           <Position>
-            <X>0</X>
-            <Y>0</Y>
+            <X>250</X>
+            <Y>250</Y>
           </Position>
           <Scale>
             <X>1</X>
@@ -28,7 +28,20 @@
         </Component>
         <Component xsi:type="StanCircleBounding">
           <enabled>true</enabled>
-          <radius>30</radius>
+          <offset>
+            <X>0</X>
+            <Y>0</Y>
+          </offset>
+          <radius>50</radius>
+        </Component>
+        <Component xsi:type="StanRidgedBodyComp">
+          <enabled>true</enabled>
+          <velocity>
+            <X>-0.01</X>
+            <Y>0</Y>
+          </velocity>
+          <mass>10</mass>
+          <restitution>1</restitution>
         </Component>
       </components>
     </GameObject>
@@ -38,8 +51,8 @@
         <Component xsi:type="Transform">
           <enabled>true</enabled>
           <Position>
-            <X>0</X>
-            <Y>0</Y>
+            <X>250</X>
+            <Y>250</Y>
           </Position>
           <Scale>
             <X>1</X>
@@ -60,13 +73,19 @@
         </Component>
         <Component xsi:type="StanRidgedBodyComp">
           <enabled>true</enabled>
-          <force>
-            <X>2</X>
-            <Y>2</Y>
-          </force>
+          <velocity>
+            <X>0</X>
+            <Y>0</Y>
+          </velocity>
+          <mass>10</mass>
+          <restitution>1</restitution>
         </Component>
         <Component xsi:type="StanCircleBounding">
           <enabled>true</enabled>
+          <offset>
+            <X>0</X>
+            <Y>0</Y>
+          </offset>
           <radius>60</radius>
         </Component>
       </components>

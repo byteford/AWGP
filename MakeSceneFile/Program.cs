@@ -28,12 +28,13 @@ namespace MakeSceneFile
             go.AddComponent<BlinkByte.SFMLGraphics.SFMLCircle2DComp>().changeColor(new BlinkByte.Graphics.Colour(255, 0, 0));
             (go.getComponent<BlinkByte.Core.Component.Transform>() as BlinkByte.Core.Component.Transform).Position = new Vector2(100, 0);
             go.AddComponent<BlinkByte.StandardPhysics.StanCircleBounding>().radius= 30;
+            go.AddComponent<BlinkByte.StandardPhysics.StanRidgedBodyComp>();
             scene.addGameObject(go);
         
 
             GameObject sp = GameObject.InstansateNew("Sprite");
             sp.AddComponent<BlinkByte.SFMLGraphics.SFMLSprite2DComp>().TextureName = "DinoTorq.png";
-            sp.AddComponent<BlinkByte.StandardPhysics.StanRidgedBodyComp>().SetVelocity(new Vector2(0.2f, 0.2f));
+            sp.AddComponent<BlinkByte.StandardPhysics.StanRidgedBodyComp>();
             sp.AddComponent<BlinkByte.StandardPhysics.StanCircleBounding>().radius = 60;
             scene.addGameObject(sp);
             scene.saveToFile("Scene");

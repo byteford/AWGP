@@ -12,10 +12,12 @@ namespace BlinkByte.StandardPhysics
     {
         public override void Update()
         {
+            
             CollisionComp otherCollider;
             if (collider.CollisionCheck(out otherCollider))
             {
                 Console.WriteLine("Collided!");
+                ResolveCollision(collider, otherCollider);
             }
             gameObject.GetTransform().Position += velocity;
             base.Update();
@@ -27,10 +29,11 @@ namespace BlinkByte.StandardPhysics
             RidgedBodyComp objectB = colliderB.gameObject.getComponent<RidgedBodyComp>() as RidgedBodyComp;
             Vector2 relVelocity = objectB.GetVelocity() - objectA.GetVelocity();
             Vector2 normal = relVelocity.Normalise();
+            
             float velByNormal = relVelocity.DotProduct(normal);
 
             //do not resolve if moving away from each other
-            if (velByNormal > 0)
+            if (velByNormal < 0)
             {
                 return;
             }
@@ -45,7 +48,7 @@ namespace BlinkByte.StandardPhysics
             //objectA.RemoveForce(1 / objectA.mass * impulse);
             //objectB.AddForce(1 / objectB.mass * impulse);
 
-            float mass_sum = objectA.GetMass() + objectB.GetMass();
+            float mass_sum = objectA.GetMass() + objectB.GetMass() * 0.001f;
             float ratio = objectA.GetMass() / mass_sum;
             objectA.RemoveForce(ratio * impulse);
 

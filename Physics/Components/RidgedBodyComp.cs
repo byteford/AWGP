@@ -9,10 +9,10 @@ namespace BlinkByte.Physics
 {
     public class RidgedBodyComp : BlinkByte.Core.Component.Component
     {
-        public Vector2 velocity;
+        public Vector2 velocity = new Vector2();
         public CollisionComp collider;
-        public float mass;
-        public float restitution;
+        public float mass =10;
+        public float restitution = 1;
 
         public void AddForce(Vector2 force)
         {

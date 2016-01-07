@@ -26,7 +26,20 @@
     </Component>
     <Component xsi:type="StanCircleBounding">
       <enabled>true</enabled>
-      <radius>0</radius>
+      <offset>
+        <X>0</X>
+        <Y>0</Y>
+      </offset>
+      <radius>30</radius>
+    </Component>
+    <Component xsi:type="StanRidgedBodyComp">
+      <enabled>true</enabled>
+      <velocity>
+        <X>0</X>
+        <Y>0</Y>
+      </velocity>
+      <mass>10</mass>
+      <restitution>1</restitution>
     </Component>
   </components>
 </GameObject>

@@ -17,11 +17,16 @@ namespace BlinkByte.StandardPhysics
             bool result;
             foreach (var go in BlinkByte.Core.Scene.currentScene.GameObjects.Where(x => x.getComponent<StanCircleBounding>() != null))
             {
+                if(go == gameObject)
+                {
+                    continue;
+                }
                 otherObj = go.getComponent<StanCircleBounding>() as StanCircleBounding;
                 totalRadius = radius + otherObj.radius;
                 Vector2 aObj = gameObject.GetTransform().Position + offset;
                 Vector2 bObj = go.GetTransform().Position + otherObj.offset;
-                result = totalRadius > (Math.Pow((aObj.X + bObj.X), 2) + Math.Pow((aObj.Y + bObj.Y), 2));
+                result = totalRadius > (Math.Pow((aObj.X + bObj.X), 2) - Math.Pow((aObj.Y + bObj.Y), 2));
+                //result = totalRadius > (aObj + bObj).Length();
                 if (result)
                 {
                     otherCollider = otherObj;
