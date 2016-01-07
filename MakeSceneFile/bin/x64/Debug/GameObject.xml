@@ -23,6 +23,7 @@
         <A>255</A>
       </color>
       <shape>Circle</shape>
+      <radius>0</radius>
     </Component>
     <Component xsi:type="StanCircleBounding">
       <enabled>true</enabled>

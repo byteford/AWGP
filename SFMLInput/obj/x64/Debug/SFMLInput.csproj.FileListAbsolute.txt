@@ -1,0 +1,11 @@
+E:\uni work\AWGP\SFMLInput\bin\x64\Debug\SFMLInput.dll
+E:\uni work\AWGP\SFMLInput\bin\x64\Debug\SFMLInput.pdb
+E:\uni work\AWGP\SFMLInput\bin\x64\Debug\Blinkbye.Core.dll
+E:\uni work\AWGP\SFMLInput\bin\x64\Debug\Input.dll
+E:\uni work\AWGP\SFMLInput\bin\x64\Debug\Blinkbye.Core.pdb
+E:\uni work\AWGP\SFMLInput\bin\x64\Debug\Input.pdb
+E:\uni work\AWGP\SFMLInput\obj\x64\Debug\SFMLInput.csprojResolveAssemblyReference.cache
+E:\uni work\AWGP\SFMLInput\obj\x64\Debug\SFMLInput.dll
+E:\uni work\AWGP\SFMLInput\obj\x64\Debug\SFMLInput.pdb
+E:\uni work\AWGP\SFMLInput\bin\x64\Debug\sfmlnet-system-2.dll
+E:\uni work\AWGP\SFMLInput\bin\x64\Debug\sfmlnet-window-2.dll

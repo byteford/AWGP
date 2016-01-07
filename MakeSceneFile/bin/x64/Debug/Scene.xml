@@ -25,6 +25,7 @@
             <A>255</A>
           </color>
           <shape>Circle</shape>
+          <radius>50</radius>
         </Component>
         <Component xsi:type="StanCircleBounding">
           <enabled>true</enabled>
