@@ -33,7 +33,7 @@ namespace MakeSceneFile
 
             GameObject sp = GameObject.InstansateNew("Sprite");
             sp.AddComponent<BlinkByte.SFMLGraphics.SFMLSprite2DComp>().TextureName = "DinoTorq.png";
-            sp.AddComponent<BlinkByte.StandardPhysics.StanRidgedBodyComp>().SetForce(new Vector2(2, 2));
+            sp.AddComponent<BlinkByte.StandardPhysics.StanRidgedBodyComp>().SetVelocity(new Vector2(0.2f, 0.2f));
             sp.AddComponent<BlinkByte.StandardPhysics.StanCircleBounding>().radius = 60;
             scene.addGameObject(sp);
             scene.saveToFile("Scene");

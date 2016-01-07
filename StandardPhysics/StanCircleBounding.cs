@@ -11,20 +11,25 @@ namespace BlinkByte.StandardPhysics
     {
         StanCircleBounding otherObj;
         float totalRadius;
-        Vector2 distance;
-        public override bool CollisionCheck()
+
+        public override bool CollisionCheck(out BlinkByte.Physics.CollisionComp otherCollider)
         {
+            bool result;
             foreach (var go in BlinkByte.Core.Scene.currentScene.GameObjects.Where(x => x.getComponent<StanCircleBounding>() != null))
             {
                 otherObj = go.getComponent<StanCircleBounding>() as StanCircleBounding;
                 totalRadius = radius + otherObj.radius;
                 Vector2 aObj = gameObject.GetTransform().Position + offset;
                 Vector2 bObj = go.GetTransform().Position + otherObj.offset;
-                return totalRadius < (Math.Pow((aObj.X + bObj.X), 2) + Math.Pow((aObj.Y + bObj.Y), 2));
-
-                base.CollisionCheck();
+                result = totalRadius > (Math.Pow((aObj.X + bObj.X), 2) + Math.Pow((aObj.Y + bObj.Y), 2));
+                if (result)
+                {
+                    otherCollider = otherObj;
+                    return true;
+                }   
             }
-            return false;
+            result = base.CollisionCheck(out otherCollider);
+            return result;
         }
     }
 }

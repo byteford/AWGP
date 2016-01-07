@@ -9,31 +9,57 @@ namespace BlinkByte.Physics
 {
     public class RidgedBodyComp : BlinkByte.Core.Component.Component
     {
-        public Vector2 force;
+        public Vector2 velocity;
         public CollisionComp collider;
+        public float mass;
+        public float restitution;
 
         public void AddForce(Vector2 force)
         {
-            this.force += force;
+            this.velocity += force;
+        }
+        public void RemoveForce(Vector2 force)
+        {
+            this.velocity -= force;
+        }
+        public Vector2 GetVelocity()
+        {
+            return velocity;
         }
 
-        public Vector2 GetForce()
+        public void SetVelocity(Vector2 setForce)
         {
-            return force;
+            velocity = setForce;
         }
 
-        public void SetForce(Vector2 setForce)
+        public void SetMass(float setMass)
         {
-            force = setForce;
+            mass = setMass;
+        }
+
+        public float GetMass()
+        {
+            return mass;
+        }
+
+        public void SetRestitution(float setRes)
+        {
+            restitution = setRes;
+        }
+
+        public float GetRestitution()
+        {
+            return restitution;
         }
 
         public override void Update()
         {
-            if (collider.CollisionCheck())
-            {
-                Console.WriteLine("Collided!");
-            }
             base.Update();
+        }
+
+        public virtual void ResolveCollision(CollisionComp colliderA, CollisionComp colliderB)
+        {
+            
         }
 
         public override void Start(GameObject gameObject)
