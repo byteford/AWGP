@@ -1,5 +1,0 @@
-E:\uni work\AWGP\Core\bin\Debug\Blinkbye.Core.dll.config
-E:\uni work\AWGP\Core\bin\Debug\Blinkbye.Core.dll
-E:\uni work\AWGP\Core\bin\Debug\Blinkbye.Core.pdb
-E:\uni work\AWGP\Core\obj\Debug\Blinkbye.Core.dll
-E:\uni work\AWGP\Core\obj\Debug\Blinkbye.Core.pdb
