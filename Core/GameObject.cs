@@ -32,10 +32,12 @@ namespace BlinkByte.Core
         }
         public virtual void Update()
         {
+            
             foreach(Component.Component comp in components)
             {
                 comp.Update();
             }
+           
         }
         public static GameObject Instansate(string name)
         {

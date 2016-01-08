@@ -1,0 +1,6 @@
+E:\uni work\AWGP\Core\bin\x64\Debug\Blinkbye.Core.dll.config
+E:\uni work\AWGP\Core\bin\x64\Debug\Blinkbye.Core.dll
+E:\uni work\AWGP\Core\bin\x64\Debug\Blinkbye.Core.pdb
+E:\uni work\AWGP\Core\obj\x64\Debug\Core.csprojResolveAssemblyReference.cache
+E:\uni work\AWGP\Core\obj\x64\Debug\Blinkbye.Core.dll
+E:\uni work\AWGP\Core\obj\x64\Debug\Blinkbye.Core.pdb
