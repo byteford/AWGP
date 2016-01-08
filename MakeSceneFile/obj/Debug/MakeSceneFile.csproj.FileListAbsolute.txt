@@ -1,19 +1,5 @@
-E:\uni work\AWGP\MakeSceneFile\bin\Debug\MakeSceneFile.exe.config
-E:\uni work\AWGP\MakeSceneFile\bin\Debug\MakeSceneFile.exe
-E:\uni work\AWGP\MakeSceneFile\bin\Debug\MakeSceneFile.pdb
-E:\uni work\AWGP\MakeSceneFile\bin\Debug\Blinkbye.Core.dll
-E:\uni work\AWGP\MakeSceneFile\bin\Debug\Graphics.dll
-E:\uni work\AWGP\MakeSceneFile\bin\Debug\Input.dll
-E:\uni work\AWGP\MakeSceneFile\bin\Debug\Physics.dll
-E:\uni work\AWGP\MakeSceneFile\bin\Debug\Sound.dll
-E:\uni work\AWGP\MakeSceneFile\bin\Debug\sfmlnet-window-2.dll
-E:\uni work\AWGP\MakeSceneFile\bin\Debug\sfmlnet-system-2.dll
-E:\uni work\AWGP\MakeSceneFile\bin\Debug\Blinkbye.Core.pdb
-E:\uni work\AWGP\MakeSceneFile\bin\Debug\Graphics.pdb
-E:\uni work\AWGP\MakeSceneFile\bin\Debug\Input.pdb
-E:\uni work\AWGP\MakeSceneFile\bin\Debug\Physics.pdb
-E:\uni work\AWGP\MakeSceneFile\bin\Debug\Sound.pdb
 E:\uni work\AWGP\MakeSceneFile\obj\Debug\MakeSceneFile.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
 E:\uni work\AWGP\MakeSceneFile\obj\Debug\MakeSceneFile.exe
 E:\uni work\AWGP\MakeSceneFile\obj\Debug\MakeSceneFile.pdb
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\obj\Debug\MakeSceneFile.csprojResolveAssemblyReference.cache
@@ -44,3 +30,5 @@ C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\Debug\Sound.pdb
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\Debug\StandardPhysics.pdb
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\Debug\windowsInput.pdb
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\obj\Debug\MakeSceneFile.pdb
+=======
+>>>>>>> master

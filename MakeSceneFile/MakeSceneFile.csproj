@@ -91,9 +91,15 @@
       <Project>{c58a18df-3325-431a-b5e7-2c3a4877face}</Project>
       <Name>SFMLGraphics</Name>
     </ProjectReference>
+<<<<<<< HEAD
     <ProjectReference Include="..\SFMLSound\SFMLSound.csproj">
       <Project>{aceefc82-a665-4358-87ce-17a9a138d05c}</Project>
       <Name>SFMLSound</Name>
+=======
+    <ProjectReference Include="..\SFMLInput\SFMLInput.csproj">
+      <Project>{a365c800-9ee7-46b0-8aca-0a3e71755259}</Project>
+      <Name>SFMLInput</Name>
+>>>>>>> master
     </ProjectReference>
     <ProjectReference Include="..\Sound\Sound.csproj">
       <Project>{8ac7cedd-c4ab-41a1-acea-ab74bb85c847}</Project>
@@ -102,10 +108,6 @@
     <ProjectReference Include="..\StandardPhysics\StandardPhysics.csproj">
       <Project>{c4fb2254-9585-453d-9e86-fe3a2c481c43}</Project>
       <Name>StandardPhysics</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\windowsInput\windowsInput.csproj">
-      <Project>{a365c800-9ee7-46b0-8aca-0a3e71755259}</Project>
-      <Name>windowsInput</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -9,6 +9,7 @@ E:\uni work\AWGP\Graphics\bin\x64\Debug\Blinkbye.Core.pdb
 E:\uni work\AWGP\Graphics\obj\x64\Debug\Graphics.csprojResolveAssemblyReference.cache
 E:\uni work\AWGP\Graphics\obj\x64\Debug\Graphics.dll
 E:\uni work\AWGP\Graphics\obj\x64\Debug\Graphics.pdb
+<<<<<<< HEAD
 D:\Final Year\Advanced Window Game Programming\Engine\Graphics\bin\x64\Debug\Graphics.dll.config
 D:\Final Year\Advanced Window Game Programming\Engine\Graphics\bin\x64\Debug\Graphics.dll
 D:\Final Year\Advanced Window Game Programming\Engine\Graphics\bin\x64\Debug\Graphics.pdb
@@ -31,3 +32,5 @@ C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\bin\x64\Debug\Blinkbye.Cor
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\obj\x64\Debug\Graphics.csprojResolveAssemblyReference.cache
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\obj\x64\Debug\Graphics.dll
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\obj\x64\Debug\Graphics.pdb
+=======
+>>>>>>> master

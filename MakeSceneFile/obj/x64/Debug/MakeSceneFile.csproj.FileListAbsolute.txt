@@ -6,7 +6,9 @@ E:\uni work\AWGP\MakeSceneFile\bin\x64\Debug\Graphics.dll
 E:\uni work\AWGP\MakeSceneFile\bin\x64\Debug\Input.dll
 E:\uni work\AWGP\MakeSceneFile\bin\x64\Debug\Physics.dll
 E:\uni work\AWGP\MakeSceneFile\bin\x64\Debug\SFMLGraphics.dll
+E:\uni work\AWGP\MakeSceneFile\bin\x64\Debug\SFMLInput.dll
 E:\uni work\AWGP\MakeSceneFile\bin\x64\Debug\Sound.dll
+E:\uni work\AWGP\MakeSceneFile\bin\x64\Debug\StandardPhysics.dll
 E:\uni work\AWGP\MakeSceneFile\bin\x64\Debug\sfmlnet-window-2.dll
 E:\uni work\AWGP\MakeSceneFile\bin\x64\Debug\sfmlnet-graphics-2.dll
 E:\uni work\AWGP\MakeSceneFile\bin\x64\Debug\sfmlnet-system-2.dll
@@ -15,10 +17,13 @@ E:\uni work\AWGP\MakeSceneFile\bin\x64\Debug\Graphics.pdb
 E:\uni work\AWGP\MakeSceneFile\bin\x64\Debug\Input.pdb
 E:\uni work\AWGP\MakeSceneFile\bin\x64\Debug\Physics.pdb
 E:\uni work\AWGP\MakeSceneFile\bin\x64\Debug\SFMLGraphics.pdb
+E:\uni work\AWGP\MakeSceneFile\bin\x64\Debug\SFMLInput.pdb
 E:\uni work\AWGP\MakeSceneFile\bin\x64\Debug\Sound.pdb
+E:\uni work\AWGP\MakeSceneFile\bin\x64\Debug\StandardPhysics.pdb
 E:\uni work\AWGP\MakeSceneFile\obj\x64\Debug\MakeSceneFile.csprojResolveAssemblyReference.cache
 E:\uni work\AWGP\MakeSceneFile\obj\x64\Debug\MakeSceneFile.exe
 E:\uni work\AWGP\MakeSceneFile\obj\x64\Debug\MakeSceneFile.pdb
+<<<<<<< HEAD
 E:\uni work\AWGP\MakeSceneFile\bin\x64\Debug\windowsInput.dll
 E:\uni work\AWGP\MakeSceneFile\bin\x64\Debug\windowsInput.pdb
 D:\Final Year\Advanced Window Game Programming\Engine\MakeSceneFile\bin\x64\Debug\MakeSceneFile.exe.config
@@ -73,3 +78,5 @@ C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\bin\x64\Debug\Standar
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\obj\x64\Debug\MakeSceneFile.csprojResolveAssemblyReference.cache
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\obj\x64\Debug\MakeSceneFile.exe
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\MakeSceneFile\obj\x64\Debug\MakeSceneFile.pdb
+=======
+>>>>>>> master

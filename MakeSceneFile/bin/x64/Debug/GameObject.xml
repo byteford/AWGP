@@ -5,7 +5,7 @@
     <Component xsi:type="Transform">
       <enabled>true</enabled>
       <Position>
-        <X>0</X>
+        <X>100</X>
         <Y>0</Y>
       </Position>
       <Scale>
@@ -18,11 +18,29 @@
       <enabled>true</enabled>
       <color>
         <R>255</R>
-        <G>255</G>
-        <B>255</B>
+        <G>0</G>
+        <B>0</B>
         <A>255</A>
       </color>
       <shape>Circle</shape>
+      <radius>0</radius>
+    </Component>
+    <Component xsi:type="StanCircleBounding">
+      <enabled>true</enabled>
+      <offset>
+        <X>0</X>
+        <Y>0</Y>
+      </offset>
+      <radius>30</radius>
+    </Component>
+    <Component xsi:type="StanRidgedBodyComp">
+      <enabled>true</enabled>
+      <velocity>
+        <X>0</X>
+        <Y>0</Y>
+      </velocity>
+      <mass>10</mass>
+      <restitution>1</restitution>
     </Component>
   </components>
 </GameObject>

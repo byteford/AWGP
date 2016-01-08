@@ -57,8 +57,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Components\MovementComp.cs" />
+    <Compile Include="Components\BoundingBoxComp.cs" />
+    <Compile Include="Components\CircleBoundingComp.cs" />
+    <Compile Include="Components\CollisionComp.cs" />
+    <Compile Include="Components\RidgedBodyComp.cs" />
     <Compile Include="IPhysics.cs" />
+    <Compile Include="ITriggable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

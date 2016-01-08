@@ -59,7 +59,8 @@ namespace BlinkByte.Core
         }
         public List<BlinkByte.Core.Component.Component> getComponents<T>()
         {
-           List<BlinkByte.Core.Component.Component> temp = components.Where(x => x.GetType() == typeof(T)).ToList();
+           //List<BlinkByte.Core.Component.Component> temp = components.Where(x => x.GetType() == typeof(T)).ToList();
+            List<BlinkByte.Core.Component.Component> temp = components.Where(x => typeof(T).IsAssignableFrom(x.GetType())).ToList();
             return temp;
         }
         public BlinkByte.Core.Component.Component getComponent<T>()

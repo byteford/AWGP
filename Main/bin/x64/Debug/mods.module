@@ -1,7 +1,7 @@
 SFMLGraphics.dll
 BlinkByte.SFMLGraphics.Graphics
-windowsInput.dll
-BlinkByte.windowsInput.Input
+SFMLInput.dll
+BlinkByte.SFMLInput.Input
 StandardPhysics.dll
 BlinkByte.StandardPhysics.Physics
 SFMLSound.dll

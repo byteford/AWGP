@@ -25,8 +25,22 @@
       <shape>Sprite</shape>
       <TextureName>DinoTorq.png</TextureName>
     </Component>
-    <Component xsi:type="StanMovementComp">
+    <Component xsi:type="StanRidgedBodyComp">
       <enabled>true</enabled>
+      <velocity>
+        <X>0</X>
+        <Y>0</Y>
+      </velocity>
+      <mass>10</mass>
+      <restitution>1</restitution>
+    </Component>
+    <Component xsi:type="StanCircleBounding">
+      <enabled>true</enabled>
+      <offset>
+        <X>0</X>
+        <Y>0</Y>
+      </offset>
+      <radius>0</radius>
     </Component>
   </components>
 </GameObject>

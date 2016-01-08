@@ -10,6 +10,7 @@ E:\uni work\AWGP\SFMLGraphics\bin\x64\Debug\Graphics.pdb
 E:\uni work\AWGP\SFMLGraphics\obj\x64\Debug\SFMLGraphics.csprojResolveAssemblyReference.cache
 E:\uni work\AWGP\SFMLGraphics\obj\x64\Debug\SFMLGraphics.dll
 E:\uni work\AWGP\SFMLGraphics\obj\x64\Debug\SFMLGraphics.pdb
+<<<<<<< HEAD
 D:\Final Year\Advanced Window Game Programming\Engine\SFMLGraphics\bin\x64\Debug\SFMLGraphics.dll
 D:\Final Year\Advanced Window Game Programming\Engine\SFMLGraphics\bin\x64\Debug\SFMLGraphics.pdb
 D:\Final Year\Advanced Window Game Programming\Engine\SFMLGraphics\bin\x64\Debug\Blinkbye.Core.dll
@@ -34,3 +35,5 @@ C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLGraphics\bin\x64\Debug\Graphics
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLGraphics\obj\x64\Debug\SFMLGraphics.csprojResolveAssemblyReference.cache
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLGraphics\obj\x64\Debug\SFMLGraphics.dll
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLGraphics\obj\x64\Debug\SFMLGraphics.pdb
+=======
+>>>>>>> master

@@ -8,13 +8,13 @@ namespace BlinkByte.Input
 {
     public static class Input
     {
-        private static Dictionary<string,IDevice> _devices;
-        public static float GetAxis(string axisName)
+        private static Dictionary<string,IDevice> _devices = new Dictionary<string, IDevice>();
+        public static bool ButtonDown(string axisName)
         {
-            IDevice temp = GetDevices().First(x => x.hasAxis(axisName));
+            IDevice temp = GetDevices().First(x => x.hasButton(axisName));
             if (temp != null)
-                return temp.GetAxis(axisName);
-            return 0;
+                return temp.GetButton(axisName);
+            return false;
 
         }
         public static IDevice addDevice(string DeviceName, IDevice device)
