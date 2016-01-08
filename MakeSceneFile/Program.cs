@@ -17,6 +17,7 @@ namespace MakeSceneFile
             BlinkByte.Core.Managers.ModuleManager.instance.AddManager<BlinkByte.SFMLGraphics.Graphics>(); // need to more to text
             BlinkByte.Core.Managers.ModuleManager.instance.AddManager<BlinkByte.SFMLInput.Input>();
             BlinkByte.Core.Managers.ModuleManager.instance.AddManager<BlinkByte.StandardPhysics.Physics>();
+            BlinkByte.Core.Managers.ModuleManager.instance.AddManager<BlinkByte.SFMLSound.Sound>();
             // BlinkByte.Core.Managers.ModuleManager.instance.AddManager("SFMLGraphics.dll","BlinkByte.SFMLGraphics.Graphics");
 
             //BlinkByte.Core.IO.LoadFromFile.LoadModules("mods");

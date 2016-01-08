@@ -7,8 +7,8 @@
         <Component xsi:type="Transform">
           <enabled>true</enabled>
           <Position>
-            <X>250</X>
-            <Y>250</Y>
+            <X>100</X>
+            <Y>0</Y>
           </Position>
           <Scale>
             <X>1</X>
@@ -25,6 +25,7 @@
             <A>255</A>
           </color>
           <shape>Circle</shape>
+          <radius>50</radius>
         </Component>
         <Component xsi:type="StanCircleBounding">
           <enabled>true</enabled>
@@ -32,12 +33,12 @@
             <X>0</X>
             <Y>0</Y>
           </offset>
-          <radius>50</radius>
+          <radius>30</radius>
         </Component>
         <Component xsi:type="StanRidgedBodyComp">
           <enabled>true</enabled>
           <velocity>
-            <X>-0.01</X>
+            <X>0</X>
             <Y>0</Y>
           </velocity>
           <mass>10</mass>
@@ -51,8 +52,8 @@
         <Component xsi:type="Transform">
           <enabled>true</enabled>
           <Position>
-            <X>250</X>
-            <Y>250</Y>
+            <X>0</X>
+            <Y>0</Y>
           </Position>
           <Scale>
             <X>1</X>

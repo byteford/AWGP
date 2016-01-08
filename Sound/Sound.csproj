@@ -7,7 +7,7 @@
     <ProjectGuid>{8AC7CEDD-C4AB-41A1-ACEA-AB74BB85C847}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sound</RootNamespace>
+    <RootNamespace>BlinByte.Sound</RootNamespace>
     <AssemblyName>Sound</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -62,8 +62,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IMusic.cs" />
+    <Compile Include="IMusicManager.cs" />
+    <Compile Include="ISound.cs" />
+    <Compile Include="ISounds.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ISoundsManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

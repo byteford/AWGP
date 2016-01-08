@@ -1,7 +1,0 @@
-E:\uni work\AWGP\Physics\bin\x64\Debug\Physics.dll
-E:\uni work\AWGP\Physics\bin\x64\Debug\Physics.pdb
-E:\uni work\AWGP\Physics\bin\x64\Debug\Blinkbye.Core.dll
-E:\uni work\AWGP\Physics\bin\x64\Debug\Blinkbye.Core.pdb
-E:\uni work\AWGP\Physics\obj\x64\Debug\Physics.csprojResolveAssemblyReference.cache
-E:\uni work\AWGP\Physics\obj\x64\Debug\Physics.dll
-E:\uni work\AWGP\Physics\obj\x64\Debug\Physics.pdb

@@ -1,7 +1,0 @@
-E:\uni work\AWGP\Input\bin\Debug\Input.dll
-E:\uni work\AWGP\Input\bin\Debug\Input.pdb
-E:\uni work\AWGP\Input\bin\Debug\Blinkbye.Core.dll
-E:\uni work\AWGP\Input\bin\Debug\Blinkbye.Core.pdb
-E:\uni work\AWGP\Input\obj\Debug\Input.csprojResolveAssemblyReference.cache
-E:\uni work\AWGP\Input\obj\Debug\Input.dll
-E:\uni work\AWGP\Input\obj\Debug\Input.pdb
