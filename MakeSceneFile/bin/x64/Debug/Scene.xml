@@ -89,6 +89,11 @@
           </offset>
           <radius>60</radius>
         </Component>
+        <Component xsi:type="SFMLSoundComp">
+          <enabled>true</enabled>
+          <playOnStart>true</playOnStart>
+          <filename>Audios/boom.wav</filename>
+        </Component>
       </components>
     </GameObject>
   </GameObjects>

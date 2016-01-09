@@ -1,0 +1,7 @@
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Physics\bin\x64\Debug\Physics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Physics\bin\x64\Debug\Physics.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Physics\bin\x64\Debug\Blinkbye.Core.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Physics\bin\x64\Debug\Blinkbye.Core.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Physics\obj\x64\Debug\Physics.csprojResolveAssemblyReference.cache
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Physics\obj\x64\Debug\Physics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Physics\obj\x64\Debug\Physics.pdb

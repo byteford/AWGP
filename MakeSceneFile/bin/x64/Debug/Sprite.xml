@@ -40,7 +40,11 @@
         <X>0</X>
         <Y>0</Y>
       </offset>
-      <radius>0</radius>
+      <radius>60</radius>
+    </Component>
+    <Component xsi:type="SFMLSoundComp">
+      <enabled>true</enabled>
+      <playOnStart>true</playOnStart>
     </Component>
   </components>
 </GameObject>

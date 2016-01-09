@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using BlinkByte;
 using BlinkByte.Core;
 using BlinkByte.Utilitys;
+
 namespace MakeSceneFile
 {
     class Program
@@ -17,7 +18,7 @@ namespace MakeSceneFile
             BlinkByte.Core.Managers.ModuleManager.instance.AddManager<BlinkByte.SFMLGraphics.Graphics>(); // need to more to text
             BlinkByte.Core.Managers.ModuleManager.instance.AddManager<BlinkByte.SFMLInput.Input>();
             BlinkByte.Core.Managers.ModuleManager.instance.AddManager<BlinkByte.StandardPhysics.Physics>();
-            BlinkByte.Core.Managers.ModuleManager.instance.AddManager<BlinkByte.SFMLSound.Sound>();
+            BlinkByte.Core.Managers.ModuleManager.instance.AddManager<BlinkByte.SFMLSound.SFMLSoundManager>();
             // BlinkByte.Core.Managers.ModuleManager.instance.AddManager("SFMLGraphics.dll","BlinkByte.SFMLGraphics.Graphics");
 
             //BlinkByte.Core.IO.LoadFromFile.LoadModules("mods");
@@ -37,6 +38,8 @@ namespace MakeSceneFile
             sp.AddComponent<BlinkByte.SFMLGraphics.SFMLSprite2DComp>().TextureName = "DinoTorq.png";
             sp.AddComponent<BlinkByte.StandardPhysics.StanRidgedBodyComp>();
             sp.AddComponent<BlinkByte.StandardPhysics.StanCircleBounding>().radius = 60;
+            sp.AddComponent<BlinkByte.SFMLSound.SFMLSoundComp>().setFileName("Audios/boom.wav");
+           //// sp.AddComponent<BlinkByte.SFMLSound.SFMLSoundComp>().stopSound();
             scene.addGameObject(sp);
             scene.saveToFile("Scene");
             BlinkByte.Core.IO.LoadFromFile.saveModules("mods");

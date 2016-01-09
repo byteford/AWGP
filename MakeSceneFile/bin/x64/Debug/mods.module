@@ -5,4 +5,4 @@ BlinkByte.SFMLInput.Input
 StandardPhysics.dll
 BlinkByte.StandardPhysics.Physics
 SFMLSound.dll
-BlinkByte.SFMLSound.Sound
+BlinkByte.SFMLSound.SFMLSoundManager

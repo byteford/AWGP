@@ -1,0 +1,12 @@
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLGraphics\bin\x64\Debug\SFMLGraphics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLGraphics\bin\x64\Debug\SFMLGraphics.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLGraphics\bin\x64\Debug\Blinkbye.Core.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLGraphics\bin\x64\Debug\Graphics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLGraphics\bin\x64\Debug\sfmlnet-graphics-2.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLGraphics\bin\x64\Debug\sfmlnet-system-2.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLGraphics\bin\x64\Debug\sfmlnet-window-2.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLGraphics\bin\x64\Debug\Blinkbye.Core.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLGraphics\bin\x64\Debug\Graphics.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLGraphics\obj\x64\Debug\SFMLGraphics.csprojResolveAssemblyReference.cache
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLGraphics\obj\x64\Debug\SFMLGraphics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLGraphics\obj\x64\Debug\SFMLGraphics.pdb

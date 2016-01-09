@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlinkByte.SFMLSound
+namespace BlinkByte.Sound
 {
-    class SFMLSoundBuffer
+   public class SoundComp: BlinkByte.Core.Component.Component
     {
     }
+
 }
