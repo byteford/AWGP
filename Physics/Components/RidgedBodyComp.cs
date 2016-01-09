@@ -16,6 +16,7 @@ namespace BlinkByte.Physics
 
         public void AddForce(Vector2 force)
         {
+
             this.velocity += force;
         }
         public void RemoveForce(Vector2 force)

@@ -27,7 +27,7 @@ namespace MakeSceneFile
             Scene scene = new BlinkByte.Core.Scene();
             GameObject go = GameObject.InstansateNew("GameObject");
             (go.AddComponent<BlinkByte.SFMLGraphics.SFMLCircle2DComp>().changeColor(new BlinkByte.Graphics.Colour(255, 0, 0)) as BlinkByte.SFMLGraphics.SFMLCircle2DComp).radius = 50;
-            (go.getComponent<BlinkByte.Core.Component.Transform>() as BlinkByte.Core.Component.Transform).Position = new Vector2(100, 0);
+            (go.getComponent<BlinkByte.Core.Component.Transform>() as BlinkByte.Core.Component.Transform).Position = new Vector2(250, 250);
             go.AddComponent<BlinkByte.StandardPhysics.StanCircleBounding>().radius= 30;
             go.AddComponent<BlinkByte.StandardPhysics.StanRidgedBodyComp>();
             scene.addGameObject(go);
@@ -36,6 +36,7 @@ namespace MakeSceneFile
             GameObject sp = GameObject.InstansateNew("Sprite");
             sp.AddComponent<BlinkByte.SFMLGraphics.SFMLSprite2DComp>().TextureName = "DinoTorq.png";
             sp.AddComponent<BlinkByte.StandardPhysics.StanRidgedBodyComp>();
+            (go.getComponent<BlinkByte.Core.Component.Transform>() as BlinkByte.Core.Component.Transform).Position = new Vector2(300, 250);
             sp.AddComponent<BlinkByte.StandardPhysics.StanCircleBounding>().radius = 60;
             scene.addGameObject(sp);
             scene.saveToFile("Scene");

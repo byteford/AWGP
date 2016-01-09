@@ -1,0 +1,7 @@
+D:\Final Year\Advanced Window Game Programming\Engine\Input\bin\x64\Debug\Input.dll
+D:\Final Year\Advanced Window Game Programming\Engine\Input\bin\x64\Debug\Input.pdb
+D:\Final Year\Advanced Window Game Programming\Engine\Input\bin\x64\Debug\Blinkbye.Core.dll
+D:\Final Year\Advanced Window Game Programming\Engine\Input\bin\x64\Debug\Blinkbye.Core.pdb
+D:\Final Year\Advanced Window Game Programming\Engine\Input\obj\x64\Debug\Input.csprojResolveAssemblyReference.cache
+D:\Final Year\Advanced Window Game Programming\Engine\Input\obj\x64\Debug\Input.dll
+D:\Final Year\Advanced Window Game Programming\Engine\Input\obj\x64\Debug\Input.pdb

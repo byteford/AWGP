@@ -47,7 +47,7 @@ namespace BlinkByte.Core
             {
                 go.Update();
             }
-            Console.WriteLine(Time.deltaTime);
+            //Console.WriteLine(Time.deltaTime);
             Time.Reset();
         }
         public void RunMethodCall<T>(string method, object[] args)

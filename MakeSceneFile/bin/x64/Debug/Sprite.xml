@@ -40,6 +40,7 @@
         <X>0</X>
         <Y>0</Y>
       </offset>
+      <collType>none</collType>
       <radius>0</radius>
     </Component>
   </components>

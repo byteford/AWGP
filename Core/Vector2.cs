@@ -45,7 +45,7 @@ namespace BlinkByte.Utilitys
 
         public static Vector2 operator *(Vector2 a, float b)
         {
-            return new Vector2(a.X * b, a.X * b);
+            return new Vector2(a.X * b, a.Y * b);
         }
         public static Vector2 operator *(float b, Vector2 a)
         {
