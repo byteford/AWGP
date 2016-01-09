@@ -92,7 +92,7 @@
         <Component xsi:type="SFMLSoundComp">
           <enabled>true</enabled>
           <playOnStart>true</playOnStart>
-          <filename>Audios/boom.wav</filename>
+          <filename>Audios/orchestral.ogg</filename>
         </Component>
       </components>
     </GameObject>

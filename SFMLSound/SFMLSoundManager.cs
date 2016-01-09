@@ -29,6 +29,25 @@ namespace BlinkByte.SFMLSound
             Audios[filename].Stop();
 
         }
+
+        public void pauseSound(string filename)
+        {
+            Audios[filename].Pause();
+        
+        }
+        public void loopSound(string filename,bool Loop) 
+        {
+            Audios[filename].Loop = Loop;
+        
+        }
+        public void pitchSound(string filename, float pitch)
+        {
+            Audios[filename].Pitch = pitch;
+        }
+        public void volumeSound(string filename, float volume) 
+        {
+            Audios[filename].Volume = volume;
+        }
         private void loadsound(string filename)
         {
             if (!Audios.ContainsKey(filename))

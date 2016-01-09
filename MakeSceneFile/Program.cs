@@ -39,7 +39,7 @@ namespace MakeSceneFile
             sp.AddComponent<BlinkByte.StandardPhysics.StanRidgedBodyComp>();
             sp.AddComponent<BlinkByte.StandardPhysics.StanCircleBounding>().radius = 60;
             sp.AddComponent<BlinkByte.SFMLSound.SFMLSoundComp>().setFileName("Audios/boom.wav");
-           //// sp.AddComponent<BlinkByte.SFMLSound.SFMLSoundComp>().stopSound();
+           
             scene.addGameObject(sp);
             scene.saveToFile("Scene");
             BlinkByte.Core.IO.LoadFromFile.saveModules("mods");
