@@ -8,6 +8,13 @@ using BlinkByte.Utilitys;
 
 namespace BlinkByte.StandardPhysics
 {
+    struct Manifold
+    {
+        CollisionComp colA;
+        CollisionComp colB;
+        float penetration;
+        Vector2 normal;
+    };
     public class Physics : BlinkByte.Physics.IPhysics
     {
         public List<CollisionComp> colliders = new List<CollisionComp>();
@@ -97,7 +104,16 @@ namespace BlinkByte.StandardPhysics
 
         public bool boxColChek(BoundingBoxComp colliderA, BoundingBoxComp colliderB)
         {
-            return true;
+            result = false;
+            if (colliderA.max.X < colliderB.min.X || colliderA.min.X > colliderB.max.X) 
+            {
+                return result;
+            }
+            if (colliderA.max.Y < colliderB.min.Y || colliderA.min.Y > colliderB.max.Y)
+            {
+                return result;
+            }
+            return result = true;
         }
 
         public bool cirlBoxChek(CircleBoundingComp circColliderA, BoundingBoxComp boxColliderB)
@@ -123,13 +139,11 @@ namespace BlinkByte.StandardPhysics
 
             float impulseScalar = -(1 + epsilon) * velByNormal;
 
-            impulseScalar /= 1 / objectA.GetMass() + 1 / objectB.GetMass();
+            impulseScalar /= objectA.GetInvMass() + objectB.GetInvMass();
 
             Vector2 impulse = impulseScalar * normal;
-            //objectA.RemoveForce(1 / objectA.mass * impulse);
-            //objectB.AddForce(1 / objectB.mass * impulse);
 
-            float mass_sum = objectA.GetMass() + objectB.GetMass() * 0.001f;
+            float mass_sum = objectA.GetMass() + objectB.GetMass();
             float ratio = objectA.GetMass() / mass_sum;
             objectA.RemoveForce(ratio * impulse);
 

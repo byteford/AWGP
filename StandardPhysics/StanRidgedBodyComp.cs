@@ -12,8 +12,7 @@ namespace BlinkByte.StandardPhysics
     {
         public override void Update()
         {
-            gameObject.GetTransform().Position += velocity * Time.deltaTime;
-            
+            gameObject.GetTransform().Position += velocity * Time.deltaTime;           
             base.Update();
         }
     }

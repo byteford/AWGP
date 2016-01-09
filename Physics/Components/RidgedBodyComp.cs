@@ -43,6 +43,15 @@ namespace BlinkByte.Physics
             return mass;
         }
 
+        public float GetInvMass()
+        {
+            if (GetMass() == 0)
+            {
+                return 0;
+            }
+            return 1/GetMass();
+        }
+
         public void SetRestitution(float setRes)
         {
             restitution = setRes;
