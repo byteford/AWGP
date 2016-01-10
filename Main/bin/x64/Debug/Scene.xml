@@ -39,19 +39,23 @@
             <Y>0</Y>
           </min>
           <max>
-            <X>50</X>
-            <Y>50</Y>
+            <X>100</X>
+            <Y>100</Y>
           </max>
         </Component>
         <Component xsi:type="StanRidgedBodyComp">
           <enabled>true</enabled>
           <velocity>
-            <X>-0.1</X>
-            <Y>-0.2</Y>
+            <X>-5</X>
+            <Y>-5</Y>
           </velocity>
-          <mass>10</mass>
+          <mass>100</mass>
           <restitution>1</restitution>
           <startCollision>true</startCollision>
+          <isTrigger>false</isTrigger>
+        </Component>
+        <Component xsi:type="GravityComp">
+          <enabled>true</enabled>
         </Component>
       </components>
     </GameObject>
@@ -79,6 +83,7 @@
           <mass>10</mass>
           <restitution>1</restitution>
           <startCollision>true</startCollision>
+          <isTrigger>false</isTrigger>
         </Component>
         <Component xsi:type="StanBoundingBox">
           <enabled>true</enabled>
@@ -122,6 +127,7 @@
           <mass>10</mass>
           <restitution>1</restitution>
           <startCollision>false</startCollision>
+          <isTrigger>false</isTrigger>
         </Component>
         <Component xsi:type="StanBoundingBox">
           <enabled>true</enabled>
@@ -165,6 +171,7 @@
           <mass>10</mass>
           <restitution>1</restitution>
           <startCollision>false</startCollision>
+          <isTrigger>false</isTrigger>
         </Component>
         <Component xsi:type="StanBoundingBox">
           <enabled>true</enabled>
@@ -208,6 +215,7 @@
           <mass>10</mass>
           <restitution>1</restitution>
           <startCollision>false</startCollision>
+          <isTrigger>false</isTrigger>
         </Component>
         <Component xsi:type="StanBoundingBox">
           <enabled>true</enabled>
@@ -251,6 +259,7 @@
           <mass>10</mass>
           <restitution>1</restitution>
           <startCollision>false</startCollision>
+          <isTrigger>false</isTrigger>
         </Component>
         <Component xsi:type="StanBoundingBox">
           <enabled>true</enabled>

@@ -10,9 +10,19 @@ namespace BlinkByte.StandardPhysics
 {
     public class StanRidgedBodyComp : BlinkByte.Physics.RidgedBodyComp
     {
+        float drag = 0.999f;
+        Vector2 oldVelocity = new Vector2();
         public override void Update()
         {
-            gameObject.GetTransform().Position += velocity * Time.deltaTime;           
+            foreach(var key in forces.Keys)
+            {
+               velocity += forces[key] ;
+            }
+            velocity = velocity * drag;
+            gameObject.GetTransform().Position.Y += ((velocity.Y + oldVelocity.Y) * (0.5f * Time.deltaTime));
+            gameObject.GetTransform().Position.X += ((velocity.X + oldVelocity.X) * (0.5f * Time.deltaTime));
+            oldVelocity = velocity;
+            //gameObject.GetTransform().Position += velocity * Time.deltaTime;           
             base.Update();
         }
     }

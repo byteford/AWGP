@@ -16,14 +16,25 @@ namespace BlinkByte.Physics
         public bool startCollision = true;
         public bool isTrigger = false;
 
-        public void AddForce(Vector2 force)
-        {
+        protected Dictionary<string, Vector2> forces = new Dictionary<string, Vector2>();
 
-            this.velocity += force;
-        }
-        public void RemoveForce(Vector2 force)
+        public void AddForce(string forceName, Vector2 force)
         {
-            this.velocity -= force;
+            if (forces.ContainsKey(forceName))
+            {
+                return;
+            }
+            forces.Add(forceName, force);
+            //this.velocity += force;
+        }
+        public void RemoveForce(string forceName, Vector2 force)
+        {
+            if (forces.ContainsKey(forceName))
+            {
+                forces.Remove(forceName);
+            }
+            
+            //this.velocity -= force;
         }
         public Vector2 GetVelocity()
         {

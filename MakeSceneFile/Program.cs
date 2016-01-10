@@ -28,8 +28,9 @@ namespace MakeSceneFile
             GameObject go = GameObject.InstansateNew("GameObject");
             (go.AddComponent<BlinkByte.SFMLGraphics.SFMLCircle2DComp>().changeColor(new BlinkByte.Graphics.Colour(255, 0, 0)) as BlinkByte.SFMLGraphics.SFMLCircle2DComp).radius = 50;
             (go.getComponent<BlinkByte.Core.Component.Transform>() as BlinkByte.Core.Component.Transform).Position = new Vector2(250, 250);
-            go.AddComponent<BlinkByte.StandardPhysics.StanBoundingBox>().SetMinMax(new Vector2(0,0),new Vector2(10,10));
+            go.AddComponent<BlinkByte.StandardPhysics.StanBoundingBox>().SetMinMax(new Vector2(0,0),new Vector2(100,100));
             go.AddComponent<BlinkByte.StandardPhysics.StanRidgedBodyComp>().SetVelocity(new Vector2(0, -0.2f));
+            go.AddComponent<BlinkByte.Physics.GravityComp>();
             scene.addGameObject(go);
         
 

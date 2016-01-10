@@ -23,6 +23,7 @@
       <mass>10</mass>
       <restitution>1</restitution>
       <startCollision>false</startCollision>
+      <isTrigger>false</isTrigger>
     </Component>
     <Component xsi:type="StanBoundingBox">
       <enabled>true</enabled>

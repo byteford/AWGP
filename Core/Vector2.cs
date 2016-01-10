@@ -55,6 +55,10 @@ namespace BlinkByte.Utilitys
         {
             return DotProduct(a, b);
         }
+        public static Vector2 operator /(Vector2 a, float b)
+        {
+            return new Vector2(a.X / b, a.Y / b);
+        }
         public static float DotProduct(Vector2 a, Vector2 b)
         {
             float dotProduct = (a.X * b.X) + (a.Y * b.Y);

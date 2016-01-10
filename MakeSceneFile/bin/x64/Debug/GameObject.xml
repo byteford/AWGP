@@ -45,11 +45,15 @@
       <enabled>true</enabled>
       <velocity>
         <X>0</X>
-        <Y>0</Y>
+        <Y>-0.2</Y>
       </velocity>
       <mass>10</mass>
       <restitution>1</restitution>
       <startCollision>true</startCollision>
+      <isTrigger>false</isTrigger>
+    </Component>
+    <Component xsi:type="GravityComp">
+      <enabled>true</enabled>
     </Component>
   </components>
 </GameObject>
