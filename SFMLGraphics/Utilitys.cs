@@ -11,7 +11,7 @@ namespace BlinkByte.Utilitys
         {
             return new SFML.Graphics.Color(col.R, col.G, col.B, col.A);
         }
-        public static SFML.System.Vector2f convert(this BlinkByte.Utilitys.Vector2 vect)
+        public static SFML.System.Vector2f convert(this Vector2 vect)
         {
             return new SFML.System.Vector2f(vect.X,vect.Y);
         }

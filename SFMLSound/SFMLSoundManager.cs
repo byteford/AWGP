@@ -13,9 +13,7 @@ namespace BlinkByte.SFMLSound
         Dictionary<string, SFML.Audio.Sound> Audios = new Dictionary<string, SFML.Audio.Sound>();
         public static SFMLSoundManager instance;
 
-        SFML.Audio.Sound sound;
         SFML.Audio.SoundBuffer buffer ;
-        //    = new SFML.Audio.SoundBuffer("Audios/orchestral.ogg");
 
         public void playSound(string filename)
         {

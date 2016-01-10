@@ -65,7 +65,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Callable\ICallable.cs" />
     <Compile Include="Component\Component.cs" />
     <Compile Include="Component\FileOutput.cs" />
     <Compile Include="Component\Transform.cs" />

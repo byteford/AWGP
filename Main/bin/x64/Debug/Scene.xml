@@ -2,6 +2,35 @@
 <Scene xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <GameObjects>
     <GameObject>
+      <name>Text</name>
+      <components>
+        <Component xsi:type="Transform">
+          <enabled>true</enabled>
+          <Position>
+            <X>0</X>
+            <Y>0</Y>
+          </Position>
+          <Scale>
+            <X>1</X>
+            <Y>1</Y>
+          </Scale>
+          <Rotation>0</Rotation>
+        </Component>
+        <Component xsi:type="SFMLTextComp">
+          <enabled>true</enabled>
+          <color>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+            <A>255</A>
+          </color>
+          <shape>Circle</shape>
+          <text>YAY</text>
+          <size>12</size>
+        </Component>
+      </components>
+    </GameObject>
+    <GameObject>
       <name>GameObject</name>
       <components>
         <Component xsi:type="Transform">
@@ -46,10 +75,10 @@
         <Component xsi:type="StanRidgedBodyComp">
           <enabled>true</enabled>
           <velocity>
-            <X>-5</X>
-            <Y>-5</Y>
+            <X>0</X>
+            <Y>-0.2</Y>
           </velocity>
-          <mass>100</mass>
+          <mass>10</mass>
           <restitution>1</restitution>
           <startCollision>true</startCollision>
           <isTrigger>false</isTrigger>
@@ -74,6 +103,17 @@
           </Scale>
           <Rotation>0</Rotation>
         </Component>
+        <Component xsi:type="SFMLSprite2DComp">
+          <enabled>true</enabled>
+          <color>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+            <A>255</A>
+          </color>
+          <shape>Sprite</shape>
+          <TextureName>DinoTorq.png</TextureName>
+        </Component>
         <Component xsi:type="StanRidgedBodyComp">
           <enabled>true</enabled>
           <velocity>
@@ -84,6 +124,11 @@
           <restitution>1</restitution>
           <startCollision>true</startCollision>
           <isTrigger>false</isTrigger>
+        </Component>
+        <Component xsi:type="SFMLSoundComp">
+          <enabled>true</enabled>
+          <playOnStart>true</playOnStart>
+          <filename>Audios/boom.wav</filename>
         </Component>
         <Component xsi:type="StanBoundingBox">
           <enabled>true</enabled>
@@ -276,11 +321,6 @@
             <X>800</X>
             <Y>610</Y>
           </max>
-        </Component>
-        <Component xsi:type="SFMLSoundComp">
-          <enabled>true</enabled>
-          <playOnStart>true</playOnStart>
-          <filename>Audios/orchestral.ogg</filename>
         </Component>
       </components>
     </GameObject>

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace BlinkByte.Utilitys
+namespace BlinkByte
 {
     [System.Serializable]
     public class Vector2

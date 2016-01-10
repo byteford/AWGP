@@ -6,3 +6,11 @@ D:\Final Year\Advanced Window Game Programming\Engine\Sound\bin\x64\Debug\Blinkb
 D:\Final Year\Advanced Window Game Programming\Engine\Sound\obj\x64\Debug\Sound.csprojResolveAssemblyReference.cache
 D:\Final Year\Advanced Window Game Programming\Engine\Sound\obj\x64\Debug\Sound.dll
 D:\Final Year\Advanced Window Game Programming\Engine\Sound\obj\x64\Debug\Sound.pdb
+E:\uni work\AWGP\Sound\bin\x64\Debug\Sound.dll.config
+E:\uni work\AWGP\Sound\bin\x64\Debug\Sound.dll
+E:\uni work\AWGP\Sound\bin\x64\Debug\Sound.pdb
+E:\uni work\AWGP\Sound\bin\x64\Debug\Blinkbye.Core.dll
+E:\uni work\AWGP\Sound\bin\x64\Debug\Blinkbye.Core.pdb
+E:\uni work\AWGP\Sound\obj\x64\Debug\Sound.csprojResolveAssemblyReference.cache
+E:\uni work\AWGP\Sound\obj\x64\Debug\Sound.dll
+E:\uni work\AWGP\Sound\obj\x64\Debug\Sound.pdb

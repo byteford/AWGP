@@ -8,13 +8,10 @@ using System.Xml.Serialization;
 namespace BlinkByte.Core
 {
     [System.Serializable]
-   // [XmlInclude(typeof(Component.Transform)), XmlInclude(typeof(Component.FileOutput))]
         public class GameObject
     {
         public string name;
         public List<Core.Component.Component> components;
-       // [System.NonSerialized]
-       // public Core.Component.Transform transform;
         public GameObject()
         {
             if(components == null)

@@ -57,7 +57,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IButton.cs" />
     <Compile Include="Idevice.cs" />
     <Compile Include="IInput.cs" />
     <Compile Include="Input.cs" />

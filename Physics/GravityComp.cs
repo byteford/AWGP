@@ -12,7 +12,7 @@ namespace BlinkByte.Physics
         public override void Start(GameObject gameObject)
         {
             base.Start(gameObject);
-            (gameObject.getComponent<RidgedBodyComp>() as RidgedBodyComp).AddForce("Gravity", new Utilitys.Vector2(0,0.01f));
+            (gameObject.getComponent<RidgedBodyComp>() as RidgedBodyComp).AddForce("Gravity", new Vector2(0,0.01f));
         }
     }
 }

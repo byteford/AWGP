@@ -36,19 +36,26 @@
       <startCollision>true</startCollision>
       <isTrigger>false</isTrigger>
     </Component>
+    <Component xsi:type="StanCircleBounding">
+      <enabled>true</enabled>
+      <offset>
+        <X>0</X>
+        <Y>0</Y>
+      </offset>
+      <collType>none</collType>
+      <radius>60</radius>
+    </Component>
+    <Component xsi:type="SFMLSoundComp">
+      <enabled>true</enabled>
+      <playOnStart>true</playOnStart>
+      <filename>Audios/boom.wav</filename>
+    </Component>
     <Component xsi:type="StanBoundingBox">
       <enabled>true</enabled>
       <offset>
         <X>0</X>
         <Y>0</Y>
       </offset>
-<<<<<<< HEAD
-      <radius>60</radius>
-    </Component>
-    <Component xsi:type="SFMLSoundComp">
-      <enabled>true</enabled>
-      <playOnStart>true</playOnStart>
-=======
       <collType>none</collType>
       <min>
         <X>0</X>
@@ -58,7 +65,6 @@
         <X>0</X>
         <Y>0</Y>
       </max>
->>>>>>> master
     </Component>
   </components>
 </GameObject>

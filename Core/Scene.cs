@@ -19,12 +19,6 @@ namespace BlinkByte.Core
             currentScene = this;
             GameObjects = new List<GameObject>();
         }
-        /*public GameObject addGameObject(string name)
-        {
-            GameObject temp = GameObject.Instansate(name);
-            GameObjects.Add(temp);
-            return temp;
-        }*/
         public void Start()
         {
             foreach(var go in GameObjects)
@@ -47,7 +41,6 @@ namespace BlinkByte.Core
             {
                 go.Update();
             }
-            //Console.WriteLine(Time.deltaTime);
             Time.Reset();
         }
         public void RunMethodCall<T>(string method, object[] args)

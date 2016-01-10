@@ -26,6 +26,11 @@ namespace MakeSceneFile
             BlinkByte.Core.Managers.ModuleManager.instance.Init();
 
             Scene scene = new BlinkByte.Core.Scene();
+
+            GameObject text = GameObject.InstansateNew("Text");
+            text.AddComponent<BlinkByte.SFMLGraphics.SFMLTextComp>().SetText("YAY");
+            scene.addGameObject(text);
+
             GameObject go = GameObject.InstansateNew("GameObject");
             (go.AddComponent<BlinkByte.SFMLGraphics.SFMLCircle2DComp>().changeColor(new BlinkByte.Graphics.Colour(255, 0, 0)) as BlinkByte.SFMLGraphics.SFMLCircle2DComp).radius = 50;
             (go.getComponent<BlinkByte.Core.Component.Transform>() as BlinkByte.Core.Component.Transform).Position = new Vector2(250, 250);
@@ -38,8 +43,6 @@ namespace MakeSceneFile
             GameObject sp = GameObject.InstansateNew("Sprite");
             sp.AddComponent<BlinkByte.SFMLGraphics.SFMLSprite2DComp>().TextureName = "DinoTorq.png";
             sp.AddComponent<BlinkByte.StandardPhysics.StanRidgedBodyComp>();
-
-            sp.AddComponent<BlinkByte.StandardPhysics.StanCircleBounding>().radius = 60;
             sp.AddComponent<BlinkByte.SFMLSound.SFMLSoundComp>().setFileName("Audios/boom.wav");
            
             (sp.getComponent<BlinkByte.Core.Component.Transform>() as BlinkByte.Core.Component.Transform).Position = new Vector2(300, 250);
