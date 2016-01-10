@@ -17,12 +17,12 @@ namespace BlinkByte.Main
         {
             Console.WriteLine("Game SetUp");
             Core.SetUp.Init();
-            //ModuleManager.instance.AddManager <BlinkByte.SFMLGraphics.Graphics> (); // need to move to text
-	    //ModuleManager.instance.AddManager<Physics.Physics>();
-            BlinkByte.Core.IO.LoadFromFile.LoadModules("mods");
 
+            Console.WriteLine("what game so you want to run: James, Grace, James");
+            string input = Console.ReadLine();
+            BlinkByte.Core.IO.LoadFromFile.LoadModules(input + "/mods");
             ModuleManager.instance.Init();
-            Core.SetUp.LoadScene("Scene");
+            Core.SetUp.LoadScene(input + "/Scene");
 
             while (true)
             {

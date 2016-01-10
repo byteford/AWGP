@@ -13,6 +13,8 @@ namespace MakeSceneFile
     {
         static void Main(string[] args)
         {
+            string gameName = "Test";
+
 
             SetUp.Init();
             BlinkByte.Core.Managers.ModuleManager.instance.AddManager<BlinkByte.SFMLGraphics.Graphics>(); // need to more to text
@@ -69,8 +71,8 @@ namespace MakeSceneFile
             wallBottom.AddComponent<BlinkByte.StandardPhysics.StanBoundingBox>().SetMinMax(new Vector2(0, 600), new Vector2(800, 610));
             scene.addGameObject(wallBottom);
 
-            scene.saveToFile("Scene");
-            BlinkByte.Core.IO.LoadFromFile.saveModules("mods");
+            scene.saveToFile("Test/Scene");
+            BlinkByte.Core.IO.LoadFromFile.saveModules("Test/mods");
 
         }
     }
