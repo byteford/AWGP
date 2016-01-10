@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BlinkByte.Core.Component.Component">
+    <Position X="1.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAACAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Component\Component.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlinkByte.Core.Component.FileOutput">
+    <Position X="1" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Component\FileOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlinkByte.Core.Component.Transform">
+    <Position X="2.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAgAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Component\Transform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlinkByte.Core.Factory.GameObjectFactory" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAABIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\GameObjectFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BlinkByte.Core.GameObject">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAIAAgEIADAAAAAAAAEAAAAAAAAAABAAAA=</HashCode>
+      <FileName>GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlinkByte.Core.Scene">
+    <Position X="6.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEACAAAAgACAAAAAAgABAAACAAAAAAQCEAQAA=</HashCode>
+      <FileName>Scene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlinkByte.Core.SetUp">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>SetUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlinkByte.Core.IO.LoadFromFile">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAgAAAAAAAIABAAAAAAABAA=</HashCode>
+      <FileName>IO\LoadFromFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlinkByte.Core.Managers.ModuleManager" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAABAAAAgAAABAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Managers\ModuleManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BlinkByte.Time">
+    <Position X="4.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Time.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlinkByte.Vector2">
+    <Position X="8.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAYAUAAABAAAAAAAAAAAAAAgAAYQA=</HashCode>
+      <FileName>Vector2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="BlinkByte.Core.Factory.IFactory">
+    <Position X="1" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\IFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BlinkByte.Core.Managers.IManager">
+    <Position X="1" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\IManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BlinkByte.Core.Module.IModule">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Module\IModule.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="BlinkByte.Core.Module.ModuleType">
+    <Position X="6.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAGAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Module\ModuleType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

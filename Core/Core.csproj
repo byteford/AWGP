@@ -75,9 +75,6 @@
     <Compile Include="Managers\IManager.cs" />
     <Compile Include="Managers\ModuleManager.cs" />
     <Compile Include="Module\ModuleType.cs" />
-    <Compile Include="Module\IInput.cs" />
-    <Compile Include="Module\IPhysics.cs" />
-    <Compile Include="Module\IGraphics.cs" />
     <Compile Include="Module\IModule.cs" />
     <Compile Include="Scene.cs" />
     <Compile Include="SetUp.cs" />
@@ -87,6 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

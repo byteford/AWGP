@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BlinkByte.Graphics.ShapeManager">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAABAAAAAAIAAAABAAQAAAA=</HashCode>
+      <FileName>ShapeManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlinkByte.Graphics.Componates.Circle2DComp">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Componates\Circle2DComp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlinkByte.Graphics.Componates.GraphicsComp">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Componates\GraphicsComp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlinkByte.Graphics.Componates.Shape2DComp">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAIAAAAAAAAAAACAAAAAgAAABAA=</HashCode>
+      <FileName>Componates\Shape2DComp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlinkByte.Graphics.Componates.Sprite2DComp">
+    <Position X="2.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAgAAAA=</HashCode>
+      <FileName>Componates\Sprite2DComp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlinkByte.Graphics.Componates.TextComp">
+    <Position X="4" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAIIAICAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Componates\TextComp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="BlinkByte.Graphics.Colour" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAEQAAAAAAgAE4BEAAAAABAAAAIAAAAAAKDMAAyA=</HashCode>
+      <FileName>Colour.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Interface Name="BlinkByte.Graphics.IGraphics">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IGraphics.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BlinkByte.Graphics.ITexture">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>ITexture.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BlinkByte.Graphics.IWindowManager">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQBAAAAACAAEAAACAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>IWindowManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="BlinkByte.Graphics.Componates.shapeType">
+    <Position X="4.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAQAAAgAAAAAAA=</HashCode>
+      <FileName>Componates\Shape2DComp.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
