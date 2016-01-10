@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\StandardPhysics\bin\Debug\StandardPhysics.dll
-C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\StandardPhysics\bin\Debug\StandardPhysics.pdb
-C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\StandardPhysics\bin\Debug\Blinkbye.Core.dll
-C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\StandardPhysics\bin\Debug\Physics.dll
-C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\StandardPhysics\bin\Debug\Blinkbye.Core.pdb
-C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\StandardPhysics\bin\Debug\Physics.pdb
-C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\StandardPhysics\obj\Debug\StandardPhysics.csprojResolveAssemblyReference.cache
-C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\StandardPhysics\obj\Debug\StandardPhysics.dll
-C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\StandardPhysics\obj\Debug\StandardPhysics.pdb
-=======
 D:\Final Year\Advanced Window Game Programming\Engine\StandardPhysics\bin\Debug\StandardPhysics.dll
 D:\Final Year\Advanced Window Game Programming\Engine\StandardPhysics\bin\Debug\StandardPhysics.pdb
 D:\Final Year\Advanced Window Game Programming\Engine\StandardPhysics\bin\Debug\Blinkbye.Core.dll
@@ -18,4 +7,3 @@ D:\Final Year\Advanced Window Game Programming\Engine\StandardPhysics\bin\Debug\
 D:\Final Year\Advanced Window Game Programming\Engine\StandardPhysics\obj\Debug\StandardPhysics.csprojResolveAssemblyReference.cache
 D:\Final Year\Advanced Window Game Programming\Engine\StandardPhysics\obj\Debug\StandardPhysics.dll
 D:\Final Year\Advanced Window Game Programming\Engine\StandardPhysics\obj\Debug\StandardPhysics.pdb
->>>>>>> master
