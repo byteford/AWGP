@@ -63,8 +63,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SFMLSoundBuffer.cs" />
-    <Compile Include="Sound.cs" />
+    <Compile Include="SFMLSoundComp.cs" />
+    <Compile Include="SFMLSoundManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

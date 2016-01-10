@@ -277,6 +277,11 @@
             <Y>610</Y>
           </max>
         </Component>
+        <Component xsi:type="SFMLSoundComp">
+          <enabled>true</enabled>
+          <playOnStart>true</playOnStart>
+          <filename>Audios/orchestral.ogg</filename>
+        </Component>
       </components>
     </GameObject>
   </GameObjects>
