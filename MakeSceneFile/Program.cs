@@ -37,14 +37,12 @@ namespace MakeSceneFile
             GameObject sp = GameObject.InstansateNew("Sprite");
             sp.AddComponent<BlinkByte.SFMLGraphics.SFMLSprite2DComp>().TextureName = "DinoTorq.png";
             sp.AddComponent<BlinkByte.StandardPhysics.StanRidgedBodyComp>();
-<<<<<<< HEAD
+
             sp.AddComponent<BlinkByte.StandardPhysics.StanCircleBounding>().radius = 60;
             sp.AddComponent<BlinkByte.SFMLSound.SFMLSoundComp>().setFileName("Audios/boom.wav");
            
-=======
             (sp.getComponent<BlinkByte.Core.Component.Transform>() as BlinkByte.Core.Component.Transform).Position = new Vector2(300, 250);
             sp.AddComponent<BlinkByte.StandardPhysics.StanBoundingBox>();
->>>>>>> master
             scene.addGameObject(sp);
 
             GameObject wallTop = GameObject.InstansateNew("Top Wall");
