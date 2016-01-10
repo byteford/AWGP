@@ -13,9 +13,12 @@ namespace BlinkByte.Physics
         public CollisionComp collider;
         public float mass =10;
         public float restitution = 1;
+        public bool startCollision = true;
+        public bool isTrigger = false;
 
         public void AddForce(Vector2 force)
         {
+
             this.velocity += force;
         }
         public void RemoveForce(Vector2 force)
@@ -40,6 +43,15 @@ namespace BlinkByte.Physics
         public float GetMass()
         {
             return mass;
+        }
+
+        public float GetInvMass()
+        {
+            if (GetMass() == 0)
+            {
+                return 0;
+            }
+            return 1/GetMass();
         }
 
         public void SetRestitution(float setRes)

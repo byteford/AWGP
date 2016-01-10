@@ -1,14 +1,13 @@
-﻿using BlinkByte.Utilitys;
+﻿using BlinkByte.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BlinkByte.Core;
 
 namespace BlinkByte.StandardPhysics
 {
-    public class StanCircleBounding : BlinkByte.Physics.CircleBoundingComp
+    public class StanBoundingBox : BlinkByte.Physics.BoundingBoxComp
     {
         public override void Start(GameObject gameObject)
         {

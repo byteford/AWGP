@@ -1,29 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameObject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <name>Sprite</name>
+  <name>Right Wall</name>
   <components>
     <Component xsi:type="Transform">
       <enabled>true</enabled>
       <Position>
-        <X>300</X>
-        <Y>250</Y>
+        <X>0</X>
+        <Y>0</Y>
       </Position>
       <Scale>
         <X>1</X>
         <Y>1</Y>
       </Scale>
       <Rotation>0</Rotation>
-    </Component>
-    <Component xsi:type="SFMLSprite2DComp">
-      <enabled>true</enabled>
-      <color>
-        <R>255</R>
-        <G>255</G>
-        <B>255</B>
-        <A>255</A>
-      </color>
-      <shape>Sprite</shape>
-      <TextureName>DinoTorq.png</TextureName>
     </Component>
     <Component xsi:type="StanRidgedBodyComp">
       <enabled>true</enabled>
@@ -33,7 +22,7 @@
       </velocity>
       <mass>10</mass>
       <restitution>1</restitution>
-      <startCollision>true</startCollision>
+      <startCollision>false</startCollision>
     </Component>
     <Component xsi:type="StanBoundingBox">
       <enabled>true</enabled>
@@ -41,13 +30,6 @@
         <X>0</X>
         <Y>0</Y>
       </offset>
-<<<<<<< HEAD
-      <radius>60</radius>
-    </Component>
-    <Component xsi:type="SFMLSoundComp">
-      <enabled>true</enabled>
-      <playOnStart>true</playOnStart>
-=======
       <collType>none</collType>
       <min>
         <X>0</X>
@@ -57,7 +39,6 @@
         <X>0</X>
         <Y>0</Y>
       </max>
->>>>>>> master
     </Component>
   </components>
 </GameObject>

@@ -32,10 +32,12 @@ namespace BlinkByte.Core
         }
         public virtual void Update()
         {
+            
             foreach(Component.Component comp in components)
             {
                 comp.Update();
             }
+           
         }
         public static GameObject Instansate(string name)
         {
@@ -65,6 +67,10 @@ namespace BlinkByte.Core
         }
         public BlinkByte.Core.Component.Component getComponent<T>()
         {
+            if(getComponents<T>() == null || getComponents<T>().Count ==0)
+            {
+                return null;
+            }
             return getComponents<T>().First();
         }
         public BlinkByte.Core.Component.Transform GetTransform()

@@ -7,8 +7,8 @@
         <Component xsi:type="Transform">
           <enabled>true</enabled>
           <Position>
-            <X>100</X>
-            <Y>0</Y>
+            <X>250</X>
+            <Y>250</Y>
           </Position>
           <Scale>
             <X>1</X>
@@ -27,13 +27,48 @@
           <shape>Circle</shape>
           <radius>50</radius>
         </Component>
-        <Component xsi:type="StanCircleBounding">
+        <Component xsi:type="StanBoundingBox">
           <enabled>true</enabled>
           <offset>
             <X>0</X>
             <Y>0</Y>
           </offset>
-          <radius>30</radius>
+          <collType>none</collType>
+          <min>
+            <X>0</X>
+            <Y>0</Y>
+          </min>
+          <max>
+            <X>50</X>
+            <Y>50</Y>
+          </max>
+        </Component>
+        <Component xsi:type="StanRidgedBodyComp">
+          <enabled>true</enabled>
+          <velocity>
+            <X>-0.1</X>
+            <Y>-0.2</Y>
+          </velocity>
+          <mass>10</mass>
+          <restitution>1</restitution>
+          <startCollision>true</startCollision>
+        </Component>
+      </components>
+    </GameObject>
+    <GameObject>
+      <name>Sprite</name>
+      <components>
+        <Component xsi:type="Transform">
+          <enabled>true</enabled>
+          <Position>
+            <X>300</X>
+            <Y>250</Y>
+          </Position>
+          <Scale>
+            <X>1</X>
+            <Y>1</Y>
+          </Scale>
+          <Rotation>0</Rotation>
         </Component>
         <Component xsi:type="StanRidgedBodyComp">
           <enabled>true</enabled>
@@ -43,11 +78,28 @@
           </velocity>
           <mass>10</mass>
           <restitution>1</restitution>
+          <startCollision>true</startCollision>
+        </Component>
+        <Component xsi:type="StanBoundingBox">
+          <enabled>true</enabled>
+          <offset>
+            <X>0</X>
+            <Y>0</Y>
+          </offset>
+          <collType>none</collType>
+          <min>
+            <X>0</X>
+            <Y>0</Y>
+          </min>
+          <max>
+            <X>0</X>
+            <Y>0</Y>
+          </max>
         </Component>
       </components>
     </GameObject>
     <GameObject>
-      <name>Sprite</name>
+      <name>Top Wall</name>
       <components>
         <Component xsi:type="Transform">
           <enabled>true</enabled>
@@ -61,16 +113,48 @@
           </Scale>
           <Rotation>0</Rotation>
         </Component>
-        <Component xsi:type="SFMLSprite2DComp">
+        <Component xsi:type="StanRidgedBodyComp">
           <enabled>true</enabled>
-          <color>
-            <R>255</R>
-            <G>255</G>
-            <B>255</B>
-            <A>255</A>
-          </color>
-          <shape>Sprite</shape>
-          <TextureName>DinoTorq.png</TextureName>
+          <velocity>
+            <X>0</X>
+            <Y>0</Y>
+          </velocity>
+          <mass>10</mass>
+          <restitution>1</restitution>
+          <startCollision>false</startCollision>
+        </Component>
+        <Component xsi:type="StanBoundingBox">
+          <enabled>true</enabled>
+          <offset>
+            <X>0</X>
+            <Y>0</Y>
+          </offset>
+          <collType>none</collType>
+          <min>
+            <X>0</X>
+            <Y>-10</Y>
+          </min>
+          <max>
+            <X>800</X>
+            <Y>0</Y>
+          </max>
+        </Component>
+      </components>
+    </GameObject>
+    <GameObject>
+      <name>Left Wall</name>
+      <components>
+        <Component xsi:type="Transform">
+          <enabled>true</enabled>
+          <Position>
+            <X>0</X>
+            <Y>0</Y>
+          </Position>
+          <Scale>
+            <X>1</X>
+            <Y>1</Y>
+          </Scale>
+          <Rotation>0</Rotation>
         </Component>
         <Component xsi:type="StanRidgedBodyComp">
           <enabled>true</enabled>
@@ -80,14 +164,109 @@
           </velocity>
           <mass>10</mass>
           <restitution>1</restitution>
+          <startCollision>false</startCollision>
         </Component>
-        <Component xsi:type="StanCircleBounding">
+        <Component xsi:type="StanBoundingBox">
           <enabled>true</enabled>
           <offset>
             <X>0</X>
             <Y>0</Y>
           </offset>
-          <radius>60</radius>
+          <collType>none</collType>
+          <min>
+            <X>-10</X>
+            <Y>0</Y>
+          </min>
+          <max>
+            <X>0</X>
+            <Y>600</Y>
+          </max>
+        </Component>
+      </components>
+    </GameObject>
+    <GameObject>
+      <name>Right Wall</name>
+      <components>
+        <Component xsi:type="Transform">
+          <enabled>true</enabled>
+          <Position>
+            <X>0</X>
+            <Y>0</Y>
+          </Position>
+          <Scale>
+            <X>1</X>
+            <Y>1</Y>
+          </Scale>
+          <Rotation>0</Rotation>
+        </Component>
+        <Component xsi:type="StanRidgedBodyComp">
+          <enabled>true</enabled>
+          <velocity>
+            <X>0</X>
+            <Y>0</Y>
+          </velocity>
+          <mass>10</mass>
+          <restitution>1</restitution>
+          <startCollision>false</startCollision>
+        </Component>
+        <Component xsi:type="StanBoundingBox">
+          <enabled>true</enabled>
+          <offset>
+            <X>0</X>
+            <Y>0</Y>
+          </offset>
+          <collType>none</collType>
+          <min>
+            <X>800</X>
+            <Y>0</Y>
+          </min>
+          <max>
+            <X>810</X>
+            <Y>600</Y>
+          </max>
+        </Component>
+      </components>
+    </GameObject>
+    <GameObject>
+      <name>Bottom Wall</name>
+      <components>
+        <Component xsi:type="Transform">
+          <enabled>true</enabled>
+          <Position>
+            <X>0</X>
+            <Y>0</Y>
+          </Position>
+          <Scale>
+            <X>1</X>
+            <Y>1</Y>
+          </Scale>
+          <Rotation>0</Rotation>
+        </Component>
+        <Component xsi:type="StanRidgedBodyComp">
+          <enabled>true</enabled>
+          <velocity>
+            <X>0</X>
+            <Y>0</Y>
+          </velocity>
+          <mass>10</mass>
+          <restitution>1</restitution>
+          <startCollision>false</startCollision>
+        </Component>
+        <Component xsi:type="StanBoundingBox">
+          <enabled>true</enabled>
+          <offset>
+            <X>0</X>
+            <Y>0</Y>
+          </offset>
+          <collType>none</collType>
+          <min>
+            <X>0</X>
+            <Y>600</Y>
+          </min>
+          <max>
+            <X>800</X>
+            <Y>610</Y>
+          </max>
         </Component>
         <Component xsi:type="SFMLSoundComp">
           <enabled>true</enabled>

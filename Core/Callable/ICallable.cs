@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlinkByte.Physics
+namespace BlinkByte.Core.Callable
 {
-    public interface ITriggable
+    interface ICallable
     {
-        void OnTrigger(object[] objs);
     }
 }

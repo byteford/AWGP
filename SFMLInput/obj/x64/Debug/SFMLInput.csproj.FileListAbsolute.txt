@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLInput\bin\x64\Debug\SFMLInput.dll
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLInput\bin\x64\Debug\SFMLInput.pdb
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLInput\bin\x64\Debug\Blinkbye.Core.dll
@@ -9,3 +10,16 @@ C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLInput\bin\x64\Debug\Input.pdb
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLInput\obj\x64\Debug\SFMLInput.csprojResolveAssemblyReference.cache
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLInput\obj\x64\Debug\SFMLInput.dll
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLInput\obj\x64\Debug\SFMLInput.pdb
+=======
+D:\Final Year\Advanced Window Game Programming\Engine\SFMLInput\bin\x64\Debug\SFMLInput.dll
+D:\Final Year\Advanced Window Game Programming\Engine\SFMLInput\bin\x64\Debug\SFMLInput.pdb
+D:\Final Year\Advanced Window Game Programming\Engine\SFMLInput\bin\x64\Debug\Blinkbye.Core.dll
+D:\Final Year\Advanced Window Game Programming\Engine\SFMLInput\bin\x64\Debug\Input.dll
+D:\Final Year\Advanced Window Game Programming\Engine\SFMLInput\bin\x64\Debug\sfmlnet-system-2.dll
+D:\Final Year\Advanced Window Game Programming\Engine\SFMLInput\bin\x64\Debug\sfmlnet-window-2.dll
+D:\Final Year\Advanced Window Game Programming\Engine\SFMLInput\bin\x64\Debug\Blinkbye.Core.pdb
+D:\Final Year\Advanced Window Game Programming\Engine\SFMLInput\bin\x64\Debug\Input.pdb
+D:\Final Year\Advanced Window Game Programming\Engine\SFMLInput\obj\x64\Debug\SFMLInput.csprojResolveAssemblyReference.cache
+D:\Final Year\Advanced Window Game Programming\Engine\SFMLInput\obj\x64\Debug\SFMLInput.dll
+D:\Final Year\Advanced Window Game Programming\Engine\SFMLInput\obj\x64\Debug\SFMLInput.pdb
+>>>>>>> master
