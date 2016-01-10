@@ -8,13 +8,8 @@ using BlinkByte.Utilitys;
 
 namespace BlinkByte.StandardPhysics
 {
-    struct Manifold
-    {
-        CollisionComp colA;
-        CollisionComp colB;
-        float penetration;
-        Vector2 normal;
-    };
+    
+
     public class Physics : BlinkByte.Physics.IPhysics
     {
         public List<CollisionComp> colliders = new List<CollisionComp>();
@@ -22,6 +17,9 @@ namespace BlinkByte.StandardPhysics
         bool result, colCek;
         float totalRadius;
         Vector2 aObj, bObj;
+
+        Vector2 minPosA, maxPosA, minPosB, maxPosB;
+        float xAxisleft, xAxisRight, yAxisUp, yAxisDown, maxY, maxX;
 
         public Core.Module.ModuleType GetModuleType()
         {
@@ -35,7 +33,7 @@ namespace BlinkByte.StandardPhysics
 
         public virtual void Update()
         {
-           
+            CollisionCheck();
         }
        
         public void AddCollider(CollisionComp collider)
@@ -47,6 +45,10 @@ namespace BlinkByte.StandardPhysics
         {
             for (int i = 0; i< colliders.Count; i++)
             {
+                if (!(colliders[i].gameObject.getComponent<RidgedBodyComp>() as RidgedBodyComp).startCollision)
+                {
+                    continue;
+                }
                 for (int j = i+1; j < colliders.Count; j++)
                 {
                     colCek = false;
@@ -84,7 +86,18 @@ namespace BlinkByte.StandardPhysics
                     }
                     if (colCek)
                     {
-                        ResolveCollision(colliders[i], colliders[j]);
+                        if ((colliders[i].gameObject.getComponent<RidgedBodyComp>() as RidgedBodyComp).isTrigger)
+                        {
+                            BlinkByte.Core.Scene.currentScene.RunMethodCall<BlinkByte.Physics.ITriggable>("OnTrigger", new object[] { colliders[j] });
+                        }
+                        else if((colliders[j].gameObject.getComponent<RidgedBodyComp>() as RidgedBodyComp).isTrigger)
+                        {
+                            BlinkByte.Core.Scene.currentScene.RunMethodCall<BlinkByte.Physics.ITriggable>("OnTrigger",new object[]{ colliders[i]});
+                        }
+                        else
+                        {
+                            ResolveCollision(colliders[i], colliders[j]);
+                        }
                     }
                 }
             }
@@ -97,7 +110,7 @@ namespace BlinkByte.StandardPhysics
                 totalRadius = colliderA.radius + colliderB.radius;
                 aObj = colliderA.gameObject.GetTransform().Position + colliderA.offset;
                 bObj = colliderB.gameObject.GetTransform().Position + colliderB.offset;
-                result = totalRadius > (Math.Pow((aObj.X + bObj.X), 2) - Math.Pow((aObj.Y + bObj.Y), 2));
+                result = totalRadius > Math.Abs((Math.Pow((aObj.X + bObj.X), 2) - Math.Pow((aObj.Y + bObj.Y), 2)));
             
             return result;
         }
@@ -105,11 +118,16 @@ namespace BlinkByte.StandardPhysics
         public bool boxColChek(BoundingBoxComp colliderA, BoundingBoxComp colliderB)
         {
             result = false;
-            if (colliderA.max.X < colliderB.min.X || colliderA.min.X > colliderB.max.X) 
+            minPosA = colliderA.min + colliderA.gameObject.GetTransform().Position;
+            maxPosA = colliderA.max + colliderA.gameObject.GetTransform().Position;
+            minPosB = colliderB.min + colliderB.gameObject.GetTransform().Position;
+            maxPosB = colliderB.max + colliderB.gameObject.GetTransform().Position;
+
+            if (maxPosA.X < minPosB.X || minPosA.X > maxPosB.X) 
             {
                 return result;
             }
-            if (colliderA.max.Y < colliderB.min.Y || colliderA.min.Y > colliderB.max.Y)
+            if (maxPosA.Y < minPosB.Y || minPosA.Y > colliderB.max.Y)
             {
                 return result;
             }
@@ -134,21 +152,60 @@ namespace BlinkByte.StandardPhysics
             {
                 return;
             }
+            Vector2 tempnorm;//= (objectA.gameObject.GetTransform().Position - objectB.gameObject.GetTransform().Position).Normalise();
+            //Console.WriteLine("X: " + tempnorm.X + " Y: " + tempnorm.Y);
 
-            float epsilon = Math.Min(objectA.restitution, objectB.restitution);
+            minPosA = (colliderA as BoundingBoxComp).min + colliderA.gameObject.GetTransform().Position;
+            maxPosA = (colliderA as BoundingBoxComp).max + colliderA.gameObject.GetTransform().Position;
+            minPosB = (colliderB as BoundingBoxComp).min + colliderB.gameObject.GetTransform().Position;
+            maxPosB = (colliderB as BoundingBoxComp).max + colliderB.gameObject.GetTransform().Position;
 
-            float impulseScalar = -(1 + epsilon) * velByNormal;
+            xAxisleft = minPosA.X - maxPosB.X;
+            xAxisRight = maxPosA.X - minPosB.X;
 
-            impulseScalar /= objectA.GetInvMass() + objectB.GetInvMass();
+            yAxisUp = minPosA.Y - maxPosB.Y;
+            yAxisDown = maxPosA.Y - minPosB.Y;
 
-            Vector2 impulse = impulseScalar * normal;
+            maxY = Math.Max(yAxisDown, yAxisUp);
+            maxX = Math.Max(xAxisleft, xAxisRight);
+            tempnorm = new Vector2(1, 1);
+            if(maxY > maxX)
+            {
+                tempnorm.X = -1;
+            }
+            else
+            {
+                tempnorm.Y = -1;
+            }
 
-            float mass_sum = objectA.GetMass() + objectB.GetMass();
-            float ratio = objectA.GetMass() / mass_sum;
-            objectA.RemoveForce(ratio * impulse);
+           // if (tempnorm.Y !=1)
+           //     if (tempnorm.Y < 0 || tempnorm.Y > 0)
+           // {
+           //     tempnorm.Y = -1;
+           // }
+           // if(tempnorm.X != 1)
+           //if (tempnorm.X < 0 || tempnorm.X > 0)
+           // {
+           //     tempnorm.X = -1;
+           // }
+            
+            
+            objectA.velocity.X = objectA.velocity.X * tempnorm.X;
+            objectA.velocity.Y = objectA.velocity.Y * tempnorm.Y;
+            /*  float epsilon = Math.Min(objectA.restitution, objectB.restitution);
 
-            ratio = objectB.GetMass() / mass_sum;
-            objectB.AddForce(ratio * impulse);
+              float impulseScalar = -(1 + epsilon) * velByNormal;
+
+              impulseScalar /= objectA.GetInvMass() + objectB.GetInvMass();
+
+              Vector2 impulse = impulseScalar * normal;
+
+              float mass_sum = objectA.GetMass() + objectB.GetMass();
+              float ratio = objectA.GetMass() / mass_sum;
+              objectA.RemoveForce(ratio * impulse);
+
+              ratio = objectB.GetMass() / mass_sum;
+              objectB.AddForce(ratio * impulse);*/
         }
     }
 }

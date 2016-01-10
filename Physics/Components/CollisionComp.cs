@@ -20,5 +20,6 @@ namespace BlinkByte.Physics
     {
         public Vector2 offset = new Vector2();
         public colliderType collType;
+        
     }
 }

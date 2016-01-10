@@ -10,13 +10,19 @@ namespace BlinkByte.Physics
 {
     public class BoundingBoxComp : CollisionComp
     {
-        public Vector2 min;
-        public Vector2 max;
+        public Vector2 min = new Vector2();
+        public Vector2 max = new Vector2();
 
         public override void Start(GameObject gameObject)
         {
             base.Start(gameObject);
             collType = colliderType.box;
+        }
+
+        public void SetMinMax(Vector2 min, Vector2 max)
+        {
+            this.min = min;
+            this.max = max;
         }
     }
 }

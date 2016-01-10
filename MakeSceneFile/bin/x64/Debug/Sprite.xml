@@ -5,8 +5,8 @@
     <Component xsi:type="Transform">
       <enabled>true</enabled>
       <Position>
-        <X>0</X>
-        <Y>0</Y>
+        <X>300</X>
+        <Y>250</Y>
       </Position>
       <Scale>
         <X>1</X>
@@ -33,15 +33,23 @@
       </velocity>
       <mass>10</mass>
       <restitution>1</restitution>
+      <startCollision>true</startCollision>
     </Component>
-    <Component xsi:type="StanCircleBounding">
+    <Component xsi:type="StanBoundingBox">
       <enabled>true</enabled>
       <offset>
         <X>0</X>
         <Y>0</Y>
       </offset>
       <collType>none</collType>
-      <radius>0</radius>
+      <min>
+        <X>0</X>
+        <Y>0</Y>
+      </min>
+      <max>
+        <X>0</X>
+        <Y>0</Y>
+      </max>
     </Component>
   </components>
 </GameObject>

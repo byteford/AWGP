@@ -13,6 +13,8 @@ namespace BlinkByte.Physics
         public CollisionComp collider;
         public float mass =10;
         public float restitution = 1;
+        public bool startCollision = true;
+        public bool isTrigger = false;
 
         public void AddForce(Vector2 force)
         {

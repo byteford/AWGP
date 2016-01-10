@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BlinkByte.StandardPhysics
 {
-    class StanBoundingBox : BlinkByte.Physics.BoundingBoxComp
+    public class StanBoundingBox : BlinkByte.Physics.BoundingBoxComp
     {
         public override void Start(GameObject gameObject)
         {

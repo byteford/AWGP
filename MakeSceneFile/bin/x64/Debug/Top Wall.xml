@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameObject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <name>GameObject</name>
+  <name>Top Wall</name>
   <components>
     <Component xsi:type="Transform">
       <enabled>true</enabled>
       <Position>
-        <X>250</X>
-        <Y>250</Y>
+        <X>0</X>
+        <Y>0</Y>
       </Position>
       <Scale>
         <X>1</X>
@@ -14,16 +14,15 @@
       </Scale>
       <Rotation>0</Rotation>
     </Component>
-    <Component xsi:type="SFMLCircle2DComp">
+    <Component xsi:type="StanRidgedBodyComp">
       <enabled>true</enabled>
-      <color>
-        <R>255</R>
-        <G>0</G>
-        <B>0</B>
-        <A>255</A>
-      </color>
-      <shape>Circle</shape>
-      <radius>50</radius>
+      <velocity>
+        <X>0</X>
+        <Y>0</Y>
+      </velocity>
+      <mass>10</mass>
+      <restitution>1</restitution>
+      <startCollision>false</startCollision>
     </Component>
     <Component xsi:type="StanBoundingBox">
       <enabled>true</enabled>
@@ -37,19 +36,9 @@
         <Y>0</Y>
       </min>
       <max>
-        <X>10</X>
-        <Y>10</Y>
-      </max>
-    </Component>
-    <Component xsi:type="StanRidgedBodyComp">
-      <enabled>true</enabled>
-      <velocity>
         <X>0</X>
         <Y>0</Y>
-      </velocity>
-      <mass>10</mass>
-      <restitution>1</restitution>
-      <startCollision>true</startCollision>
+      </max>
     </Component>
   </components>
 </GameObject>
