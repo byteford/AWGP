@@ -24,12 +24,14 @@ namespace BlinkByte.SFMLSound
 
         public void stopSound(string filename)
         {
+            loadsound(filename);
             Audios[filename].Stop();
 
         }
 
         public void pauseSound(string filename)
         {
+            loadsound(filename);
             Audios[filename].Pause();
         
         }
@@ -53,6 +55,7 @@ namespace BlinkByte.SFMLSound
         {
             if (!Audios.ContainsKey(filename))
             {
+
                 buffer = new SFML.Audio.SoundBuffer(filename);
                 Audios.Add(filename,new SFML.Audio.Sound(buffer));
 

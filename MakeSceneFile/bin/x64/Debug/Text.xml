@@ -14,5 +14,20 @@
       </Scale>
       <Rotation>0</Rotation>
     </Component>
+<<<<<<< HEAD
+    <Component xsi:type="SFMLTextComp">
+      <enabled>true</enabled>
+      <color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </color>
+      <shape>Circle</shape>
+      <size>12</size>
+      <FontLocation>Fonts/arial.ttf</FontLocation>
+    </Component>
+=======
+>>>>>>> ad9ee751547b185debe3e4cced62c605c857c8d8
   </components>
 </GameObject>

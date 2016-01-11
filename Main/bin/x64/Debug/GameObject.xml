@@ -52,5 +52,8 @@
       <startCollision>true</startCollision>
       <isTrigger>false</isTrigger>
     </Component>
+    <Component xsi:type="GameComp">
+      <enabled>true</enabled>
+    </Component>
   </components>
 </GameObject>

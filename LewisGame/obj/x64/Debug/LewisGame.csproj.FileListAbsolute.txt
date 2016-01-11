@@ -1,0 +1,54 @@
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\obj\x64\Debug\LewisGame.csprojResolveAssemblyReference.cache
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\LewisGame.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\LewisGame.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\Blinkbye.Core.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\Graphics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\Input.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\Physics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\SFMLGraphics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\SFMLInput.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\SFMLSound.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\Sound.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\StandardPhysics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\sfmlnet-window-2.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\sfmlnet-graphics-2.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\sfmlnet-system-2.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\sfmlnet-audio-2.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\Blinkbye.Core.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\Graphics.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\Input.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\Physics.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\SFMLGraphics.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\SFMLInput.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\SFMLSound.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\Sound.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\bin\x64\Debug\StandardPhysics.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\obj\x64\Debug\LewisGame.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGame\obj\x64\Debug\LewisGame.pdb
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\LewisGame.dll
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\LewisGame.pdb
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\Blinkbye.Core.dll
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\Graphics.dll
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\Input.dll
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\Physics.dll
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\SFMLGraphics.dll
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\SFMLInput.dll
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\SFMLSound.dll
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\Sound.dll
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\StandardPhysics.dll
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\sfmlnet-window-2.dll
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\sfmlnet-graphics-2.dll
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\sfmlnet-system-2.dll
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\sfmlnet-audio-2.dll
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\Blinkbye.Core.pdb
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\Graphics.pdb
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\Input.pdb
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\Physics.pdb
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\SFMLGraphics.pdb
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\SFMLInput.pdb
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\SFMLSound.pdb
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\Sound.pdb
+E:\uni work\AWGP\LewisGame\bin\x64\Debug\StandardPhysics.pdb
+E:\uni work\AWGP\LewisGame\obj\x64\Debug\LewisGame.csprojResolveAssemblyReference.cache
+E:\uni work\AWGP\LewisGame\obj\x64\Debug\LewisGame.dll
+E:\uni work\AWGP\LewisGame\obj\x64\Debug\LewisGame.pdb
