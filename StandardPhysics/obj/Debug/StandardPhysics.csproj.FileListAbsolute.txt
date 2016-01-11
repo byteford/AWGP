@@ -16,3 +16,12 @@ E:\uni work\AWGP\StandardPhysics\bin\Debug\Physics.pdb
 E:\uni work\AWGP\StandardPhysics\obj\Debug\StandardPhysics.csprojResolveAssemblyReference.cache
 E:\uni work\AWGP\StandardPhysics\obj\Debug\StandardPhysics.dll
 E:\uni work\AWGP\StandardPhysics\obj\Debug\StandardPhysics.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\StandardPhysics\bin\Debug\StandardPhysics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\StandardPhysics\bin\Debug\StandardPhysics.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\StandardPhysics\bin\Debug\Blinkbye.Core.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\StandardPhysics\bin\Debug\Physics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\StandardPhysics\bin\Debug\Blinkbye.Core.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\StandardPhysics\bin\Debug\Physics.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\StandardPhysics\obj\Debug\StandardPhysics.csprojResolveAssemblyReference.cache
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\StandardPhysics\obj\Debug\StandardPhysics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\StandardPhysics\obj\Debug\StandardPhysics.pdb

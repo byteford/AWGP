@@ -1,0 +1,7 @@
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\x64\Debug\DinoTorq.png
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\x64\Debug\LewisGameScene.exe.config
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\x64\Debug\LewisGameScene.exe
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\x64\Debug\LewisGameScene.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGameScene\obj\x64\Debug\LewisGameScene.csprojResolveAssemblyReference.cache
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGameScene\obj\x64\Debug\LewisGameScene.exe
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\LewisGameScene\obj\x64\Debug\LewisGameScene.pdb

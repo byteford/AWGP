@@ -1,0 +1,11 @@
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLInput\bin\Debug\SFMLInput.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLInput\bin\Debug\SFMLInput.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLInput\bin\Debug\Blinkbye.Core.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLInput\bin\Debug\Input.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLInput\bin\Debug\sfmlnet-system-2.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLInput\bin\Debug\sfmlnet-window-2.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLInput\bin\Debug\Blinkbye.Core.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLInput\bin\Debug\Input.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLInput\obj\Debug\SFMLInput.csprojResolveAssemblyReference.cache
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLInput\obj\Debug\SFMLInput.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLInput\obj\Debug\SFMLInput.pdb

@@ -87,6 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj">
@@ -112,7 +113,7 @@
     <ProjectReference Include="..\SFMLSound\SFMLSound.csproj">
       <Project>{aceefc82-a665-4358-87ce-17a9a138d05c}</Project>
       <Name>SFMLSound</Name>
-</ProjectReference>
+    </ProjectReference>
     <ProjectReference Include="..\SFMLInput\SFMLInput.csproj">
       <Project>{a365c800-9ee7-46b0-8aca-0a3e71755259}</Project>
       <Name>SFMLInput</Name>

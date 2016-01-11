@@ -1,0 +1,11 @@
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\bin\x86\Debug\Graphics.dll.config
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\bin\x86\Debug\Graphics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\bin\x86\Debug\Graphics.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\bin\x86\Debug\Blinkbye.Core.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\bin\x86\Debug\sfmlnet-graphics-2.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\bin\x86\Debug\sfmlnet-system-2.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\bin\x86\Debug\sfmlnet-window-2.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\bin\x86\Debug\Blinkbye.Core.pdb
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\obj\x86\Debug\Graphics.csprojResolveAssemblyReference.cache
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\obj\x86\Debug\Graphics.dll
+C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\obj\x86\Debug\Graphics.pdb
