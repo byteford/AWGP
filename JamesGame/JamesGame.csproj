@@ -1,19 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D7E35A2F-2FF8-4F88-B39E-8D0C5EEF91D5}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{076F5E3D-3278-4161-BBAF-FD0E8C68F4C2}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Main</RootNamespace>
-    <AssemblyName>Main</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <RootNamespace>JamesGame</RootNamespace>
+    <AssemblyName>JamesGame</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,33 +22,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
-    <DebugSymbols>true</DebugSymbols>
-    <OutputPath>bin\x86\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <DebugType>full</DebugType>
-    <PlatformTarget>x86</PlatformTarget>
-    <ErrorReport>prompt</ErrorReport>
-    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-    <Prefer32Bit>true</Prefer32Bit>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
-    <OutputPath>bin\x86\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <Optimize>true</Optimize>
-    <DebugType>pdbonly</DebugType>
-    <PlatformTarget>x86</PlatformTarget>
-    <ErrorReport>prompt</ErrorReport>
-    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-    <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -59,7 +37,6 @@
     <PlatformTarget>x64</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-    <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
     <OutputPath>bin\x64\Release\</OutputPath>
@@ -69,7 +46,6 @@
     <PlatformTarget>x64</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-    <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -78,32 +54,22 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Game.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Core.cs" />
+    <Compile Include="DinoComp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj">
       <Project>{b1f2737b-847a-4e36-8d79-bfb92bc88ca3}</Project>
       <Name>Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Graphics\Graphics.csproj">
-      <Project>{2c3f768e-40e1-40dd-8667-3ace606fecbd}</Project>
-      <Name>Graphics</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Input\Input.csproj">
       <Project>{d5951be1-a6e2-4821-b96c-7f9ed7ce625c}</Project>
       <Name>Input</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\JamesGame\JamesGame.csproj">
-      <Project>{076f5e3d-3278-4161-bbaf-fd0e8c68f4c2}</Project>
-      <Name>JamesGame</Name>
     </ProjectReference>
     <ProjectReference Include="..\Physics\Physics.csproj">
       <Project>{aa397227-879b-48b9-84cc-5585891d53cd}</Project>
@@ -113,27 +79,14 @@
       <Project>{c58a18df-3325-431a-b5e7-2c3a4877face}</Project>
       <Name>SFMLGraphics</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SFMLSound\SFMLSound.csproj">
-      <Project>{aceefc82-a665-4358-87ce-17a9a138d05c}</Project>
-      <Name>SFMLSound</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SFMLInput\SFMLInput.csproj">
       <Project>{a365c800-9ee7-46b0-8aca-0a3e71755259}</Project>
       <Name>SFMLInput</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Sound\Sound.csproj">
-      <Project>{8ac7cedd-c4ab-41a1-acea-ab74bb85c847}</Project>
-      <Name>Sound</Name>
     </ProjectReference>
     <ProjectReference Include="..\StandardPhysics\StandardPhysics.csproj">
       <Project>{c4fb2254-9585-453d-9e86-fe3a2c481c43}</Project>
       <Name>StandardPhysics</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="DinoTorq.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

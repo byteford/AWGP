@@ -25,8 +25,9 @@
             <A>255</A>
           </color>
           <shape>Circle</shape>
-          <text>YAY</text>
+          <text>James Game</text>
           <size>12</size>
+          <FontLocation>Fonts/arial.ttf</FontLocation>
         </Component>
       </components>
     </GameObject>
@@ -76,15 +77,12 @@
           <enabled>true</enabled>
           <velocity>
             <X>0</X>
-            <Y>-0.2</Y>
+            <Y>0</Y>
           </velocity>
           <mass>10</mass>
           <restitution>1</restitution>
           <startCollision>true</startCollision>
-          <isTrigger>false</isTrigger>
-        </Component>
-        <Component xsi:type="GravityComp">
-          <enabled>true</enabled>
+          <isTrigger>true</isTrigger>
         </Component>
       </components>
     </GameObject>
@@ -94,12 +92,12 @@
         <Component xsi:type="Transform">
           <enabled>true</enabled>
           <Position>
-            <X>300</X>
-            <Y>250</Y>
+            <X>0</X>
+            <Y>400</Y>
           </Position>
           <Scale>
-            <X>1</X>
-            <Y>1</Y>
+            <X>0.25</X>
+            <Y>0.25</Y>
           </Scale>
           <Rotation>0</Rotation>
         </Component>
@@ -125,11 +123,6 @@
           <startCollision>true</startCollision>
           <isTrigger>false</isTrigger>
         </Component>
-        <Component xsi:type="SFMLSoundComp">
-          <enabled>true</enabled>
-          <playOnStart>true</playOnStart>
-          <filename>Audios/boom.wav</filename>
-        </Component>
         <Component xsi:type="StanBoundingBox">
           <enabled>true</enabled>
           <offset>
@@ -142,9 +135,12 @@
             <Y>0</Y>
           </min>
           <max>
-            <X>0</X>
-            <Y>0</Y>
+            <X>75</X>
+            <Y>100</Y>
           </max>
+        </Component>
+        <Component xsi:type="DinoComp">
+          <enabled>true</enabled>
         </Component>
       </components>
     </GameObject>
