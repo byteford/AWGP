@@ -6,3 +6,5 @@ StandardPhysics.dll
 BlinkByte.StandardPhysics.Physics
 SFMLSound.dll
 BlinkByte.SFMLSound.SFMLSoundManager
+JamesGame.dll
+BlinkByte.JamesGame.Core

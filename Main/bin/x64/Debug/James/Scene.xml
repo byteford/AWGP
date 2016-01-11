@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Scene xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <GameObjects>
+    <GameObject>
+      <name>Text</name>
+      <components>
+        <Component xsi:type="Transform">
+          <enabled>true</enabled>
+          <Position>
+            <X>0</X>
+            <Y>0</Y>
+          </Position>
+          <Scale>
+            <X>1</X>
+            <Y>1</Y>
+          </Scale>
+          <Rotation>0</Rotation>
+        </Component>
+        <Component xsi:type="SFMLTextComp">
+          <enabled>true</enabled>
+          <color>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+            <A>255</A>
+          </color>
+          <shape>Circle</shape>
+          <text>James Game</text>
+          <size>12</size>
+          <FontLocation>Fonts/arial.ttf</FontLocation>
+        </Component>
+      </components>
+    </GameObject>
+    <GameObject>
+      <name>GameObject</name>
+      <components>
+        <Component xsi:type="Transform">
+          <enabled>true</enabled>
+          <Position>
+            <X>250</X>
+            <Y>250</Y>
+          </Position>
+          <Scale>
+            <X>1</X>
+            <Y>1</Y>
+          </Scale>
+          <Rotation>0</Rotation>
+        </Component>
+        <Component xsi:type="SFMLCircle2DComp">
+          <enabled>true</enabled>
+          <color>
+            <R>255</R>
+            <G>0</G>
+            <B>0</B>
+            <A>255</A>
+          </color>
+          <shape>Circle</shape>
+          <radius>50</radius>
+        </Component>
+        <Component xsi:type="StanBoundingBox">
+          <enabled>true</enabled>
+          <offset>
+            <X>0</X>
+            <Y>0</Y>
+          </offset>
+          <collType>none</collType>
+          <min>
+            <X>0</X>
+            <Y>0</Y>
+          </min>
+          <max>
+            <X>100</X>
+            <Y>100</Y>
+          </max>
+        </Component>
+        <Component xsi:type="StanRidgedBodyComp">
+          <enabled>true</enabled>
+          <velocity>
+            <X>0</X>
+            <Y>0</Y>
+          </velocity>
+          <mass>10</mass>
+          <restitution>1</restitution>
+          <startCollision>true</startCollision>
+          <isTrigger>true</isTrigger>
+        </Component>
+      </components>
+    </GameObject>
+    <GameObject>
+      <name>Sprite</name>
+      <components>
+        <Component xsi:type="Transform">
+          <enabled>true</enabled>
+          <Position>
+            <X>0</X>
+            <Y>400</Y>
+          </Position>
+          <Scale>
+            <X>0.25</X>
+            <Y>0.25</Y>
+          </Scale>
+          <Rotation>0</Rotation>
+        </Component>
+        <Component xsi:type="SFMLSprite2DComp">
+          <enabled>true</enabled>
+          <color>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+            <A>255</A>
+          </color>
+          <shape>Sprite</shape>
+          <TextureName>DinoTorq.png</TextureName>
+        </Component>
+        <Component xsi:type="StanRidgedBodyComp">
+          <enabled>true</enabled>
+          <velocity>
+            <X>0</X>
+            <Y>0</Y>
+          </velocity>
+          <mass>10</mass>
+          <restitution>1</restitution>
+          <startCollision>true</startCollision>
+          <isTrigger>false</isTrigger>
+        </Component>
+        <Component xsi:type="StanBoundingBox">
+          <enabled>true</enabled>
+          <offset>
+            <X>0</X>
+            <Y>0</Y>
+          </offset>
+          <collType>none</collType>
+          <min>
+            <X>0</X>
+            <Y>0</Y>
+          </min>
+          <max>
+            <X>75</X>
+            <Y>100</Y>
+          </max>
+        </Component>
+        <Component xsi:type="DinoComp">
+          <enabled>true</enabled>
+        </Component>
+      </components>
+    </GameObject>
+  </GameObjects>
+</Scene>
