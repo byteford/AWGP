@@ -84,14 +84,6 @@
       <Project>{531a36fa-a99f-47c4-a244-94018accce0c}</Project>
       <Name>LewisGame</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Main\Main.csproj">
-      <Project>{d7e35a2f-2ff8-4f88-b39e-8d0c5eef91d5}</Project>
-      <Name>Main</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MakeSceneFile\MakeSceneFile.csproj">
-      <Project>{129fbde6-5531-4505-b77a-066d60fbed50}</Project>
-      <Name>MakeSceneFile</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Physics\Physics.csproj">
       <Project>{aa397227-879b-48b9-84cc-5585891d53cd}</Project>
       <Name>Physics</Name>

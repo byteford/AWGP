@@ -23,7 +23,8 @@
         <A>255</A>
       </color>
       <shape>Circle</shape>
-      <size>0</size>
+      <size>12</size>
+      <FontLocation>Fonts/arial.ttf</FontLocation>
     </Component>
   </components>
 </GameObject>

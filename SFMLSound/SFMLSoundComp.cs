@@ -23,8 +23,8 @@ namespace BlinkByte.SFMLSound
             if (playOnStart)
             {
                 playSound();
-                pitchSound(0.2f);
-
+                pitchSound(0.92f);
+                loopSound(true);
             }
         }
 

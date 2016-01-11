@@ -2,36 +2,6 @@
 <Scene xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <GameObjects>
     <GameObject>
-      <name>Text</name>
-      <components>
-        <Component xsi:type="Transform">
-          <enabled>true</enabled>
-          <Position>
-            <X>0</X>
-            <Y>0</Y>
-          </Position>
-          <Scale>
-            <X>1</X>
-            <Y>1</Y>
-          </Scale>
-          <Rotation>0</Rotation>
-        </Component>
-        <Component xsi:type="SFMLTextComp">
-          <enabled>true</enabled>
-          <color>
-            <R>255</R>
-            <G>255</G>
-            <B>255</B>
-            <A>255</A>
-          </color>
-          <shape>Circle</shape>
-          <text>YAY</text>
-          <size>12</size>
-          <FontLocation>Fonts/arial.ttf</FontLocation>
-        </Component>
-      </components>
-    </GameObject>
-    <GameObject>
       <name>GameObject</name>
       <components>
         <Component xsi:type="Transform">
@@ -77,20 +47,130 @@
           <enabled>true</enabled>
           <velocity>
             <X>0</X>
-            <Y>-0.2</Y>
+            <Y>0</Y>
           </velocity>
           <mass>10</mass>
           <restitution>1</restitution>
           <startCollision>true</startCollision>
           <isTrigger>false</isTrigger>
         </Component>
-        <Component xsi:type="GravityComp">
+        <Component xsi:type="GameComp">
           <enabled>true</enabled>
+        </Component>
+      </components>
+    </GameObject>
+    <GameObject>
+      <name>background</name>
+      <components>
+        <Component xsi:type="Transform">
+          <enabled>true</enabled>
+          <Position>
+            <X>50</X>
+            <Y>50</Y>
+          </Position>
+          <Scale>
+            <X>1</X>
+            <Y>1</Y>
+          </Scale>
+          <Rotation>0</Rotation>
         </Component>
         <Component xsi:type="SFMLSoundComp">
           <enabled>true</enabled>
           <playOnStart>true</playOnStart>
-          <filename>Audios/boom.wav</filename>
+          <filename>Audios/toot.wav</filename>
+        </Component>
+        <Component xsi:type="SFMLCircle2DComp">
+          <enabled>true</enabled>
+          <color>
+            <R>0</R>
+            <G>255</G>
+            <B>0</B>
+            <A>255</A>
+          </color>
+          <shape>Circle</shape>
+          <radius>50</radius>
+        </Component>
+        <Component xsi:type="StanBoundingBox">
+          <enabled>true</enabled>
+          <offset>
+            <X>0</X>
+            <Y>0</Y>
+          </offset>
+          <collType>none</collType>
+          <min>
+            <X>0</X>
+            <Y>0</Y>
+          </min>
+          <max>
+            <X>100</X>
+            <Y>100</Y>
+          </max>
+        </Component>
+        <Component xsi:type="StanRidgedBodyComp">
+          <enabled>true</enabled>
+          <velocity>
+            <X>0</X>
+            <Y>0</Y>
+          </velocity>
+          <mass>10</mass>
+          <restitution>1</restitution>
+          <startCollision>true</startCollision>
+          <isTrigger>false</isTrigger>
+        </Component>
+      </components>
+    </GameObject>
+    <GameObject>
+      <name>ballcolour</name>
+      <components>
+        <Component xsi:type="Transform">
+          <enabled>true</enabled>
+          <Position>
+            <X>550</X>
+            <Y>50</Y>
+          </Position>
+          <Scale>
+            <X>1</X>
+            <Y>1</Y>
+          </Scale>
+          <Rotation>0</Rotation>
+        </Component>
+        <Component xsi:type="SFMLCircle2DComp">
+          <enabled>true</enabled>
+          <color>
+            <R>0</R>
+            <G>125</G>
+            <B>125</B>
+            <A>255</A>
+          </color>
+          <shape>Circle</shape>
+          <radius>50</radius>
+        </Component>
+        <Component xsi:type="StanBoundingBox">
+          <enabled>true</enabled>
+          <offset>
+            <X>0</X>
+            <Y>0</Y>
+          </offset>
+          <collType>none</collType>
+          <min>
+            <X>0</X>
+            <Y>0</Y>
+          </min>
+          <max>
+            <X>100</X>
+            <Y>100</Y>
+          </max>
+        </Component>
+        <Component xsi:type="StanRidgedBodyComp">
+          <enabled>true</enabled>
+          <velocity>
+            <X>0</X>
+            <Y>0</Y>
+          </velocity>
+          <mass>10</mass>
+          <restitution>1</restitution>
+          <startCollision>true</startCollision>
+          <isTrigger>false</isTrigger>
         </Component>
       </components>
     </GameObject>

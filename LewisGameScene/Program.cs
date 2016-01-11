@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+//using System.Text;
 using System.Threading.Tasks;
 using BlinkByte;
 using BlinkByte.Core;
 using BlinkByte.Utilitys;
-
 namespace MakeSceneFile
 {
     class Program
@@ -21,7 +20,9 @@ namespace MakeSceneFile
             BlinkByte.Core.Managers.ModuleManager.instance.AddManager<BlinkByte.SFMLInput.Input>();
             BlinkByte.Core.Managers.ModuleManager.instance.AddManager<BlinkByte.StandardPhysics.Physics>();
             BlinkByte.Core.Managers.ModuleManager.instance.AddManager<BlinkByte.SFMLSound.SFMLSoundManager>();
-            // BlinkByte.Core.Managers.ModuleManager.instance.AddManager("SFMLGraphics.dll","BlinkByte.SFMLGraphics.Graphics");
+            BlinkByte.Core.Managers.ModuleManager.instance.AddManager<BlinkByte.LewisGame.Core>();
+
+            
 
             //BlinkByte.Core.IO.LoadFromFile.LoadModules("mods");
 
@@ -29,31 +30,39 @@ namespace MakeSceneFile
 
             Scene scene = new BlinkByte.Core.Scene();
 
-            GameObject text = GameObject.InstansateNew("Text");
-            text.AddComponent<BlinkByte.SFMLGraphics.SFMLTextComp>().SetText("YAY");
-            scene.addGameObject(text);
+            ///GameObject text = GameObject.InstansateNew("Text");
+          //  text.AddComponent<BlinkByte.SFMLGraphics.SFMLTextComp>().SetText("YAY");
+          //  scene.addGameObject(text);
 
             GameObject go = GameObject.InstansateNew("GameObject");
             (go.AddComponent<BlinkByte.SFMLGraphics.SFMLCircle2DComp>().changeColor(new BlinkByte.Graphics.Colour(255, 0, 0)) as BlinkByte.SFMLGraphics.SFMLCircle2DComp).radius = 50;
             (go.getComponent<BlinkByte.Core.Component.Transform>() as BlinkByte.Core.Component.Transform).Position = new Vector2(250, 250);
             go.AddComponent<BlinkByte.StandardPhysics.StanBoundingBox>().SetMinMax(new Vector2(0, 0), new Vector2(100, 100));
-            go.AddComponent<BlinkByte.StandardPhysics.StanRidgedBodyComp>().SetVelocity(new Vector2(0, -0.2f));
-            go.AddComponent<BlinkByte.Physics.GravityComp>();
-            scene.addGameObject(go);
-            go.AddComponent<BlinkByte.SFMLSound.SFMLSoundComp>().setFileName("Audios/boom.wav");
-            (go.getComponent<BlinkByte.SFMLSound.SFMLSoundComp>()as BlinkByte.SFMLSound.SFMLSoundComp).loopSound(true);
-           
+         
+            go.AddComponent<BlinkByte.StandardPhysics.StanRidgedBodyComp>();
+            go.AddComponent<BlinkByte.LewisGame.GameComp>();
             
-            // go.AddComponent < BlinkByte.Input.Input.ButtonDown; 
-                
-                //GameObject sp = GameObject.InstansateNew("Sprite");
-            //sp.AddComponent<BlinkByte.SFMLGraphics.SFMLSprite2DComp>().TextureName = "DinoTorq.png";
-            //sp.AddComponent<BlinkByte.StandardPhysics.StanRidgedBodyComp>();
-           
+          
+            scene.addGameObject(go);
 
-            //sp.getComponent<BlinkByte.Core.Component.Transform>() as BlinkByte.Core.Component.Transform).Position = new Vector2(300, 250);
-            //sp.AddComponent<BlinkByte.StandardPhysics.StanBoundingBox>();
-            //scene.addGameObject(sp);
+            GameObject bm = GameObject.InstansateNew("background");
+            bm.AddComponent<BlinkByte.SFMLSound.SFMLSoundComp>().setFileName("Audios/toot.wav");
+            (bm.AddComponent<BlinkByte.SFMLGraphics.SFMLCircle2DComp>().changeColor(new BlinkByte.Graphics.Colour(0, 255, 0)) as BlinkByte.SFMLGraphics.SFMLCircle2DComp).radius = 50;
+            (bm.getComponent<BlinkByte.Core.Component.Transform>() as BlinkByte.Core.Component.Transform).Position = new Vector2(50, 50);
+            bm.AddComponent<BlinkByte.StandardPhysics.StanBoundingBox>().SetMinMax(new Vector2(0, 0), new Vector2(100, 100));
+            bm.AddComponent<BlinkByte.StandardPhysics.StanRidgedBodyComp>();
+            scene.addGameObject(bm);
+
+            GameObject bc = GameObject.InstansateNew("ballcolour");
+            
+            (bc.AddComponent<BlinkByte.SFMLGraphics.SFMLCircle2DComp>().changeColor(new BlinkByte.Graphics.Colour(0, 125, 125)) as BlinkByte.SFMLGraphics.SFMLCircle2DComp).radius = 50;
+            (bc.getComponent<BlinkByte.Core.Component.Transform>() as BlinkByte.Core.Component.Transform).Position = new Vector2(550, 50);
+            bc.AddComponent<BlinkByte.StandardPhysics.StanBoundingBox>().SetMinMax(new Vector2(0, 0), new Vector2(100, 100));
+            bc.AddComponent<BlinkByte.StandardPhysics.StanRidgedBodyComp>();
+         
+            
+            scene.addGameObject(bc);
+           ;
 
             GameObject wallTop = GameObject.InstansateNew("Top Wall");
             wallTop.AddComponent<BlinkByte.StandardPhysics.StanRidgedBodyComp>().startCollision = false;

@@ -11,7 +11,7 @@ namespace BlinkByte.SFMLGraphics
         SFML.Graphics.Text SFMLText;
         public SFMLTextComp() : base()
         {
-            SFMLText = new SFML.Graphics.Text("", new SFML.Graphics.Font(FontLocation));
+          // SFMLText = new SFML.Graphics.Text("", new SFML.Graphics.Font(FontLocation));
         }
         public override void Draw()
         {

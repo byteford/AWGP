@@ -36,15 +36,6 @@
       <startCollision>true</startCollision>
       <isTrigger>false</isTrigger>
     </Component>
-    <Component xsi:type="StanCircleBounding">
-      <enabled>true</enabled>
-      <offset>
-        <X>0</X>
-        <Y>0</Y>
-      </offset>
-      <collType>none</collType>
-      <radius>60</radius>
-    </Component>
     <Component xsi:type="SFMLSoundComp">
       <enabled>true</enabled>
       <playOnStart>true</playOnStart>
