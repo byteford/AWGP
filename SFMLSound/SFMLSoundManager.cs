@@ -35,15 +35,18 @@ namespace BlinkByte.SFMLSound
         }
         public void loopSound(string filename,bool Loop) 
         {
+            loadsound(filename);
             Audios[filename].Loop = Loop;
         
         }
         public void pitchSound(string filename, float pitch)
         {
+            loadsound(filename);
             Audios[filename].Pitch = pitch;
         }
-        public void volumeSound(string filename, float volume) 
+        public void volumeSound(string filename, float volume)
         {
+            loadsound(filename);
             Audios[filename].Volume = volume;
         }
         private void loadsound(string filename)
