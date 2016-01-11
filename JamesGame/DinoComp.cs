@@ -11,7 +11,8 @@ namespace BlinkByte.JamesGame
     {
         public void OnTrigger(object[] objs)
         {
-            
+            (Scene.currentScene.GameObjects.Where(x => x.name == "Text").First().getComponent<SFMLGraphics.SFMLTextComp>() as SFMLGraphics.SFMLTextComp).SetText("You win");
+            (Scene.currentScene.GameObjects.Where(x => x.name == "Text").First().getComponent<SFMLGraphics.SFMLTextComp>() as SFMLGraphics.SFMLTextComp).SetSize(100);
         }
         public override void Start(GameObject gameObject)
         {

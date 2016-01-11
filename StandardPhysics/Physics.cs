@@ -87,11 +87,11 @@ namespace BlinkByte.StandardPhysics
                     {
                         if ((colliders[i].gameObject.getComponent<RidgedBodyComp>() as RidgedBodyComp).isTrigger)
                         {
-                            BlinkByte.Core.Scene.currentScene.RunMethodCall<BlinkByte.Physics.ITriggable>("OnTrigger", new object[] { colliders[j] });
+                            BlinkByte.Core.Scene.currentScene.RunMethodCall<BlinkByte.Physics.ITriggable>("OnTrigger", new object[] { (Object)colliders[j] });
                         }
                         else if((colliders[j].gameObject.getComponent<RidgedBodyComp>() as RidgedBodyComp).isTrigger)
                         {
-                            BlinkByte.Core.Scene.currentScene.RunMethodCall<BlinkByte.Physics.ITriggable>("OnTrigger",new object[]{ colliders[i]});
+                            BlinkByte.Core.Scene.currentScene.RunMethodCall<BlinkByte.Physics.ITriggable>("OnTrigger",new object[]{ (Object)colliders[i]});
                         }
                         else
                         {
@@ -126,7 +126,7 @@ namespace BlinkByte.StandardPhysics
             {
                 return result;
             }
-            if (maxPosA.Y < minPosB.Y || minPosA.Y > colliderB.max.Y)
+            if (maxPosA.Y < minPosB.Y || minPosA.Y > maxPosB.Y)
             {
                 return result;
             }

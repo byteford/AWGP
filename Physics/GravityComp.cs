@@ -7,13 +7,8 @@ using BlinkByte.Core;
 
 namespace BlinkByte.Physics
 {
-    public class GravityComp : BlinkByte.Core.Component.Component , BlinkByte.Physics.ITriggable
+    public class GravityComp : BlinkByte.Core.Component.Component
     {
-        public void OnTrigger(object[] objs)
-        {
-            Console.WriteLine("tigger");
-        }
-
         public override void Start(GameObject gameObject)
         {
             base.Start(gameObject);

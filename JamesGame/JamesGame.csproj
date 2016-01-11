@@ -67,6 +67,10 @@
       <Project>{b1f2737b-847a-4e36-8d79-bfb92bc88ca3}</Project>
       <Name>Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Graphics\Graphics.csproj">
+      <Project>{2c3f768e-40e1-40dd-8667-3ace606fecbd}</Project>
+      <Name>Graphics</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Input\Input.csproj">
       <Project>{d5951be1-a6e2-4821-b96c-7f9ed7ce625c}</Project>
       <Name>Input</Name>

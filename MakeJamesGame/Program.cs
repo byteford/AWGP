@@ -52,22 +52,22 @@ namespace MakeJamesGame
             GameObject wallTop = GameObject.InstansateNew("Top Wall");
             wallTop.AddComponent<BlinkByte.StandardPhysics.StanRidgedBodyComp>().startCollision = false;
             wallTop.AddComponent<BlinkByte.StandardPhysics.StanBoundingBox>().SetMinMax(new Vector2(0, -10), new Vector2(800, 0));
-            scene.addGameObject(wallTop);
+           // scene.addGameObject(wallTop);
 
             GameObject wallLeft = GameObject.InstansateNew("Left Wall");
             wallLeft.AddComponent<BlinkByte.StandardPhysics.StanRidgedBodyComp>().startCollision = false;
             wallLeft.AddComponent<BlinkByte.StandardPhysics.StanBoundingBox>().SetMinMax(new Vector2(-10, 0), new Vector2(0, 600));
-            scene.addGameObject(wallLeft);
+           // scene.addGameObject(wallLeft);
 
             GameObject wallRight = GameObject.InstansateNew("Right Wall");
             wallRight.AddComponent<BlinkByte.StandardPhysics.StanRidgedBodyComp>().startCollision = false;
             wallRight.AddComponent<BlinkByte.StandardPhysics.StanBoundingBox>().SetMinMax(new Vector2(800, 0), new Vector2(810, 600));
-            scene.addGameObject(wallRight);
+           // scene.addGameObject(wallRight);
 
             GameObject wallBottom = GameObject.InstansateNew("Bottom Wall");
             wallBottom.AddComponent<BlinkByte.StandardPhysics.StanRidgedBodyComp>().startCollision = false;
             wallBottom.AddComponent<BlinkByte.StandardPhysics.StanBoundingBox>().SetMinMax(new Vector2(0, 600), new Vector2(800, 610));
-            scene.addGameObject(wallBottom);
+            //scene.addGameObject(wallBottom);
 
             scene.saveToFile(gameName + "/Scene");
             BlinkByte.Core.IO.LoadFromFile.saveModules(gameName + "/mods");

@@ -54,19 +54,19 @@ namespace BlinkByte.Core
             foreach (var temp in list)
             {
                 info = typeof(T).GetMethod(method);
-                info.Invoke(temp, args);
+                info.Invoke(temp,new[] { args});
             }
             
         }
         public T addMethodCall<T>(T methodClass)
         {
             AddService<T>();
-            (methods.GetService(typeof(T)) as List<T>).Add(methodClass);
+            (methods.GetService(typeof(List<T>)) as List<T>).Add(methodClass);
             return methodClass;
         }
         private bool hasService<T>()
         {
-            if (methods.GetService(typeof(T)) != null ){
+            if (methods.GetService(typeof(List<T>)) != null ){
                 return true;
             }
             
@@ -76,14 +76,14 @@ namespace BlinkByte.Core
         {
             if (!hasService<T>())
             {
-                methods.AddService(typeof(IEnumerable<T>), new List<T>());
+                methods.AddService(typeof(List<T>), new List<T>());
             }
         }
         private List<T> GetServices<T>()
         {
             if (hasService<T>())
             {
-                return methods.GetService(typeof(T)) as List<T>;
+                return methods.GetService(typeof(List<T>)) as List<T>;
             }
             else
                 return null;
