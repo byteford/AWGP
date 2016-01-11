@@ -85,3 +85,5 @@ C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\x64\Debug\SFMLInput.pdb
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\x64\Debug\Sound.pdb
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\x64\Debug\StandardPhysics.pdb
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\obj\x64\Debug\Main.csprojResolveAssemblyReference.cache
+E:\uni work\AWGP\Main\bin\x64\Debug\LewisGame.dll
+E:\uni work\AWGP\Main\bin\x64\Debug\LewisGame.pdb

@@ -102,9 +102,9 @@
       <Project>{d5951be1-a6e2-4821-b96c-7f9ed7ce625c}</Project>
       <Name>Input</Name>
     </ProjectReference>
-    <ProjectReference Include="..\JamesGame\JamesGame.csproj">
-      <Project>{076f5e3d-3278-4161-bbaf-fd0e8c68f4c2}</Project>
-      <Name>JamesGame</Name>
+    <ProjectReference Include="..\LewisGame\LewisGame.csproj">
+      <Project>{531a36fa-a99f-47c4-a244-94018accce0c}</Project>
+      <Name>LewisGame</Name>
     </ProjectReference>
     <ProjectReference Include="..\Physics\Physics.csproj">
       <Project>{aa397227-879b-48b9-84cc-5585891d53cd}</Project>

@@ -20,8 +20,8 @@ namespace BlinkByte.LewisGame
             if (BlinkByte.Input.Input.ButtonDown("d"))
             {
                 (gameObject.getComponent<BlinkByte.Physics.RidgedBodyComp>() as Physics.RidgedBodyComp).AddForce("d", new Vector2(0.001f, 0));
-              
-)
+
+            
             }
             else
             {

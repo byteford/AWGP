@@ -18,7 +18,7 @@ namespace BlinkByte.Main
             Console.WriteLine("Game SetUp");
             Core.SetUp.Init();
 
-            Console.WriteLine("what game so you want to run: James, Grace, James");
+            Console.WriteLine("what game so you want to run: Lewis, Grace, James");
             string input = Console.ReadLine();
             BlinkByte.Core.IO.LoadFromFile.LoadModules(input + "/mods");
             ModuleManager.instance.Init();
