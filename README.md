@@ -1,0 +1,1 @@
+to play just the games download AWGPGames from the downloads section and run rn.bat
