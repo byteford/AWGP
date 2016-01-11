@@ -25,3 +25,30 @@ D:\Final Year\Advanced Window Game Programming\Engine\GraceGame\bin\Debug\Standa
 D:\Final Year\Advanced Window Game Programming\Engine\GraceGame\obj\Debug\GraceGame.csprojResolveAssemblyReference.cache
 D:\Final Year\Advanced Window Game Programming\Engine\GraceGame\obj\Debug\GraceGame.dll
 D:\Final Year\Advanced Window Game Programming\Engine\GraceGame\obj\Debug\GraceGame.pdb
+E:\uni work\AWGP\GraceGame\bin\Debug\GraceGame.dll
+E:\uni work\AWGP\GraceGame\bin\Debug\GraceGame.pdb
+E:\uni work\AWGP\GraceGame\bin\Debug\Blinkbye.Core.dll
+E:\uni work\AWGP\GraceGame\bin\Debug\Graphics.dll
+E:\uni work\AWGP\GraceGame\bin\Debug\Input.dll
+E:\uni work\AWGP\GraceGame\bin\Debug\Physics.dll
+E:\uni work\AWGP\GraceGame\bin\Debug\SFMLGraphics.dll
+E:\uni work\AWGP\GraceGame\bin\Debug\SFMLInput.dll
+E:\uni work\AWGP\GraceGame\bin\Debug\SFMLSound.dll
+E:\uni work\AWGP\GraceGame\bin\Debug\Sound.dll
+E:\uni work\AWGP\GraceGame\bin\Debug\StandardPhysics.dll
+E:\uni work\AWGP\GraceGame\bin\Debug\sfmlnet-window-2.dll
+E:\uni work\AWGP\GraceGame\bin\Debug\sfmlnet-graphics-2.dll
+E:\uni work\AWGP\GraceGame\bin\Debug\sfmlnet-system-2.dll
+E:\uni work\AWGP\GraceGame\bin\Debug\sfmlnet-audio-2.dll
+E:\uni work\AWGP\GraceGame\bin\Debug\Blinkbye.Core.pdb
+E:\uni work\AWGP\GraceGame\bin\Debug\Graphics.pdb
+E:\uni work\AWGP\GraceGame\bin\Debug\Input.pdb
+E:\uni work\AWGP\GraceGame\bin\Debug\Physics.pdb
+E:\uni work\AWGP\GraceGame\bin\Debug\SFMLGraphics.pdb
+E:\uni work\AWGP\GraceGame\bin\Debug\SFMLInput.pdb
+E:\uni work\AWGP\GraceGame\bin\Debug\SFMLSound.pdb
+E:\uni work\AWGP\GraceGame\bin\Debug\Sound.pdb
+E:\uni work\AWGP\GraceGame\bin\Debug\StandardPhysics.pdb
+E:\uni work\AWGP\GraceGame\obj\Debug\GraceGame.csprojResolveAssemblyReference.cache
+E:\uni work\AWGP\GraceGame\obj\Debug\GraceGame.dll
+E:\uni work\AWGP\GraceGame\obj\Debug\GraceGame.pdb

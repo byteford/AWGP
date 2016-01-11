@@ -4,3 +4,9 @@ D:\Final Year\Advanced Window Game Programming\Engine\Main\bin\x64\Debug\MakeGra
 D:\Final Year\Advanced Window Game Programming\Engine\MakeGraceGame\obj\x64\Debug\MakeGraceGame.csprojResolveAssemblyReference.cache
 D:\Final Year\Advanced Window Game Programming\Engine\MakeGraceGame\obj\x64\Debug\MakeGraceGame.exe
 D:\Final Year\Advanced Window Game Programming\Engine\MakeGraceGame\obj\x64\Debug\MakeGraceGame.pdb
+E:\uni work\AWGP\Main\bin\x64\Debug\MakeGraceGame.exe.config
+E:\uni work\AWGP\MakeGraceGame\obj\x64\Debug\MakeGraceGame.exe
+E:\uni work\AWGP\Main\bin\x64\Debug\MakeGraceGame.exe
+E:\uni work\AWGP\Main\bin\x64\Debug\MakeGraceGame.pdb
+E:\uni work\AWGP\MakeGraceGame\obj\x64\Debug\MakeGraceGame.csprojResolveAssemblyReference.cache
+E:\uni work\AWGP\MakeGraceGame\obj\x64\Debug\MakeGraceGame.pdb
