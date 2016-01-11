@@ -76,7 +76,7 @@ namespace BlinkByte.Core
         {
             if (!hasService<T>())
             {
-                methods.AddService(typeof(T), new List<T>());
+                methods.AddService(typeof(IEnumerable<T>), new List<T>());
             }
         }
         private List<T> GetServices<T>()
