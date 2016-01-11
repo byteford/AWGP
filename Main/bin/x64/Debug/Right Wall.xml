@@ -24,6 +24,7 @@
       <restitution>1</restitution>
       <startCollision>false</startCollision>
       <isTrigger>false</isTrigger>
+      <drag>0.999</drag>
     </Component>
     <Component xsi:type="StanBoundingBox">
       <enabled>true</enabled>

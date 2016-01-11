@@ -9,8 +9,8 @@
         <Y>400</Y>
       </Position>
       <Scale>
-        <X>0.25</X>
-        <Y>0.25</Y>
+        <X>1</X>
+        <Y>1</Y>
       </Scale>
       <Rotation>0</Rotation>
     </Component>
@@ -23,7 +23,7 @@
         <A>255</A>
       </color>
       <shape>Sprite</shape>
-      <TextureName>DinoTorq.png</TextureName>
+      <TextureName>Player.png</TextureName>
     </Component>
     <Component xsi:type="StanRidgedBodyComp">
       <enabled>true</enabled>
@@ -35,6 +35,7 @@
       <restitution>1</restitution>
       <startCollision>true</startCollision>
       <isTrigger>false</isTrigger>
+      <drag>0.999</drag>
     </Component>
     <Component xsi:type="StanBoundingBox">
       <enabled>true</enabled>
@@ -48,11 +49,11 @@
         <Y>0</Y>
       </min>
       <max>
-        <X>75</X>
-        <Y>100</Y>
+        <X>64</X>
+        <Y>64</Y>
       </max>
     </Component>
-    <Component xsi:type="DinoComp">
+    <Component xsi:type="PurpleComp">
       <enabled>true</enabled>
     </Component>
   </components>

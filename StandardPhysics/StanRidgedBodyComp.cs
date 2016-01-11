@@ -9,7 +9,7 @@ namespace BlinkByte.StandardPhysics
 {
     public class StanRidgedBodyComp : BlinkByte.Physics.RidgedBodyComp
     {
-        float drag = 0.999f;
+        public float drag = 0.999f;
         Vector2 oldVelocity = new Vector2();
         public override void Update()
         {

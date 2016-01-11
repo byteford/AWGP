@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{B1F2737B-847A-4E36-8D79-BFB92BC88CA3}"
 EndProject
@@ -36,6 +36,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesGame", "JamesGame\JamesGame.csproj", "{076F5E3D-3278-4161-BBAF-FD0E8C68F4C2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeJamesGame", "MakeJamesGame\MakeJamesGame.csproj", "{A0E2C9DB-053A-4DE4-9EAB-8A8ACB429D67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraceGame", "GraceGame\GraceGame.csproj", "{163BD765-8B6F-4643-B77E-84626AD92C23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeGraceGame", "MakeGraceGame\MakeGraceGame.csproj", "{5333D432-CF91-4FD5-84AA-05A66FF209C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +205,30 @@ Global
 		{A0E2C9DB-053A-4DE4-9EAB-8A8ACB429D67}.Release|x64.Build.0 = Release|Any CPU
 		{A0E2C9DB-053A-4DE4-9EAB-8A8ACB429D67}.Release|x86.ActiveCfg = Release|Any CPU
 		{A0E2C9DB-053A-4DE4-9EAB-8A8ACB429D67}.Release|x86.Build.0 = Release|Any CPU
+		{163BD765-8B6F-4643-B77E-84626AD92C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{163BD765-8B6F-4643-B77E-84626AD92C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{163BD765-8B6F-4643-B77E-84626AD92C23}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{163BD765-8B6F-4643-B77E-84626AD92C23}.Debug|x64.Build.0 = Debug|Any CPU
+		{163BD765-8B6F-4643-B77E-84626AD92C23}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{163BD765-8B6F-4643-B77E-84626AD92C23}.Debug|x86.Build.0 = Debug|Any CPU
+		{163BD765-8B6F-4643-B77E-84626AD92C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{163BD765-8B6F-4643-B77E-84626AD92C23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{163BD765-8B6F-4643-B77E-84626AD92C23}.Release|x64.ActiveCfg = Release|Any CPU
+		{163BD765-8B6F-4643-B77E-84626AD92C23}.Release|x64.Build.0 = Release|Any CPU
+		{163BD765-8B6F-4643-B77E-84626AD92C23}.Release|x86.ActiveCfg = Release|Any CPU
+		{163BD765-8B6F-4643-B77E-84626AD92C23}.Release|x86.Build.0 = Release|Any CPU
+		{5333D432-CF91-4FD5-84AA-05A66FF209C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5333D432-CF91-4FD5-84AA-05A66FF209C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5333D432-CF91-4FD5-84AA-05A66FF209C3}.Debug|x64.ActiveCfg = Debug|x64
+		{5333D432-CF91-4FD5-84AA-05A66FF209C3}.Debug|x64.Build.0 = Debug|x64
+		{5333D432-CF91-4FD5-84AA-05A66FF209C3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5333D432-CF91-4FD5-84AA-05A66FF209C3}.Debug|x86.Build.0 = Debug|Any CPU
+		{5333D432-CF91-4FD5-84AA-05A66FF209C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5333D432-CF91-4FD5-84AA-05A66FF209C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5333D432-CF91-4FD5-84AA-05A66FF209C3}.Release|x64.ActiveCfg = Release|Any CPU
+		{5333D432-CF91-4FD5-84AA-05A66FF209C3}.Release|x64.Build.0 = Release|Any CPU
+		{5333D432-CF91-4FD5-84AA-05A66FF209C3}.Release|x86.ActiveCfg = Release|Any CPU
+		{5333D432-CF91-4FD5-84AA-05A66FF209C3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
