@@ -46,6 +46,12 @@ namespace BlinkByte.Core.IO
             
         }
         
+        /// <summary>
+        /// saves an object as a xml file
+        /// </summary>
+        /// <typeparam name="T">object type</typeparam>
+        /// <param name="filename">the relitave location to save the file</param>
+        /// <param name="obj">the object to save</param>
         public static void SaveFile<T>(string filename, T obj)
         {
             
@@ -60,6 +66,11 @@ namespace BlinkByte.Core.IO
                 Console.WriteLine(e);
             }
         }
+        /// <summary>
+        /// Get an xmlSerializer for a given type (code found, not 100% sure how it works, though could work it out it had enough time)Component.Componet might need to be T, but it works for now
+        /// </summary>
+        /// <typeparam name="T">The type of the file to serialize</typeparam>
+        /// <returns></returns>
         public static XmlSerializer GetSerializer<T>()
         {
             var lListOfComp = (from lAssembly in AppDomain.CurrentDomain.GetAssemblies()
@@ -96,6 +107,11 @@ namespace BlinkByte.Core.IO
             }
             return true;
         }
+        /// <summary>
+        /// saves loaded modules to a file loction
+        /// </summary>
+        /// <param name="filename">relitave path to save to,</param>
+        /// <returns></returns>
         public static bool saveModules(string filename)
         {
             try
