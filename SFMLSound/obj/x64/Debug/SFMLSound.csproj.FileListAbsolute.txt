@@ -34,3 +34,15 @@ C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLSound\bin\x64\Debug\Sound.pdb
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLSound\obj\x64\Debug\SFMLSound.csprojResolveAssemblyReference.cache
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLSound\obj\x64\Debug\SFMLSound.dll
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\SFMLSound\obj\x64\Debug\SFMLSound.pdb
+C:\Users\sandf\Documents\GIT\AWGP\SFMLSound\bin\x64\Debug\SFMLSound.dll
+C:\Users\sandf\Documents\GIT\AWGP\SFMLSound\bin\x64\Debug\SFMLSound.pdb
+C:\Users\sandf\Documents\GIT\AWGP\SFMLSound\bin\x64\Debug\Blinkbye.Core.dll
+C:\Users\sandf\Documents\GIT\AWGP\SFMLSound\bin\x64\Debug\sfmlnet-audio-2.dll
+C:\Users\sandf\Documents\GIT\AWGP\SFMLSound\bin\x64\Debug\sfmlnet-system-2.dll
+C:\Users\sandf\Documents\GIT\AWGP\SFMLSound\bin\x64\Debug\Sound.dll
+C:\Users\sandf\Documents\GIT\AWGP\SFMLSound\bin\x64\Debug\sfmlnet-window-2.dll
+C:\Users\sandf\Documents\GIT\AWGP\SFMLSound\bin\x64\Debug\Blinkbye.Core.pdb
+C:\Users\sandf\Documents\GIT\AWGP\SFMLSound\bin\x64\Debug\Sound.pdb
+C:\Users\sandf\Documents\GIT\AWGP\SFMLSound\obj\x64\Debug\SFMLSound.csprojResolveAssemblyReference.cache
+C:\Users\sandf\Documents\GIT\AWGP\SFMLSound\obj\x64\Debug\SFMLSound.dll
+C:\Users\sandf\Documents\GIT\AWGP\SFMLSound\obj\x64\Debug\SFMLSound.pdb

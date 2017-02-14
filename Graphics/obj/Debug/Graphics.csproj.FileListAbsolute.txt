@@ -1,0 +1,11 @@
+C:\Users\sandf\Documents\GIT\AWGP\Graphics\bin\Debug\Graphics.dll.config
+C:\Users\sandf\Documents\GIT\AWGP\Graphics\bin\Debug\Graphics.dll
+C:\Users\sandf\Documents\GIT\AWGP\Graphics\bin\Debug\Graphics.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Graphics\bin\Debug\Blinkbye.Core.dll
+C:\Users\sandf\Documents\GIT\AWGP\Graphics\bin\Debug\sfmlnet-graphics-2.dll
+C:\Users\sandf\Documents\GIT\AWGP\Graphics\bin\Debug\sfmlnet-system-2.dll
+C:\Users\sandf\Documents\GIT\AWGP\Graphics\bin\Debug\sfmlnet-window-2.dll
+C:\Users\sandf\Documents\GIT\AWGP\Graphics\bin\Debug\Blinkbye.Core.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Graphics\obj\Debug\Graphics.csprojResolveAssemblyReference.cache
+C:\Users\sandf\Documents\GIT\AWGP\Graphics\obj\Debug\Graphics.dll
+C:\Users\sandf\Documents\GIT\AWGP\Graphics\obj\Debug\Graphics.pdb

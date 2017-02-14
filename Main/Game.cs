@@ -20,7 +20,9 @@ namespace BlinkByte.Main
 
             Console.WriteLine("what game so you want to run: Lewis, Grace, James");
             string input = Console.ReadLine();
+
             BlinkByte.Core.IO.LoadFromFile.LoadModules(input + "/mods");
+            
             ModuleManager.instance.Init();
             Core.SetUp.LoadScene(input + "/Scene");
 

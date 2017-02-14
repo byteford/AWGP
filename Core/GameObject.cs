@@ -20,6 +20,10 @@ namespace BlinkByte.Core
             }
             
         }
+
+        /// <summary>
+        /// Runs start on all componets of the game object
+        /// </summary>
         public virtual void Start()
         {
                 foreach (Component.Component comp in components)
@@ -27,6 +31,9 @@ namespace BlinkByte.Core
                                 comp.Start(this);
                             }
         }
+        /// <summary>
+        /// Runs Update of every componet
+        /// </summary>
         public virtual void Update()
         {
             

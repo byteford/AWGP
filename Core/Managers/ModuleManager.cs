@@ -18,6 +18,9 @@ namespace BlinkByte.Core.Managers
             instance = this;
             modules = new Dictionary<Type, IModule>();
         }
+        /// <summary>
+        /// Inishilises the modules that have been loaded
+        /// </summary>
         public void Init()
         {
             
@@ -26,6 +29,9 @@ namespace BlinkByte.Core.Managers
                 Mod.Init();
             }
         }
+        /// <summary>
+        /// Runs Update on modules that need it (mainly for drawing)
+        /// </summary>
         public void Update()
         {
             foreach (IModule Mod in modules.Values)
@@ -44,6 +50,12 @@ namespace BlinkByte.Core.Managers
               return default(T);*/
             return (T)AddManager(typeof(T));
         }
+        /// <summary>
+        /// Adds a manager to the modules Dictonary, Loads a dll if the dll isnt already loaded
+        /// </summary>
+        /// <param name="dllName"> The name of the dll to load</param>
+        /// <param name="TypeName">The name of the base class, including namespace</param>
+        /// <returns></returns>
         public object AddManager(string dllName, string TypeName)
         {
             Assembly asm;
@@ -64,6 +76,11 @@ namespace BlinkByte.Core.Managers
             }
            return AddManager(asm.GetType(TypeName));
         }
+        /// <summary>
+        /// Creates an instance of a module and adds it to the modules dictonary
+        /// </summary>
+        /// <param name="type">the type of module to add to the modules dictonary</param>
+        /// <returns></returns>
         private object AddManager(Type type)
         {
             object temp = Activator.CreateInstance(type);

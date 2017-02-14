@@ -87,3 +87,34 @@ C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\bin\x64\Debug\StandardPhysics.
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Main\obj\x64\Debug\Main.csprojResolveAssemblyReference.cache
 E:\uni work\AWGP\Main\bin\x64\Debug\GraceGame.dll
 E:\uni work\AWGP\Main\bin\x64\Debug\GraceGame.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\Main.exe.config
+C:\Users\sandf\Documents\GIT\AWGP\Main\obj\x64\Debug\Main.exe
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\DinoTorq.png
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\Main.exe
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\Main.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\Blinkbye.Core.dll
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\GraceGame.dll
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\Graphics.dll
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\Input.dll
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\Physics.dll
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\SFMLGraphics.dll
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\SFMLInput.dll
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\SFMLSound.dll
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\Sound.dll
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\StandardPhysics.dll
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\sfmlnet-window-2.dll
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\sfmlnet-graphics-2.dll
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\sfmlnet-system-2.dll
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\sfmlnet-audio-2.dll
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\Blinkbye.Core.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\GraceGame.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\Graphics.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\Input.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\Physics.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\SFMLGraphics.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\SFMLSound.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\SFMLInput.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\Sound.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Main\bin\x64\Debug\StandardPhysics.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Main\obj\x64\Debug\Main.csprojResolveAssemblyReference.cache
+C:\Users\sandf\Documents\GIT\AWGP\Main\obj\x64\Debug\Main.pdb

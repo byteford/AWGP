@@ -11,6 +11,9 @@ namespace BlinkByte.Core
     [System.Serializable]
     public class Scene
     {
+        /// <summary>
+        ///Get the currently loaded scene 
+        /// </summary>
         public static Scene currentScene;
         public List<GameObject> GameObjects;
         ServiceContainer methods = new ServiceContainer();
@@ -19,6 +22,9 @@ namespace BlinkByte.Core
             currentScene = this;
             GameObjects = new List<GameObject>();
         }
+        /// <summary>
+        /// Runs start of all inishilised game objects
+        /// </summary>
         public void Start()
         {
             foreach(var go in GameObjects)
@@ -31,10 +37,17 @@ namespace BlinkByte.Core
             GameObjects.Add(obj);
             return obj;
         }
+        /// <summary>
+        /// save the current scene to a file
+        /// </summary>
+        /// <param name="fileName">relitive locaiton to save</param>
         public void saveToFile(string fileName)
         {
             IO.LoadFromFile.SaveFile(fileName, this);
         }
+        /// <summary>
+        /// Runs the update of every gameobject and keeps track of time since last update
+        /// </summary>
         public void Update()
         {
             foreach( GameObject go in GameObjects)

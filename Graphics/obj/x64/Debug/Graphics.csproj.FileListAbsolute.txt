@@ -31,3 +31,14 @@ C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\bin\x64\Debug\Blinkbye.Cor
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\obj\x64\Debug\Graphics.csprojResolveAssemblyReference.cache
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\obj\x64\Debug\Graphics.dll
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Graphics\obj\x64\Debug\Graphics.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Graphics\bin\x64\Debug\Graphics.dll.config
+C:\Users\sandf\Documents\GIT\AWGP\Graphics\bin\x64\Debug\Graphics.dll
+C:\Users\sandf\Documents\GIT\AWGP\Graphics\bin\x64\Debug\Graphics.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Graphics\bin\x64\Debug\Blinkbye.Core.dll
+C:\Users\sandf\Documents\GIT\AWGP\Graphics\bin\x64\Debug\sfmlnet-graphics-2.dll
+C:\Users\sandf\Documents\GIT\AWGP\Graphics\bin\x64\Debug\sfmlnet-system-2.dll
+C:\Users\sandf\Documents\GIT\AWGP\Graphics\bin\x64\Debug\sfmlnet-window-2.dll
+C:\Users\sandf\Documents\GIT\AWGP\Graphics\bin\x64\Debug\Blinkbye.Core.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Graphics\obj\x64\Debug\Graphics.csprojResolveAssemblyReference.cache
+C:\Users\sandf\Documents\GIT\AWGP\Graphics\obj\x64\Debug\Graphics.dll
+C:\Users\sandf\Documents\GIT\AWGP\Graphics\obj\x64\Debug\Graphics.pdb

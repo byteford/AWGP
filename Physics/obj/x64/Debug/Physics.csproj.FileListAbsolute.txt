@@ -19,3 +19,10 @@ C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Physics\bin\x64\Debug\Blinkbye.Core
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Physics\obj\x64\Debug\Physics.csprojResolveAssemblyReference.cache
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Physics\obj\x64\Debug\Physics.dll
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Physics\obj\x64\Debug\Physics.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Physics\bin\x64\Debug\Physics.dll
+C:\Users\sandf\Documents\GIT\AWGP\Physics\bin\x64\Debug\Physics.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Physics\bin\x64\Debug\Blinkbye.Core.dll
+C:\Users\sandf\Documents\GIT\AWGP\Physics\bin\x64\Debug\Blinkbye.Core.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Physics\obj\x64\Debug\Physics.csprojResolveAssemblyReference.cache
+C:\Users\sandf\Documents\GIT\AWGP\Physics\obj\x64\Debug\Physics.dll
+C:\Users\sandf\Documents\GIT\AWGP\Physics\obj\x64\Debug\Physics.pdb

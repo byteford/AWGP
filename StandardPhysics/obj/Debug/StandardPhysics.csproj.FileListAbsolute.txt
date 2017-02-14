@@ -25,3 +25,12 @@ C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\StandardPhysics\bin\Debug\Physics.p
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\StandardPhysics\obj\Debug\StandardPhysics.csprojResolveAssemblyReference.cache
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\StandardPhysics\obj\Debug\StandardPhysics.dll
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\StandardPhysics\obj\Debug\StandardPhysics.pdb
+C:\Users\sandf\Documents\GIT\AWGP\StandardPhysics\bin\Debug\StandardPhysics.dll
+C:\Users\sandf\Documents\GIT\AWGP\StandardPhysics\bin\Debug\StandardPhysics.pdb
+C:\Users\sandf\Documents\GIT\AWGP\StandardPhysics\bin\Debug\Blinkbye.Core.dll
+C:\Users\sandf\Documents\GIT\AWGP\StandardPhysics\bin\Debug\Physics.dll
+C:\Users\sandf\Documents\GIT\AWGP\StandardPhysics\bin\Debug\Blinkbye.Core.pdb
+C:\Users\sandf\Documents\GIT\AWGP\StandardPhysics\bin\Debug\Physics.pdb
+C:\Users\sandf\Documents\GIT\AWGP\StandardPhysics\obj\Debug\StandardPhysics.csprojResolveAssemblyReference.cache
+C:\Users\sandf\Documents\GIT\AWGP\StandardPhysics\obj\Debug\StandardPhysics.dll
+C:\Users\sandf\Documents\GIT\AWGP\StandardPhysics\obj\Debug\StandardPhysics.pdb

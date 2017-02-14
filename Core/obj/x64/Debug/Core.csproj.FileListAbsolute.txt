@@ -10,3 +10,9 @@ E:\uni work\AWGP\Core\obj\x64\Debug\Blinkbye.Core.dll
 E:\uni work\AWGP\Core\obj\x64\Debug\Blinkbye.Core.pdb
 E:\uni work\AWGP\Core\obj\x64\Debug\Core.csprojResolveAssemblyReference.cache
 D:\Final Year\Advanced Window Game Programming\Engine\Core\obj\x64\Debug\Core.csprojResolveAssemblyReference.cache
+C:\Users\sandf\Documents\GIT\AWGP\Core\bin\x64\Debug\Blinkbye.Core.dll.config
+C:\Users\sandf\Documents\GIT\AWGP\Core\bin\x64\Debug\Blinkbye.Core.dll
+C:\Users\sandf\Documents\GIT\AWGP\Core\bin\x64\Debug\Blinkbye.Core.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Core\obj\x64\Debug\Core.csprojResolveAssemblyReference.cache
+C:\Users\sandf\Documents\GIT\AWGP\Core\obj\x64\Debug\Blinkbye.Core.dll
+C:\Users\sandf\Documents\GIT\AWGP\Core\obj\x64\Debug\Blinkbye.Core.pdb

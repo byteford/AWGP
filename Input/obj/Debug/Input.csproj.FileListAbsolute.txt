@@ -5,3 +5,10 @@ C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Input\bin\Debug\Blinkbye.Core.pdb
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Input\obj\Debug\Input.csprojResolveAssemblyReference.cache
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Input\obj\Debug\Input.dll
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Input\obj\Debug\Input.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Input\bin\Debug\Input.dll
+C:\Users\sandf\Documents\GIT\AWGP\Input\bin\Debug\Input.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Input\bin\Debug\Blinkbye.Core.dll
+C:\Users\sandf\Documents\GIT\AWGP\Input\bin\Debug\Blinkbye.Core.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Input\obj\Debug\Input.csprojResolveAssemblyReference.cache
+C:\Users\sandf\Documents\GIT\AWGP\Input\obj\Debug\Input.dll
+C:\Users\sandf\Documents\GIT\AWGP\Input\obj\Debug\Input.pdb

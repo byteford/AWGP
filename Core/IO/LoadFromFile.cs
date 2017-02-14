@@ -12,6 +12,12 @@ namespace BlinkByte.Core.IO
 
     public class LoadFromFile
     {
+        /// <summary>
+        /// Deserializes an xml file in to a class
+        /// </summary>
+        /// <typeparam name="T">The file to deserialize the xml in to </typeparam>
+        /// <param name="filename">The relitive path of the file</param>
+        /// <returns></returns>
         public static T LoadFile<T>(string filename)
         {
             TextReader reader;
@@ -62,6 +68,12 @@ namespace BlinkByte.Core.IO
                              select lType).ToArray();
             return new XmlSerializer(typeof(T), lListOfComp);
         }
+        /// <summary>
+        /// Load a file that states which modules to load.
+        /// Then loads the modules
+        /// </summary>
+        /// <param name="filename"> The relitive location of the file</param>
+        /// <returns></returns>
         public static bool LoadModules(string filename)
         {
             try

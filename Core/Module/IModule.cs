@@ -8,7 +8,13 @@ namespace BlinkByte.Core.Module
 {
     public interface IModule
     {
+        /// <summary>
+        /// Run to Inishilise module
+        /// </summary>
         void Init();
+        /// <summary>
+        /// Runs every frame
+        /// </summary>
         void Update();
         ModuleType GetModuleType();
     }

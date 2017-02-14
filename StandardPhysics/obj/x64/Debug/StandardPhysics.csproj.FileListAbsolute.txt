@@ -7,3 +7,12 @@ E:\uni work\AWGP\StandardPhysics\bin\x64\Debug\Physics.pdb
 E:\uni work\AWGP\StandardPhysics\obj\x64\Debug\StandardPhysics.csprojResolveAssemblyReference.cache
 E:\uni work\AWGP\StandardPhysics\obj\x64\Debug\StandardPhysics.dll
 E:\uni work\AWGP\StandardPhysics\obj\x64\Debug\StandardPhysics.pdb
+C:\Users\sandf\Documents\GIT\AWGP\StandardPhysics\bin\x64\Debug\StandardPhysics.dll
+C:\Users\sandf\Documents\GIT\AWGP\StandardPhysics\bin\x64\Debug\StandardPhysics.pdb
+C:\Users\sandf\Documents\GIT\AWGP\StandardPhysics\bin\x64\Debug\Blinkbye.Core.dll
+C:\Users\sandf\Documents\GIT\AWGP\StandardPhysics\bin\x64\Debug\Physics.dll
+C:\Users\sandf\Documents\GIT\AWGP\StandardPhysics\bin\x64\Debug\Blinkbye.Core.pdb
+C:\Users\sandf\Documents\GIT\AWGP\StandardPhysics\bin\x64\Debug\Physics.pdb
+C:\Users\sandf\Documents\GIT\AWGP\StandardPhysics\obj\x64\Debug\StandardPhysics.csprojResolveAssemblyReference.cache
+C:\Users\sandf\Documents\GIT\AWGP\StandardPhysics\obj\x64\Debug\StandardPhysics.dll
+C:\Users\sandf\Documents\GIT\AWGP\StandardPhysics\obj\x64\Debug\StandardPhysics.pdb

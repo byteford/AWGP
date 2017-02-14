@@ -22,3 +22,11 @@ C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Sound\bin\x64\Debug\Blinkbye.Core.p
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Sound\obj\x64\Debug\Sound.csprojResolveAssemblyReference.cache
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Sound\obj\x64\Debug\Sound.dll
 C:\Users\LewisAndrews\Desktop\AWGP\BlinkByte\Sound\obj\x64\Debug\Sound.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Sound\bin\x64\Debug\Sound.dll.config
+C:\Users\sandf\Documents\GIT\AWGP\Sound\bin\x64\Debug\Sound.dll
+C:\Users\sandf\Documents\GIT\AWGP\Sound\bin\x64\Debug\Sound.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Sound\bin\x64\Debug\Blinkbye.Core.dll
+C:\Users\sandf\Documents\GIT\AWGP\Sound\bin\x64\Debug\Blinkbye.Core.pdb
+C:\Users\sandf\Documents\GIT\AWGP\Sound\obj\x64\Debug\Sound.csprojResolveAssemblyReference.cache
+C:\Users\sandf\Documents\GIT\AWGP\Sound\obj\x64\Debug\Sound.dll
+C:\Users\sandf\Documents\GIT\AWGP\Sound\obj\x64\Debug\Sound.pdb
