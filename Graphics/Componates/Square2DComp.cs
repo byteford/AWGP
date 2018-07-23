@@ -14,6 +14,11 @@ namespace BlinkByte.Graphics.Componates
         {
             shape = shapeType.Square;
         }
+        public void setSize(int width, int height)
+        {
+            this.width = width;
+            this.height = height;
+        }
         public override void Draw()
         {
         }
