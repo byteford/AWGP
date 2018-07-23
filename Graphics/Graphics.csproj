@@ -94,6 +94,7 @@
     <Compile Include="Componates\GraphicsComp.cs" />
     <Compile Include="Componates\Shape2DComp.cs" />
     <Compile Include="Componates\Sprite2DComp.cs" />
+    <Compile Include="Componates\Square2DComp.cs" />
     <Compile Include="Componates\TextComp.cs" />
     <Compile Include="IGraphics.cs" />
     <Compile Include="ITexture.cs" />

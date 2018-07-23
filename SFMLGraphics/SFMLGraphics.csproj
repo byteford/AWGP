@@ -71,6 +71,7 @@
     <Compile Include="Graphics.cs" />
     <Compile Include="SFMLCircle2DComp.cs" />
     <Compile Include="SFMLSprite2DComp.cs" />
+    <Compile Include="SFMLSquare2DComp.cs" />
     <Compile Include="SFMLTextComp.cs" />
     <Compile Include="Texture.cs" />
     <Compile Include="Utilitys.cs" />
