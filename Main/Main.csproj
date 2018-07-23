@@ -94,10 +94,6 @@
       <Project>{b1f2737b-847a-4e36-8d79-bfb92bc88ca3}</Project>
       <Name>Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\GraceGame\GraceGame.csproj">
-      <Project>{163bd765-8b6f-4643-b77e-84626ad92c23}</Project>
-      <Name>GraceGame</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Graphics\Graphics.csproj">
       <Project>{2c3f768e-40e1-40dd-8667-3ace606fecbd}</Project>
       <Name>Graphics</Name>
