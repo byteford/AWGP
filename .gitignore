@@ -229,3 +229,12 @@ Sound/obj/
 StandardPhysics/bin/
 StandardPhysics/obj/
 Core/bin/
+*.targets
+*.json
+*.props
+Game/Sanke/obj/
+*.dll
+*.config
+*.exe
+Make Snake/bin/
+Make Snake/obj/
