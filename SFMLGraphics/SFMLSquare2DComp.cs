@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using BlinkByte.Utilitys;
 namespace BlinkByte.SFMLGraphics
 {
-    class SFMLSquare2DComp : BlinkByte.Graphics.Componates.Square2DComp
+    public class SFMLSquare2DComp : BlinkByte.Graphics.Componates.Square2DComp
     {
         SFML.Graphics.RectangleShape SFMLShape;
         public SFMLSquare2DComp():base(){
